@@ -1,0 +1,9 @@
+# Build-uitvoer (wordt door GitHub Actions in de release gezet)
+dist/
+*.mrpack
+*.zip
+# Lokale testserver
+server-run/
+
+# Python
+__pycache__/
