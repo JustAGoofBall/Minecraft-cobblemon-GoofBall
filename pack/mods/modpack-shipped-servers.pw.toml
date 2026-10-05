@@ -1,0 +1,13 @@
+name = "Modpack Shipped Servers"
+filename = "modpack-shipped-servers-1.1.0+1.20.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/IRJW4Ojq/versions/B7uoUuC7/modpack-shipped-servers-1.1.0%2B1.20.2.jar"
+hash-format = "sha512"
+hash = "bae58f1df4abc753239eaa13e14df07c167a3c36b5820f2c7d1810bb8457cf7711e1e59c650a03c369b6eb23a96372990f57ad362185e6af2f42b27e61f0962d"
+
+[update]
+[update.modrinth]
+mod-id = "IRJW4Ojq"
+version = "B7uoUuC7"

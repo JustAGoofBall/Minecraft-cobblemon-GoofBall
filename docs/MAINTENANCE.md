@@ -49,8 +49,22 @@ If you edited `side` by hand, run `packwiz refresh`.
 **Compatibility tips for this pack**
 - Cobblemon add-ons must support **Cobblemon 1.8.x**. Many older add-ons only allow 1.7 and stop the
   server with *"requires … Cobblemon … but only the wrong version is present"*.
-- The server runs **Java 21**. Some mod builds need a newer Java (that's why C2ME isn't included:
-  every recent 1.21.1 build needs Java 22+).
+- The server runs **Java 21**. Check a mod's `fabric.mod.json` (`"java"` in `depends`) if a build looks
+  new; some builds need Java 22+.
+- **Cobblemon Raid Dens is pinned to 0.12.1** (`pin = true`, so `packwiz update --all` skips it).
+  0.13.0 loads a block entity while a raid crystal is being saved (`RaidCrystalBlockEntity.saveAdditional`).
+  When chunks unload, for example during pre-generation, the server thread then waits forever and the
+  watchdog kills the server after 60 s. Before unpinning a newer version (`packwiz unpin cobblemonraiddens`),
+  run the pre-generation test below and check that the server doesn't crash.
+- Performance/admin mods that players don't need (C2ME, ServerCore, Let Me Despawn, Chunky, spark) get
+  `side = "server"`.
+
+## Server-only default configs (`server/config/`)
+Files in `server/config/` are built into `goofball-server.jar` and copied to the server's `config/`
+folder on start, **only if that file doesn't exist yet** (so changes made on the server are kept). They
+never reach the players. Example: `server/config/servercore/config.yml` (dynamic performance on).
+Configs that players need too go in `pack/config/` instead (packwiz includes them in the `.mrpack`).
+To push a changed default to an existing server, delete the file on the server and restart.
 
 ## Removing a mod
 ```sh

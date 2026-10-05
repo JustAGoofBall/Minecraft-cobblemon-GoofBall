@@ -102,10 +102,15 @@ Old chunks keep the old terrain and you'd get ugly borders. Also delete the old 
 | `spark tps` / `spark profiler start` | Find the cause of lag |
 
 ## Server performance mods (already included)
-Lithium, FerriteCore, ModernFix, Krypton, ScalableLux, Noisium, ServerCore, Alternate Current,
-Structure Layout Optimizer, Clumps, plus Chunky (pre-generation) and spark (profiling).
-`server.properties` uses view-distance 8 and simulation-distance 6. You can raise these if your CPU
-has room (check `spark tps`: it should stay at 20).
+Lithium, FerriteCore, ModernFix, Krypton, ScalableLux, C2ME, Noisium, ServerCore, Alternate Current,
+Structure Layout Optimizer, Clumps, Let Me Despawn, plus Chunky (pre-generation) and spark (profiling).
+`server.properties` uses view-distance 8 and simulation-distance 6, `sync-chunk-writes=false` and
+`entity-broadcast-range-percentage=80`. ServerCore's dynamic performance is on: when the server can't keep
+up it first lowers mob caps and tick distance, and view distance (down to 6) last. Check `spark tps`: it
+should stay at 20.
+
+C2ME spreads world generation over several CPU cores (by default cores − 1). On a Raspberry Pi 5 it
+roughly doubles the pre-generation speed (about 10–20 chunks/s instead of 6).
 
 ## Troubleshooting
 - **`[GoofBall] ERROR: could not download …`**: the server can't reach `cdn.modrinth.com`. Check its
