@@ -1,31 +1,35 @@
 #!/usr/bin/env python3
-"""Build a ready-to-run server zip from a Modrinth modpack (.mrpack).
+"""Build the server zip for a Modrinth modpack (.mrpack).
 
-The zip contains:
-  - every file from the .mrpack that the server needs (env.server != "unsupported"),
-    downloaded and checked against its sha512 hash
-  - the mrpack's overrides/ and server-overrides/ folders
+The zip does NOT contain the mod jars (many mods don't allow re-hosting). Instead it contains:
+  - goofball-server.jar: the launcher from server-launcher/. It has the pack's server file list and
+    default configs built in, downloads the mods from Modrinth on start, then starts Fabric.
+  - fabric-server-launch.jar: the Fabric server launcher (downloads Minecraft + Fabric on first start)
   - everything in the repo's server/ folder (server.properties, start scripts)
-  - the Fabric server launcher as fabric-server-launch.jar
+
+Needs a JDK 21+ (javac) on the PATH.
 
 Usage:
-  python3 scripts/build_server.py dist/GoofBall-Cobblemon-1.0.0.mrpack
-  python3 scripts/build_server.py dist/GoofBall-Cobblemon-1.0.0.mrpack -o dist/server.zip
+  python3 scripts/build_server.py dist/GoofBall-Cobblemon-2.0.0.mrpack
+  python3 scripts/build_server.py dist/GoofBall-Cobblemon-2.0.0.mrpack -o dist/server.zip
 """
 
 import argparse
-import hashlib
 import json
+import subprocess
 import sys
+import tempfile
 import urllib.request
 import zipfile
 from pathlib import Path, PurePosixPath
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SERVER_DIR = REPO_ROOT / "server"
+LAUNCHER_SRC = REPO_ROOT / "server-launcher" / "src" / "GoofBallServer.java"
 FABRIC_META = "https://meta.fabricmc.net/v2/versions"
 USER_AGENT = "JustAGoofBall/Minecraft-cobblemon-GoofBall build_server.py"
-LAUNCHER_NAME = "fabric-server-launch.jar"
+LAUNCHER_JAR = "goofball-server.jar"
+FABRIC_JAR = "fabric-server-launch.jar"
 # Files in server/ that must stay executable inside the zip.
 EXECUTABLES = {"start.sh"}
 
@@ -37,10 +41,10 @@ def fetch(url: str) -> bytes:
 
 
 def safe_path(path: str) -> str:
-    """Reject absolute paths and '..' so a pack can't write outside the zip root."""
+    """Reject absolute paths, '..' and tabs/newlines so a pack can't escape the server folder."""
     p = PurePosixPath(path)
-    if p.is_absolute() or ".." in p.parts:
-        raise ValueError(f"Unsafe path in modpack: {path}")
+    if p.is_absolute() or ".." in p.parts or any(c in path for c in "\t\r\n"):
+        raise ValueError(f"Unsafe path in modpack: {path!r}")
     return str(p)
 
 
@@ -57,68 +61,82 @@ def add_bytes(out: zipfile.ZipFile, name: str, data: bytes, executable: bool = F
     out.writestr(info, data)
 
 
+def compile_launcher(workdir: Path) -> list[Path]:
+    classes = workdir / "classes"
+    subprocess.run(
+        ["javac", "--release", "21", "-encoding", "UTF-8", "-d", str(classes), str(LAUNCHER_SRC)],
+        check=True,
+    )
+    return sorted(classes.rglob("*.class"))
+
+
+def build_launcher_jar(pack: zipfile.ZipFile, index: dict, workdir: Path) -> bytes:
+    """Create goofball-server.jar with the server file list and default configs embedded."""
+    lines = []
+    for f in index["files"]:
+        if f.get("env", {}).get("server") == "unsupported":
+            continue
+        path = safe_path(f["path"])
+        lines.append("\t".join([path, f["hashes"]["sha512"], str(f["fileSize"]), *f["downloads"]]))
+
+    # server-overrides win over overrides.
+    overrides = {}
+    for prefix in ("overrides/", "server-overrides/"):
+        for name in pack.namelist():
+            if name.startswith(prefix) and not name.endswith("/"):
+                overrides[safe_path(name[len(prefix):])] = pack.read(name)
+
+    manifest = (
+        "Manifest-Version: 1.0\n"
+        "Main-Class: GoofBallServer\n"
+        f"Class-Path: {FABRIC_JAR}\n"
+        "Enable-Native-Access: ALL-UNNAMED\n"
+        f"Implementation-Title: {index['name']} server launcher\n"
+        f"Implementation-Version: {index['versionId']}\n"
+    )
+    jar_path = workdir / LAUNCHER_JAR
+    with zipfile.ZipFile(jar_path, "w") as jar:
+        add_bytes(jar, "META-INF/MANIFEST.MF", manifest.encode())
+        classes = workdir / "classes"
+        for cls in compile_launcher(workdir):
+            add_bytes(jar, cls.relative_to(classes).as_posix(), cls.read_bytes())
+        props = f"name={index['name']}\nversion={index['versionId']}\n"
+        add_bytes(jar, "goofball/pack.properties", props.encode())
+        add_bytes(jar, "goofball/files.tsv", ("\n".join(lines) + "\n").encode())
+        add_bytes(jar, "goofball/overrides.txt", ("\n".join(sorted(overrides)) + "\n").encode())
+        for path, data in sorted(overrides.items()):
+            add_bytes(jar, f"goofball/overrides/{path}", data)
+    print(f"  {LAUNCHER_JAR}: {len(lines)} server files, {len(overrides)} default config files")
+    return jar_path.read_bytes()
+
+
 def build(mrpack: Path, output: Path) -> None:
-    with zipfile.ZipFile(mrpack) as pack:
+    with zipfile.ZipFile(mrpack) as pack, tempfile.TemporaryDirectory() as tmp:
         index = json.loads(pack.read("modrinth.index.json"))
         deps = index["dependencies"]
         mc_version = deps["minecraft"]
         loader_version = deps.get("fabric-loader")
         if not loader_version:
             sys.exit("This script only supports Fabric modpacks (no fabric-loader dependency found).")
-
         print(f"Pack: {index['name']} {index['versionId']} (Minecraft {mc_version}, Fabric {loader_version})")
+
+        launcher = build_launcher_jar(pack, index, Path(tmp))
         output.parent.mkdir(parents=True, exist_ok=True)
-        written = set()
-
         with zipfile.ZipFile(output, "w") as out:
-            # 1. Mods and other downloaded files.
-            for f in index["files"]:
-                path = safe_path(f["path"])
-                if f.get("env", {}).get("server") == "unsupported":
-                    print(f"  skip (client only) {path}")
-                    continue
-                data = None
-                for url in f["downloads"]:
-                    try:
-                        data = fetch(url)
-                        break
-                    except OSError as e:
-                        print(f"  download failed ({e}), trying next mirror: {url}")
-                if data is None:
-                    sys.exit(f"Could not download {path}")
-                if hashlib.sha512(data).hexdigest() != f["hashes"]["sha512"]:
-                    sys.exit(f"sha512 mismatch for {path}")
-                add_bytes(out, path, data)
-                written.add(path)
-                print(f"  add  {path}")
+            add_bytes(out, LAUNCHER_JAR, launcher)
 
-            # 2. Overrides: server-overrides win over overrides.
-            overrides = {}
-            for prefix in ("overrides/", "server-overrides/"):
-                for name in pack.namelist():
-                    if name.startswith(prefix) and not name.endswith("/"):
-                        overrides[safe_path(name[len(prefix):])] = name
-            for path, name in sorted(overrides.items()):
-                add_bytes(out, path, pack.read(name))
-                written.add(path)
-                print(f"  add  {path} (override)")
+            installer = latest_stable_installer()
+            url = f"{FABRIC_META}/loader/{mc_version}/{loader_version}/{installer}/server/jar"
+            add_bytes(out, FABRIC_JAR, fetch(url))
+            print(f"  {FABRIC_JAR}: Fabric loader {loader_version}, installer {installer}")
 
-            # 3. Repo server/ folder (server.properties, start scripts).
             for src in sorted(SERVER_DIR.rglob("*")):
                 if src.is_file():
                     path = src.relative_to(SERVER_DIR).as_posix()
-                    if path in written:
-                        sys.exit(f"{path} exists both in the modpack and in server/")
                     add_bytes(out, path, src.read_bytes(), executable=src.name in EXECUTABLES)
-                    print(f"  add  {path} (server/)")
+                    print(f"  {path} (server/)")
 
-            # 4. Fabric server launcher.
-            installer = latest_stable_installer()
-            url = f"{FABRIC_META}/loader/{mc_version}/{loader_version}/{installer}/server/jar"
-            add_bytes(out, LAUNCHER_NAME, fetch(url))
-            print(f"  add  {LAUNCHER_NAME} (Fabric loader {loader_version}, installer {installer})")
-
-    print(f"Done: {output} ({output.stat().st_size / 1_000_000:.1f} MB)")
+    print(f"Done: {output} ({output.stat().st_size / 1_000:.0f} kB)")
 
 
 def main() -> None:

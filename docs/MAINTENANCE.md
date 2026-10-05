@@ -1,0 +1,103 @@
+# Maintenance: adding/updating mods and releasing a new version
+
+The modpack lives in [`pack/`](../pack) and is managed with [packwiz](https://packwiz.infra.link).
+That folder only holds small text files: one `.pw.toml` per mod/shader/resource pack with its download
+link and hash. There are no jar files in the repo.
+
+## Releasing a new version (no install needed)
+You can do this entirely on the GitHub website:
+
+1. Go to **Releases** → **Draft a new release**.
+2. **Choose a tag** → type a new version number, e.g. `v2.0.1` → *Create new tag* (from `main`).
+3. Title e.g. `GoofBall Cobblemon 2.0.1`, write what changed → **Publish release**.
+4. Wait a few minutes. GitHub Actions builds the pack and attaches:
+   - `GoofBall-Cobblemon-2.0.1.mrpack`: for players and for Modrinth
+   - `GoofBall-Cobblemon-Server-2.0.1.zip`: for Crafty
+
+The tag's version number (without `v`) becomes the pack version. Progress is under the **Actions** tab.
+
+## Installing packwiz (to add/update mods)
+You need [Go](https://go.dev/dl/), then:
+
+```sh
+go install github.com/packwiz/packwiz@latest
+```
+
+Or download a ready-made build: open the latest successful run on
+<https://github.com/packwiz/packwiz/actions> and download the file for your system under *Artifacts*.
+
+Run all commands below **inside the `pack/` folder**.
+
+## Adding a mod, shader or resource pack
+```sh
+packwiz modrinth add <slug-or-link>      # e.g. packwiz modrinth add waystones
+```
+Find the slug on <https://modrinth.com> (the part after `/mod/`, `/shader/` or `/resourcepack/` in the link).
+packwiz also adds required libraries, but not always the libraries *of* those libraries. Check that
+every dependency is present (Fabric refuses to start otherwise; the boot test below shows it too).
+
+Then check the `side` line in the new `.pw.toml`:
+
+| `side` | Meaning |
+|---|---|
+| `"both"` | Players and server need it (anything adding blocks, items, Pokémon, structures, world generation) |
+| `"client"` | Players only (rendering, minimap, GUI mods, shaders, resource packs). Not downloaded by the server. |
+| `"server"` | Server only (admin/performance tools like Chunky, ServerCore). Not in the players' pack. |
+
+If you edited `side` by hand, run `packwiz refresh`.
+
+**Compatibility tips for this pack**
+- Cobblemon add-ons must support **Cobblemon 1.8.x**. Many older add-ons only allow 1.7 and stop the
+  server with *"requires … Cobblemon … but only the wrong version is present"*.
+- The server runs **Java 21**. Some mod builds need a newer Java (that's why C2ME isn't included:
+  every recent 1.21.1 build needs Java 22+).
+
+## Removing a mod
+```sh
+packwiz remove <name>
+```
+The server launcher deletes the jar on the next server start.
+
+## Updating mods
+```sh
+packwiz update --all      # everything
+packwiz update cobblemon  # one mod
+```
+Only versions for **Minecraft 1.21.1** are picked. Moving to a newer Minecraft version
+(`packwiz migrate minecraft <version>`) only works once **every** mod (especially Cobblemon) supports
+it. A world can't be downgraded, so always back up first.
+
+## Test locally (optional)
+Needs packwiz, Python 3 and a JDK 21 (`javac`).
+```sh
+mkdir -p dist
+cd pack
+packwiz modrinth export -o ../dist/GoofBall-Cobblemon-test.mrpack
+cd ..
+python3 scripts/build_server.py dist/GoofBall-Cobblemon-test.mrpack
+```
+Unzip `dist/GoofBall-Cobblemon-Server-test.zip` into an empty folder, create `eula.txt` with `eula=true`
+and run `java -Xmx8G -jar goofball-server.jar nogui`. If a mod is incompatible, Fabric prints which one
+and why before anything else loads. (`dist/` is not committed.)
+
+## Saving changes
+Commit the changed files in `pack/` (including `index.toml` and `pack.toml`) and push to `main`.
+GitHub Actions checks every push and builds a test version (download under **Actions** → the run →
+*Artifacts*). Then make a new release (see top).
+
+## How the server launcher works
+`server-launcher/src/GoofBallServer.java` is compiled into `goofball-server.jar` by
+`scripts/build_server.py`. The list of server files (path, sha512, size, download URLs) and any default
+configs are built into the jar. On every start it:
+1. removes mods it installed before that are no longer in the pack (it tracks them in
+   `.goofball/installed.tsv`; mods you add yourself are never touched),
+2. downloads missing or changed files from Modrinth and checks their sha512,
+3. copies default config files that don't exist yet (existing configs are never overwritten),
+4. starts Fabric (`fabric-server-launch.jar`) in the same Java process.
+
+Start with `-Dgoofball.skipSync=true` to skip steps 1–3.
+
+## Shipping default configs (optional)
+Files you want to ship, like default configs, go in `pack/` at the same place as in the Minecraft
+folder (e.g. `pack/config/jade/…`), then run `packwiz refresh`. Players get them in the `.mrpack`;
+the server launcher only writes them if the file doesn't exist yet.
