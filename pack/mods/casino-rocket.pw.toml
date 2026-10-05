@@ -1,0 +1,13 @@
+name = "Casino Rocket"
+filename = "casinorocket-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Lk3EWIOE/versions/cNABNHK1/casinorocket-1.0.0.jar"
+hash-format = "sha512"
+hash = "6c2a108cae5421b54edc2e57c1fb5bf7cfd4f523cc2ce1af4b4cf49c2c8420bdf3fabe644902d4261c1a5522ac55c140a715c34821f3285ab9e3f6cfb03d174a"
+
+[update]
+[update.modrinth]
+mod-id = "Lk3EWIOE"
+version = "cNABNHK1"

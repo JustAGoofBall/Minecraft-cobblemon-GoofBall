@@ -1,0 +1,13 @@
+name = "Cobbleworkers"
+filename = "cobbleworkers-fabric-2.0.5+1.8.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/i3XVG2gn/versions/llwrszjl/cobbleworkers-fabric-2.0.5%2B1.8.0.jar"
+hash-format = "sha512"
+hash = "2be79c6ebbd6e28ae13c4bf7d2ff7f0eac484c48cf0f37f8a12c918920c245809d85045bb6da8f3ad99e68db9adcbd93f12c35cad99b706605f9cfbe6f759308"
+
+[update]
+[update.modrinth]
+mod-id = "i3XVG2gn"
+version = "llwrszjl"

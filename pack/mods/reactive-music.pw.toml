@@ -1,0 +1,13 @@
+name = "Reactive Music"
+filename = "reactivemusic-fabric-1.3.5+1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Bqnfeesx/versions/CdeSdetl/reactivemusic-fabric-1.3.5%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "769f1fee926c8aa0c33f0a4030c8e938e9ff317bbde3c5e1258137b2528e215d0696be9ad9482cc8e83830b848766a12fe802527a213c890051006ce809b2f58"
+
+[update]
+[update.modrinth]
+mod-id = "Bqnfeesx"
+version = "CdeSdetl"

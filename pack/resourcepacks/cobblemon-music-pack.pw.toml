@@ -1,0 +1,13 @@
+name = "jor's Cobblemon Music Pack (Reactive Music)"
+filename = "jor'sCobbelemonMuiscPack2.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/8Ly9MKJa/versions/JgH8a30Q/jor%27sCobbelemonMuiscPack2.1.zip"
+hash-format = "sha512"
+hash = "b7f0458bc405b24691695a5c5024b26fe6f2362a6964697de4304e1814d8d10f496d228803ec077996531018ad7a2bed920b33bd0f72298e7a457c657dd1eb3e"
+
+[update]
+[update.modrinth]
+mod-id = "8Ly9MKJa"
+version = "JgH8a30Q"
