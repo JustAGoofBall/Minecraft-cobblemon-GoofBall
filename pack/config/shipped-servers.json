@@ -1,0 +1,9 @@
+{
+  "servers": [
+    {
+      "name": "GoofBall Cobblemon",
+      "address": "justconnections.duckdns.org:25560",
+      "resourcePackPolicy": "prompt"
+    }
+  ]
+}

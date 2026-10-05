@@ -11,3 +11,8 @@ key_key.toms_storage.open_terminal:key.keyboard.unknown
 key_key.travelersbackpack.cycle_tool:key.keyboard.unknown
 key_key.refinedstorage.focus_search_bar:key.keyboard.unknown
 key_key.cobblemonraiddens.mouse:key.keyboard.right.alt
+renderDistance:10
+onboardAccessibility:false
+skipMultiplayerWarning:true
+tutorialStep:none
+joinedFirstServer:true

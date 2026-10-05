@@ -1,12 +1,12 @@
 name = "GoofBall Cobblemon"
 author = "JustAGoofBall"
-version = "2.0.0"
+version = "2.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "3922df6d060e1bd072ede4798502c189be0dccfed1c8781275dbfdca134a4206"
+hash = "d2870847ab4a2da68907c8992a06ccc08becbdcbb3ce99965dd4cf0e227a728e"
 
 [versions]
 fabric = "0.19.5"

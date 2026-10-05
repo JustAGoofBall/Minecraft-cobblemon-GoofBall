@@ -27,13 +27,18 @@ Is the pack on Modrinth? Then search for **GoofBall Cobblemon** in the app and c
 
 ## Memory (important)
 This pack has a lot of content. Give Minecraft **6 GB** of RAM, or **8 GB** if your PC has 16 GB or more.
+The launchers start at 2–4 GB, which is **not enough**: the game will stutter or crash. Change it before
+your first launch:
 - Modrinth App: instance → ⚙️ *Settings* → *Java and memory* → *Memory allocated*.
 - Prism: instance → *Edit* → *Settings* → *Java* → *Maximum memory allocation*.
 - ATLauncher: *Settings* → *Java/Minecraft* → *Maximum Memory/RAM*.
 
 ## Joining the server
-Multiplayer → **Add Server** → enter the address you got from the server admin.
+**GoofBall Cobblemon** is already in your server list the first time you start the pack: Multiplayer →
+click it → **Join Server**. (Address, if you ever need it: `justconnections.duckdns.org:25560`.)
 Your modpack version must be the **same** as the server's.
+
+The first start also skips the accessibility and tutorial screens and sets render distance to 10.
 
 ## Shaders
 The pack includes Iris and 7 shader packs. Turn one on under **Options → Video Settings → Shader Packs**.
@@ -80,6 +85,10 @@ pack to move it to *Selected*).
 | Pokémon jobs (Cobbleworkers) | Put Pokémon in a **Pasture Block** near crops, berries or apricorns and a chest; they harvest into the chest |
 | Money | CobbleDollars: earn money from battles; spend it at merchants and in the Casino Rocket machines |
 | Loot chests (Lootr) | Every player gets their own loot from structure chests |
+| Fast travel (Waystones) | Right-click a waystone to discover it; use any waystone to teleport to the ones you've found |
+| Finding Pokémon (PokéNav) | Craft a PokéNav; it shows what spawns nearby and can track a Pokémon |
+| Pokédex wiki (Cobblepedia) | Look up evolutions, spawn locations and moves in-game |
+| Key conflicts | **Options → Controls → Key Binds** has a search bar and a *Show conflicts* button (Controlling) |
 
 These defaults are set the first time you start the pack, so no two mods share a key (some mods' keys
 are left unbound, for example *Reload Shaders* and the backpack's *Swap Tool*). Your own changes are never

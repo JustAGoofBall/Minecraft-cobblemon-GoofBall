@@ -5,7 +5,8 @@ The zip does NOT contain the mod jars (many mods don't allow re-hosting). Instea
   - goofball-server.jar: the launcher from server-launcher/. It has the pack's server file list and
     default configs built in, downloads the mods from Modrinth on start, then starts Fabric.
   - fabric-server-launch.jar: the Fabric server launcher (downloads Minecraft + Fabric on first start)
-  - everything in the repo's server/ folder (server.properties, start scripts)
+  - everything in the repo's server/ folder (server.properties, start scripts), except server/config/:
+    those files are server-only default configs and are built into goofball-server.jar instead
 
 Needs a JDK 21+ (javac) on the PATH.
 
@@ -25,6 +26,8 @@ from pathlib import Path, PurePosixPath
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SERVER_DIR = REPO_ROOT / "server"
+# Server-only default configs (not sent to players). Same rule as pack overrides: only written when missing.
+SERVER_CONFIG_DIR = SERVER_DIR / "config"
 LAUNCHER_SRC = REPO_ROOT / "server-launcher" / "src" / "GoofBallServer.java"
 FABRIC_META = "https://meta.fabricmc.net/v2/versions"
 USER_AGENT = "JustAGoofBall/Minecraft-cobblemon-GoofBall build_server.py"
@@ -85,6 +88,10 @@ def build_launcher_jar(pack: zipfile.ZipFile, index: dict, workdir: Path) -> byt
         for name in pack.namelist():
             if name.startswith(prefix) and not name.endswith("/"):
                 overrides[safe_path(name[len(prefix):])] = pack.read(name)
+    # Server-only configs from the repo win over both.
+    for src in sorted(SERVER_CONFIG_DIR.rglob("*")):
+        if src.is_file():
+            overrides[safe_path(src.relative_to(SERVER_DIR).as_posix())] = src.read_bytes()
 
     manifest = (
         "Manifest-Version: 1.0\n"
@@ -131,7 +138,7 @@ def build(mrpack: Path, output: Path) -> None:
             print(f"  {FABRIC_JAR}: Fabric loader {loader_version}, installer {installer}")
 
             for src in sorted(SERVER_DIR.rglob("*")):
-                if src.is_file():
+                if src.is_file() and SERVER_CONFIG_DIR not in src.parents:
                     path = src.relative_to(SERVER_DIR).as_posix()
                     add_bytes(out, path, src.read_bytes(), executable=src.name in EXECUTABLES)
                     print(f"  {path} (server/)")
