@@ -1,0 +1,13 @@
+name = "GoofBall Cobblemon"
+author = "JustAGoofBall"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "67b5d4e95488031281cd1d9f843896a417c5313bfc56ef4714a469f67a66037f"
+
+[versions]
+fabric = "0.19.5"
+minecraft = "1.21.1"

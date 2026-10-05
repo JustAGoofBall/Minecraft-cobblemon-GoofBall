@@ -1,0 +1,80 @@
+name: Build modpack
+
+# - Every push / pull request: check the pack and build the .mrpack + server zip
+#   (downloadable under "Artifacts" on the workflow run page).
+# - Every published GitHub Release: same build, then the files are attached to
+#   the release. The release tag (e.g. v1.0.1) becomes the pack version.
+
+on:
+  push:
+  pull_request:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  PACKWIZ_VERSION: ef87d964f8cbd52b3b13ea42453ef322290e2b9e
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # needed to attach files to a release
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-go@v6
+        with:
+          go-version: stable
+          cache: false
+
+      - name: Install packwiz
+        run: |
+          go install "github.com/packwiz/packwiz@${PACKWIZ_VERSION}"
+          echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
+
+      - name: Check that pack/index.toml is up to date
+        working-directory: pack
+        run: |
+          packwiz refresh
+          if ! git diff --quiet -- .; then
+            git diff -- .
+            echo "::error::pack/index.toml is niet up-to-date. Draai 'packwiz refresh' in de map pack/ en commit het resultaat."
+            exit 1
+          fi
+
+      - name: Determine pack version
+        id: version
+        run: |
+          if [ "${{ github.event_name }}" = "release" ]; then
+            version="${GITHUB_REF_NAME#v}"
+            sed -i "s/^version = \".*\"/version = \"${version}\"/" pack/pack.toml
+          else
+            version="$(python3 -c 'import tomllib; print(tomllib.load(open("pack/pack.toml", "rb"))["version"])')"
+          fi
+          echo "Pack version: ${version}"
+          echo "version=${version}" >> "$GITHUB_OUTPUT"
+
+      - name: Export .mrpack
+        working-directory: pack
+        run: |
+          mkdir -p ../dist
+          packwiz modrinth export -o "../dist/GoofBall-Cobblemon-${{ steps.version.outputs.version }}.mrpack"
+
+      - name: Build server zip
+        run: python3 scripts/build_server.py "dist/GoofBall-Cobblemon-${{ steps.version.outputs.version }}.mrpack"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: GoofBall-Cobblemon-${{ steps.version.outputs.version }}
+          path: dist/
+          compression-level: 0 # contents are already zipped
+
+      - name: Attach files to the release
+        if: github.event_name == 'release'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "$GITHUB_REF_NAME" dist/* --clobber --repo "$GITHUB_REPOSITORY"
