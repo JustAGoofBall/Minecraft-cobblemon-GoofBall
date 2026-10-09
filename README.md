@@ -45,6 +45,10 @@ Players and the server must always use the **same version**.
 | [PokeBadges](https://modrinth.com/mod/pokebadges) | Gym badges and a Badge Box. Kanto, Johto and Sinnoh gym leaders drop their badge when you beat them |
 | [CobbleStructures](https://modrinth.com/mod/cobblestructures) + [Another Furniture](https://modrinth.com/mod/another-furniture) | Pokémon Centers (healing machine, PC) and Poké Marts in the world |
 | [Cobblemon Intros](https://modrinth.com/mod/cobblemon-intros) | Battle music with intros (for Battle Tracks) |
+| [Cobblemon Incubator](https://modrinth.com/mod/cobblemon-incubator) | Egg Incubator: hatches eggs 5× faster, shows IVs, can send hatched Pokémon to your PC |
+| [Only Bottle Caps](https://modrinth.com/mod/only-bottle-caps) | Bottle Caps (max a Pokémon's IVs), fished up as treasure |
+| [Berry Pouch](https://modrinth.com/mod/berry-pouch) | Berry Pouch (berries go in by themselves), apricorn basket and Poké Ball launcher |
+| [CobblemonEditor](https://modrinth.com/mod/cobblemoneditor) | Pokémon/trainer editor for **ops only** (`/cobblemonedit open <player>`) |
 
 ### World and structures
 | Mod | What it adds |
@@ -62,6 +66,10 @@ Players and the server must always use the **same version**.
 | [Tom's Simple Storage](https://modrinth.com/mod/toms-storage) | Connect chests to one searchable terminal |
 | [Refined Storage](https://modrinth.com/mod/refined-storage) | Digital storage network with autocrafting |
 | [Traveler's Backpack](https://modrinth.com/mod/travelersbackpack) | Upgradeable backpacks |
+| [Reinforced Chests](https://modrinth.com/mod/reinforced-chests) + [Colossal Chests](https://modrinth.com/mod/colossal-chests) | Bigger chests (copper to netherite) and huge multiblock chests |
+| [Space Cube](https://modrinth.com/mod/spacecube) | Compact Machines for Fabric: a small cube with a whole room inside |
+| [Botany Pots](https://modrinth.com/mod/botany-pots) + [Tiers](https://modrinth.com/mod/botany-pots-tiers) + [Cobblemon pots](https://modrinth.com/mod/cobblemon-botany-pots) | Grow trees, crops, berries and apricorns in a pot; hopper pots collect by themselves |
+| [VeinMiner](https://modrinth.com/mod/veinminer) (server only) | Mine one ore and the whole vein (up to 100 blocks) comes along |
 | [Farmer's Delight Refabricated](https://modrinth.com/mod/farmers-delight-refabricated) | Farming and cooking |
 | [OpenBlocks Elevator](https://modrinth.com/mod/openblocks-elevator-fabric) | Elevator blocks: jump to go up, sneak to go down |
 | [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat) | Proximity voice chat |
@@ -104,7 +112,8 @@ jor's Cobblemon Music Pack, Better Leaves, Fast Better Grass.
 
 Plus the libraries these need (Fabric API, Architectury, owo-lib, Accessories, GeckoLib, Cardinal
 Components, Cloth Config, Forge Config API Port, YUNG's API, Lithostitched, Chipped, CobbleFurnies,
-Athena, Resourceful Lib/Config, Cristel Lib, Text Placeholder API, Balm, Patchouli, Tim Core, Almanac).
+Athena, Resourceful Lib/Config, Cristel Lib, Text Placeholder API, Balm, Patchouli, Tim Core, Almanac,
+Bookshelf, Prickle, Cyclops Core, MCPitanLib, SuperMartijn642's Config Lib, Fabric Language Kotlin).
 
 ### Left out on purpose
 | Mod | Why |
@@ -112,6 +121,8 @@ Athena, Resourceful Lib/Config, Cristel Lib, Text Placeholder API, Balm, Patchou
 | Cobblemon: Legends Untold | Its legendary spawns don't work on Cobblemon 1.8 (its advancements point to a removed Cobblemon advancement) |
 | Cobblemon × Farmer's Delight Compat | Only supports Cobblemon versions before 1.8 |
 | Create | No Fabric build for 1.21.1 |
+| Bonsai Trees | Forge/NeoForge only; Botany Pots does the same on Fabric |
+| Botany Pots Ore Planting | Ores from pots would be endless money at the CobbleDollars bank |
 
 ## Guides
 - [docs/PLAYERS.md](docs/PLAYERS.md): install the pack, shaders, resource packs, keys

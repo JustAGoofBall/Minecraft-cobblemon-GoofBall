@@ -1,0 +1,13 @@
+name = "Only Bottle Caps"
+filename = "Only Bottle Caps-1.5.0-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/tDRRddpZ/versions/l7Gi3yRs/Only%20Bottle%20Caps-1.5.0-fabric.jar"
+hash-format = "sha512"
+hash = "21ed02be9983aa96c2e0e05ec75d9facc989963ac8b95940b60ce4f562560da26fe48cbb72f674eafc6644657844246306e8514e40bc7453ef78606d29b517d7"
+
+[update]
+[update.modrinth]
+mod-id = "tDRRddpZ"
+version = "l7Gi3yRs"
