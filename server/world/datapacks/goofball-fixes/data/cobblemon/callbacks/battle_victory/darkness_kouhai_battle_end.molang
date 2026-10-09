@@ -1,0 +1,37 @@
+'GoofBall fix: Legendary Monuments 8.2 runs this for every NPC. NPCs without this config variable (RCT trainers) give 0 instead of a string and q.is_blank crashed the server.';
+for_each(t.loser, c.npc_losers, {
+  (t.loser.npc.config.quest_update_on_player_wins != 0 ? !q.is_blank(t.loser.npc.config.quest_update_on_player_wins) : 0) ? {
+    for_each(t.player_winner, c.player_winners, {
+      v.player = t.player_winner.player;
+      v.npc = t.loser.npc;
+      q.set_query('player', t.player_winner.player);
+      q.set_query('npc', t.loser.npc);
+      q.run_molang(t.loser.npc.config.quest_update_on_player_wins);
+    });
+  };
+
+  t.loser.npc.config.toggle_battle_cooldown && (t.loser.npc.config.battle_cooldown_time != 0 ? !q.is_blank(t.loser.npc.config.battle_cooldown_time) : 0) ? {
+    for_each(t.player_winner, c.player_winners, {
+      v.player = t.player_winner.player;
+      v.npc = t.loser.npc;
+      q.set_query('player', t.player_winner.player);
+      q.set_query('npc', t.loser.npc);
+
+      t.cooldown = 3600000 * t.loser.npc.config.battle_cooldown_time;
+      t.cooldown_time = q.system_time_millis + t.cooldown;
+      
+      q.player.set_npc_variable(t.loser.npc, 'cooldown_time', t.cooldown_time);
+      q.player.save_data();
+    });
+  };
+
+  t.loser.npc.config.toggle_lm_darkness_kouhai_battle_reward ? {
+    for_each(t.player_winner, c.player_winners, {
+      v.player = t.player_winner.player;
+      v.npc = t.loser.npc;
+      q.set_query('player', t.player_winner.player);
+      q.set_query('npc', t.loser.npc);
+      q.run_command('loot give ' + q.player.username + ' loot legendarymonuments:npc_rewards/darkness_kouhai_rewards');
+    });
+  };
+});
