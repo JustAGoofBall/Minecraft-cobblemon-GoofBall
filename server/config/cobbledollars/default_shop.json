@@ -725,5 +725,186 @@
         "price": "2000"
       }
     ]
+  },
+  {
+    "name": "Storage",
+    "offers": [
+      {
+        "item": "refinedstorage:controller",
+        "price": "15000"
+      },
+      {
+        "item": "refinedstorage:cable",
+        "price": "60"
+      },
+      {
+        "item": "refinedstorage:disk_drive",
+        "price": "15000"
+      },
+      {
+        "item": "refinedstorage:grid",
+        "price": "8200"
+      },
+      {
+        "item": "refinedstorage:crafting_grid",
+        "price": "17000"
+      },
+      {
+        "item": "refinedstorage:pattern_grid",
+        "price": "19000"
+      },
+      {
+        "item": "refinedstorage:pattern",
+        "price": "1900"
+      },
+      {
+        "item": "refinedstorage:autocrafter",
+        "price": "24000"
+      },
+      {
+        "item": "refinedstorage:importer",
+        "price": "2200"
+      },
+      {
+        "item": "refinedstorage:exporter",
+        "price": "2200"
+      },
+      {
+        "item": "refinedstorage:external_storage",
+        "price": "4600"
+      },
+      {
+        "item": "refinedstorage:interface",
+        "price": "10000"
+      },
+      {
+        "item": "refinedstorage:constructor",
+        "price": "20000"
+      },
+      {
+        "item": "refinedstorage:destructor",
+        "price": "20000"
+      },
+      {
+        "item": "refinedstorage:1k_storage_disk",
+        "price": "2900"
+      },
+      {
+        "item": "refinedstorage:4k_storage_disk",
+        "price": "9000"
+      },
+      {
+        "item": "refinedstorage:16k_storage_disk",
+        "price": "29000"
+      },
+      {
+        "item": "refinedstorage:64k_storage_disk",
+        "price": "120000"
+      },
+      {
+        "item": "refinedstorage:storage_housing",
+        "price": "1900"
+      },
+      {
+        "item": "refinedstorage:speed_upgrade",
+        "price": "6300"
+      },
+      {
+        "item": "refinedstorage:stack_upgrade",
+        "price": "26000"
+      },
+      {
+        "item": "refinedstorage:wireless_grid",
+        "price": "20000"
+      },
+      {
+        "item": "refinedstorage:network_transmitter",
+        "price": "51000"
+      },
+      {
+        "item": "refinedstorage:network_receiver",
+        "price": "51000"
+      },
+      {
+        "item": "refinedstorage:relay",
+        "price": "13000"
+      },
+      {
+        "item": "refinedstorage:wrench",
+        "price": "3600"
+      },
+      {
+        "item": "refinedstorage:machine_casing",
+        "price": "3700"
+      },
+      {
+        "item": "refinedstorage:silicon",
+        "price": "100"
+      },
+      {
+        "item": "refinedstorage:quartz_enriched_iron",
+        "price": "460"
+      },
+      {
+        "item": "refinedstorage:basic_processor",
+        "price": "870"
+      },
+      {
+        "item": "refinedstorage:improved_processor",
+        "price": "1100"
+      },
+      {
+        "item": "refinedstorage:advanced_processor",
+        "price": "8300"
+      },
+      {
+        "item": "toms_storage:storage_terminal",
+        "price": "1400"
+      },
+      {
+        "item": "toms_storage:crafting_terminal",
+        "price": "34000"
+      },
+      {
+        "item": "toms_storage:inventory_connector",
+        "price": "9200"
+      },
+      {
+        "item": "toms_storage:inventory_cable",
+        "price": "20"
+      },
+      {
+        "item": "toms_storage:inventory_cable_connector",
+        "price": "8600"
+      },
+      {
+        "item": "toms_storage:inventory_interface",
+        "price": "570"
+      },
+      {
+        "item": "toms_storage:wireless_terminal",
+        "price": "1500"
+      },
+      {
+        "item": "toms_storage:level_emitter",
+        "price": "780"
+      },
+      {
+        "item": "toms_storage:basic_inventory_hopper",
+        "price": "3000"
+      },
+      {
+        "item": "toms_storage:filing_cabinet",
+        "price": "1400"
+      },
+      {
+        "item": "toms_storage:trim",
+        "price": "48"
+      },
+      {
+        "item": "toms_storage:open_crate",
+        "price": "140"
+      }
+    ]
   }
 ]

@@ -81,7 +81,7 @@ pack to move it to *Selected*).
 | Recipes (EMI) | Item list on the right of your inventory; click an item for its recipe, **U** for uses |
 | Open your backpack (Traveler's Backpack) | **B** while wearing it |
 | Elevator | Stand on an elevator block: **jump** to go up, **sneak** to go down to the next elevator |
-| Storage | Tom's Simple Storage: connect chests with an *Inventory Connector* + *Storage Terminal*. Refined Storage: full digital storage network |
+| Storage | Tom's Simple Storage: connect chests with an *Inventory Connector* + *Storage Terminal*. Refined Storage: full digital storage network (no power needed). All parts are also for sale in a Cobble Merchant's **Storage** shop tab |
 | Pokémon jobs (Cobbleworkers) | Put Pokémon in a **Pasture Block** near crops, berries or apricorns and a chest; they harvest into the chest |
 | Money | CobbleDollars: earn money from battles, or sell almost anything you mine, farm or find at a Cobble Merchant (**Bank** tab). Spend it in the merchant's **Shop** and in the Casino Rocket machines. Selling gives at most a quarter of the shop price |
 | Loot chests (Lootr) | Every player gets their own loot from structure chests |
