@@ -42,6 +42,9 @@ Players and the server must always use the **same version**.
 | [PokéNav (Cobblenav)](https://modrinth.com/mod/cobblemon-pokenav) | In-game PokéNav: find Pokémon and see what spawns nearby (also fixes Legendary Monuments loot) |
 | [Spawn Notification](https://modrinth.com/mod/cobblemon-spawn-notification) | Chat message when a shiny or legendary spawns near a player |
 | [Cobblepedia](https://modrinth.com/mod/cobblepedia) | In-game Pokédex wiki: evolutions, spawns, moves |
+| [PokeBadges](https://modrinth.com/mod/pokebadges) | Gym badges and a Badge Box. Kanto, Johto and Sinnoh gym leaders drop their badge when you beat them |
+| [CobbleStructures](https://modrinth.com/mod/cobblestructures) + [Another Furniture](https://modrinth.com/mod/another-furniture) | Pokémon Centers (healing machine, PC) and Poké Marts in the world |
+| [Cobblemon Intros](https://modrinth.com/mod/cobblemon-intros) | Battle music with intros (for Battle Tracks) |
 
 ### World and structures
 | Mod | What it adds |
@@ -83,8 +86,8 @@ Players and the server must always use the **same version**.
 **7 shader packs:** Complementary Reimagined, Complementary Unbound, BSL, Photon, Solas, Bliss,
 MakeUp Ultra Fast (for low-end PCs).
 
-**8 resource packs** (minimap icons and RCT trainer textures on by default, the rest under Options → Resource Packs): Fresh Animations,
-E19 Cobblemon Minimap Icons, RCT Trainer Textures+, Cobblemon Interface, Cobblemon Emissive Ores,
+**9 resource packs** (minimap icons, RCT trainer textures and Battle Tracks on by default, the rest under Options → Resource Packs): Fresh Animations,
+E19 Cobblemon Minimap Icons, RCT Trainer Textures+, Cobblemon Battle Tracks, Cobblemon Interface, Cobblemon Emissive Ores,
 jor's Cobblemon Music Pack, Better Leaves, Fast Better Grass.
 
 ### Performance

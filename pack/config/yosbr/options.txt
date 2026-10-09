@@ -1,4 +1,4 @@
-resourcePacks:["fabric","cobbreeding:pasturefix","cobblemon:regionbiasforms","cobblemon:gyaradosjump","file/E19 Cobblemon Minimap Icons.zip","file/RCT Trainers+ [1.7] v2.2.zip"]
+resourcePacks:["fabric","cobbreeding:pasturefix","cobblemon:regionbiasforms","cobblemon:gyaradosjump","file/E19 Cobblemon Minimap Icons.zip","file/RCT Trainers+ [1.7] v2.2.zip","file/Battle Tracks v1.2.zip"]
 key_gui.xaero_open_map:key.keyboard.j
 key_gui.xaero_minimap_settings:key.keyboard.semicolon
 key_gui.xaero_new_waypoint:key.keyboard.comma

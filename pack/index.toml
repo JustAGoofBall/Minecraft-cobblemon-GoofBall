@@ -6,7 +6,7 @@ hash = "5d164e24ebac2c245bfd88a9a2d49fff63084be850042ef3dcedac65c336ea76"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "29f78779c3a070f5386e0bd61548beeff507b2ac0a6826a38b93bd25ac19fb93"
+hash = "62892757728014c084cdce4d87c6a94bf85c541b95463e79474cbb15b69e04aa"
 
 [[files]]
 file = "mods/accessories.pw.toml"
@@ -21,6 +21,11 @@ metafile = true
 [[files]]
 file = "mods/alternate-current.pw.toml"
 hash = "015053563a1d8ef3334560cd27f8e832935a26a96f151f059f814092b8db50a2"
+metafile = true
+
+[[files]]
+file = "mods/another-furniture.pw.toml"
+hash = "bc5bb9c17c071be6f2abb8f678a1f4f82252971070c8f9b2249169558999dc64"
 metafile = true
 
 [[files]]
@@ -99,6 +104,11 @@ hash = "5ddeb6f55fc1e3ccf36bd3733768ff64337e5531b018a05668c7e9d42f3c2b19"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-intros.pw.toml"
+hash = "7c7de3974dc429b3a132ef2729a1c3f424f480ad34f82e9a4ac9ce728dcb03a5"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
 hash = "ee057daa85d289dc2a860fcb7108d19d4b355235348498de63892daa262ec277"
 metafile = true
@@ -136,6 +146,11 @@ metafile = true
 [[files]]
 file = "mods/cobblepedia.pw.toml"
 hash = "9ad38f6af18aa40e336f51314f6262cd0a8f3b6e2864f0216c5815efa71f4273"
+metafile = true
+
+[[files]]
+file = "mods/cobblestructures.pw.toml"
+hash = "b039333c0042fc6e90fef9ce9590fe2a77a9b69ddc8f22f1e517c99f885995f9"
 metafile = true
 
 [[files]]
@@ -316,6 +331,11 @@ metafile = true
 [[files]]
 file = "mods/placeholder-api.pw.toml"
 hash = "2b8ac8de79c5561e98265a274dd19081f0de540b1cb5cd3c2151f31a9402ee13"
+metafile = true
+
+[[files]]
+file = "mods/pokebadges.pw.toml"
+hash = "73164a5461a361e2651bd38a2678cafa8746f326952f7b331f8810b1052ea71f"
 metafile = true
 
 [[files]]
@@ -506,6 +526,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/better-leaves.pw.toml"
 hash = "eb0b5f269171cd5b891d9bdf2c5da89698e21a71ffec1172ead75bc19411cbdc"
+metafile = true
+
+[[files]]
+file = "resourcepacks/cobblemon-battle-tracks.pw.toml"
+hash = "f30845a29497acc28b82b11593bc7ef4c93608fe844eed59109744bb96358e9b"
 metafile = true
 
 [[files]]

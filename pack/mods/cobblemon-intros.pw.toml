@@ -1,0 +1,13 @@
+name = "Cobblemon Intros"
+filename = "CobblemonIntros-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/gG3mz6AL/versions/FQY0xvNo/CobblemonIntros-1.0.0.jar"
+hash-format = "sha512"
+hash = "4c5b9ed003b0b9940d9cfc90944402d0a0042c83092e9de5861da5539f1adf15229c860ca505e4e72d79c69a19703cc74ec35916bf60bdd9a02b637fec39e94e"
+
+[update]
+[update.modrinth]
+mod-id = "gG3mz6AL"
+version = "FQY0xvNo"

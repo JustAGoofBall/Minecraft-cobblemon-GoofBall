@@ -1,0 +1,13 @@
+name = "Cobblemon Battle Tracks"
+filename = "Battle Tracks v1.2.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/1GY5Eip3/versions/QuFotxpR/Battle%20Tracks%20v1.2.zip"
+hash-format = "sha512"
+hash = "3a3538fbb272c9f56a4426a7a9500ffde76e94cbdd2941507b1c4dfeaa05878b6c5533269cab3696c7369b796d597f65c73c949a6039f255637a50abad033d23"
+
+[update]
+[update.modrinth]
+mod-id = "1GY5Eip3"
+version = "QuFotxpR"
