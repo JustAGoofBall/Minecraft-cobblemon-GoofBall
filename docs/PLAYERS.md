@@ -85,6 +85,8 @@ pack to move it to *Selected*).
 | Pokémon jobs (Cobbleworkers) | Put Pokémon in a **Pasture Block** near crops, berries or apricorns and a chest; they harvest into the chest |
 | Money | CobbleDollars: earn money from battles, or sell almost anything you mine, farm or find at a Cobble Merchant (**Bank** tab). Spend it in the merchant's **Shop** and in the Casino Rocket machines. Selling gives at most a quarter of the shop price |
 | No vanilla mobs | Only Pokémon, trainers/NPCs and villagers. No cows, zombies or creepers, and no phantoms. Spawner blocks in dungeons and fortresses still work. Leather, wool, string, pearls and the like come from Pokémon drops, villagers and the merchant's shop |
+| Gym badges (PokeBadges) | Beat a Kanto, Johto or Sinnoh gym leader (Radical Trainers) to get their badge. Keep them in the **Badge Box** (`/pokebadges open`) |
+| Pokémon Centers and Poké Marts | Found in the world outside the spawn area: healing machine and PC in the Center, Cobble Merchants in the Mart |
 | Loot chests (Lootr) | Every player gets their own loot from structure chests |
 | Fast travel (Waystones) | Right-click a waystone to discover it; use any waystone to teleport to the ones you've found |
 | Finding Pokémon (PokéNav) | Craft a PokéNav; it shows what spawns nearby and can track a Pokémon |

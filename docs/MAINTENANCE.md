@@ -97,6 +97,12 @@ and run `/reload` (or restart). It contains:
   `remove_vanilla_mobs` drops the mobs in `tags/entity_type/removed_mobs.json` into the void every
   5 seconds (also the ones that were already in the world). Spawner-block mobs, villagers, golems and
   bosses are not in that list. Give a mob the tag `goofball_keep` to keep it.
+- gym badges: `data/rctmod/loot_table/trainers/single/<leader>.json` = RCT's own loot for that leader plus
+  one PokeBadges badge (Kanto, Johto and Sinnoh leaders; the Unbound leaders have no matching badge).
+  After an RCT update, regenerate them from the new RCT loot tables.
+- CobbleStructures: the Poké Mart / PitStop / Center structures without their built-in merchant shops
+  (those sold balls at 1/8 of our price and items from mods we don't have). An empty built-in shop
+  means the merchant uses our CobbleDollars shop and bank.
 
 ## Removing a mod
 ```sh

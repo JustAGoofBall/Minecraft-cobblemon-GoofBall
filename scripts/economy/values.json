@@ -48,7 +48,7 @@
     "minecraft:barrier",
     "minecraft:debug_stick",
     "minecraft:knowledge_book",
-    "re:(chipped|casinorocket|mega_showdown|legendarymonuments|cobbreeding|refinedstorage|cobblefurnies|travelersbackpack|waystones|toms_storage|cobblenav|lootr|cobblemonraiddens|rctmod|cobbledollars|patchouli):.*",
+    "re:(chipped|pokebadges|another_furniture|cobblestructures|casinorocket|mega_showdown|legendarymonuments|cobbreeding|refinedstorage|cobblefurnies|travelersbackpack|waystones|toms_storage|cobblenav|lootr|cobblemonraiddens|rctmod|cobbledollars|patchouli):.*",
     "re:cobblemon:.*_(rod|rod_cast|model|gui)$",
     "re:cobblemon:(pokedex.*|npc_editor|pc|healing_machine|pasture|monitor|fossil_analyzer|restoration_tank|display_case|link_cable_.*)",
     "cobblemon:master_ball",
