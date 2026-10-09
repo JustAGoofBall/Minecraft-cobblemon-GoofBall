@@ -88,6 +88,16 @@ python3 -I scripts/build_economy.py <server> --explain cobblemon:poke_ball # why
 Then copy the three files to the server's `config/cobbledollars/` and run `/cobbledollars reload`
 in-game (op) or restart. Run it again after adding or updating mods: new recipes can change prices.
 
+## Server datapack (`server/world/datapacks/goofball-fixes`)
+Ships in the server zip as `world/datapacks/goofball-fixes`; on an existing server copy it there by hand
+and run `/reload` (or restart). It contains:
+- a fix for Legendary Monuments 8.2: its battle-victory scripts crashed the server after beating any
+  other NPC (RCT trainers). Remove the override when a Legendary Monuments update fixes it.
+- no vanilla mobs: `function/load.mcfunction` turns natural mob spawning off on every start, and
+  `remove_vanilla_mobs` drops the mobs in `tags/entity_type/removed_mobs.json` into the void every
+  5 seconds (also the ones that were already in the world). Spawner-block mobs, villagers, golems and
+  bosses are not in that list. Give a mob the tag `goofball_keep` to keep it.
+
 ## Removing a mod
 ```sh
 packwiz remove <name>
