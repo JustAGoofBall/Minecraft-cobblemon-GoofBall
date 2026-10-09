@@ -1,0 +1,708 @@
+{
+  "_comment": "Shop tabs for scripts/build_economy.py. An offer with 'price' has a fixed price (Pokémon-game price x10, like the default CobbleDollars shop). Without 'price' it costs 4 x the item's value, at least 'min_price'. Fixed prices also cap the sell price at 25%. Items villagers buy must cost at least 1 emerald's sell value (cured villagers trade 1 item for 1 emerald).",
+  "categories": [
+    {
+      "name": "Poké Balls",
+      "offers": [
+        {
+          "item": "cobblemon:poke_ball",
+          "price": 2000
+        },
+        {
+          "item": "cobblemon:citrine_ball",
+          "price": 2000
+        },
+        {
+          "item": "cobblemon:verdant_ball",
+          "price": 2000
+        },
+        {
+          "item": "cobblemon:azure_ball",
+          "price": 2000
+        },
+        {
+          "item": "cobblemon:roseate_ball",
+          "price": 2000
+        },
+        {
+          "item": "cobblemon:slate_ball",
+          "price": 2000
+        },
+        {
+          "item": "cobblemon:premier_ball",
+          "price": 2000
+        },
+        {
+          "item": "cobblemon:great_ball",
+          "price": 6000
+        },
+        {
+          "item": "cobblemon:ultra_ball",
+          "price": 8000
+        },
+        {
+          "item": "cobblemon:safari_ball",
+          "price": 6000
+        },
+        {
+          "item": "cobblemon:fast_ball",
+          "price": 6000
+        },
+        {
+          "item": "cobblemon:level_ball",
+          "price": 6000
+        },
+        {
+          "item": "cobblemon:lure_ball",
+          "price": 6000
+        },
+        {
+          "item": "cobblemon:heavy_ball",
+          "price": 6000
+        },
+        {
+          "item": "cobblemon:love_ball",
+          "price": 6000
+        },
+        {
+          "item": "cobblemon:friend_ball",
+          "price": 6000
+        },
+        {
+          "item": "cobblemon:moon_ball",
+          "price": 6000
+        },
+        {
+          "item": "cobblemon:sport_ball",
+          "price": 6000
+        },
+        {
+          "item": "cobblemon:park_ball",
+          "price": 6000
+        },
+        {
+          "item": "cobblemon:net_ball",
+          "price": 10000
+        },
+        {
+          "item": "cobblemon:dive_ball",
+          "price": 10000
+        },
+        {
+          "item": "cobblemon:nest_ball",
+          "price": 10000
+        },
+        {
+          "item": "cobblemon:repeat_ball",
+          "price": 10000
+        },
+        {
+          "item": "cobblemon:timer_ball",
+          "price": 10000
+        },
+        {
+          "item": "cobblemon:luxury_ball",
+          "price": 30000
+        },
+        {
+          "item": "cobblemon:dusk_ball",
+          "price": 10000
+        },
+        {
+          "item": "cobblemon:heal_ball",
+          "price": 3000
+        },
+        {
+          "item": "cobblemon:quick_ball",
+          "price": 10000
+        },
+        {
+          "item": "cobblemon:dream_ball",
+          "price": 6000
+        },
+        {
+          "item": "cobblemon:beast_ball",
+          "price": 50000
+        },
+        {
+          "item": "cobblemon:master_ball",
+          "price": 500000
+        },
+        {
+          "item": "cobblemon:cherish_ball",
+          "price": 2000
+        },
+        {
+          "item": "cobblemon:ancient_poke_ball",
+          "price": 2000
+        },
+        {
+          "item": "cobblemon:ancient_citrine_ball",
+          "price": 2000
+        },
+        {
+          "item": "cobblemon:ancient_verdant_ball",
+          "price": 2000
+        },
+        {
+          "item": "cobblemon:ancient_azure_ball",
+          "price": 2000
+        },
+        {
+          "item": "cobblemon:ancient_roseate_ball",
+          "price": 2000
+        },
+        {
+          "item": "cobblemon:ancient_slate_ball",
+          "price": 2000
+        },
+        {
+          "item": "cobblemon:ancient_ivory_ball",
+          "price": 2000
+        },
+        {
+          "item": "cobblemon:ancient_great_ball",
+          "price": 6000
+        },
+        {
+          "item": "cobblemon:ancient_ultra_ball",
+          "price": 8000
+        },
+        {
+          "item": "cobblemon:ancient_feather_ball",
+          "price": 2000
+        },
+        {
+          "item": "cobblemon:ancient_wing_ball",
+          "price": 6000
+        },
+        {
+          "item": "cobblemon:ancient_jet_ball",
+          "price": 8000
+        },
+        {
+          "item": "cobblemon:ancient_heavy_ball",
+          "price": 2000
+        },
+        {
+          "item": "cobblemon:ancient_leaden_ball",
+          "price": 6000
+        },
+        {
+          "item": "cobblemon:ancient_gigaton_ball",
+          "price": 8000
+        },
+        {
+          "item": "cobblemon:ancient_origin_ball",
+          "price": 500000
+        }
+      ]
+    },
+    {
+      "name": "Medicine",
+      "offers": [
+        {
+          "item": "cobblemon:potion",
+          "price": 2000
+        },
+        {
+          "item": "cobblemon:super_potion",
+          "price": 7000
+        },
+        {
+          "item": "cobblemon:hyper_potion",
+          "price": 12000
+        },
+        {
+          "item": "cobblemon:max_potion",
+          "price": 25000
+        },
+        {
+          "item": "cobblemon:full_restore",
+          "price": 30000
+        },
+        {
+          "item": "cobblemon:revive",
+          "price": 20000
+        },
+        {
+          "item": "cobblemon:max_revive",
+          "price": 40000
+        },
+        {
+          "item": "cobblemon:antidote",
+          "price": 1000
+        },
+        {
+          "item": "cobblemon:paralyze_heal",
+          "price": 2000
+        },
+        {
+          "item": "cobblemon:awakening",
+          "price": 2000
+        },
+        {
+          "item": "cobblemon:burn_heal",
+          "price": 2000
+        },
+        {
+          "item": "cobblemon:ice_heal",
+          "price": 2000
+        },
+        {
+          "item": "cobblemon:full_heal",
+          "price": 4000
+        },
+        {
+          "item": "cobblemon:ether",
+          "price": 12000
+        },
+        {
+          "item": "cobblemon:max_ether",
+          "price": 20000
+        },
+        {
+          "item": "cobblemon:elixir",
+          "price": 30000
+        },
+        {
+          "item": "cobblemon:max_elixir",
+          "price": 45000
+        }
+      ]
+    },
+    {
+      "name": "Exp",
+      "offers": [
+        {
+          "item": "cobblemon:exp_candy_xs",
+          "price": 500
+        },
+        {
+          "item": "cobblemon:exp_candy_s",
+          "price": 4000
+        },
+        {
+          "item": "cobblemon:exp_candy_m",
+          "price": 15000
+        },
+        {
+          "item": "cobblemon:exp_candy_l",
+          "price": 50000
+        },
+        {
+          "item": "cobblemon:exp_candy_xl",
+          "price": 150000
+        },
+        {
+          "item": "cobblemon:rare_candy",
+          "price": 100000
+        },
+        {
+          "item": "cobblemon:exp_share",
+          "price": 250000
+        }
+      ]
+    },
+    {
+      "name": "Battle Items",
+      "offers": [
+        {
+          "item": "cobblemon:x_attack",
+          "price": 10000
+        },
+        {
+          "item": "cobblemon:x_defence",
+          "price": 10000
+        },
+        {
+          "item": "cobblemon:x_special_attack",
+          "price": 10000
+        },
+        {
+          "item": "cobblemon:x_special_defence",
+          "price": 10000
+        },
+        {
+          "item": "cobblemon:x_speed",
+          "price": 10000
+        },
+        {
+          "item": "cobblemon:x_accuracy",
+          "price": 10000
+        },
+        {
+          "item": "cobblemon:dire_hit",
+          "price": 10000
+        },
+        {
+          "item": "cobblemon:guard_spec",
+          "price": 15000
+        },
+        {
+          "item": "cobblemon:hp_up",
+          "price": 100000
+        },
+        {
+          "item": "cobblemon:protein",
+          "price": 100000
+        },
+        {
+          "item": "cobblemon:iron",
+          "price": 100000
+        },
+        {
+          "item": "cobblemon:calcium",
+          "price": 100000
+        },
+        {
+          "item": "cobblemon:zinc",
+          "price": 100000
+        },
+        {
+          "item": "cobblemon:carbos",
+          "price": 100000
+        },
+        {
+          "item": "cobblemon:pp_up",
+          "price": 100000
+        }
+      ]
+    },
+    {
+      "name": "Evolution",
+      "offers": [
+        {
+          "item": "cobblemon:fire_stone",
+          "price": 30000
+        },
+        {
+          "item": "cobblemon:water_stone",
+          "price": 30000
+        },
+        {
+          "item": "cobblemon:thunder_stone",
+          "price": 30000
+        },
+        {
+          "item": "cobblemon:leaf_stone",
+          "price": 30000
+        },
+        {
+          "item": "cobblemon:ice_stone",
+          "price": 30000
+        },
+        {
+          "item": "cobblemon:moon_stone",
+          "price": 30000
+        },
+        {
+          "item": "cobblemon:sun_stone",
+          "price": 30000
+        },
+        {
+          "item": "cobblemon:shiny_stone",
+          "price": 30000
+        },
+        {
+          "item": "cobblemon:dusk_stone",
+          "price": 30000
+        },
+        {
+          "item": "cobblemon:dawn_stone",
+          "price": 30000
+        },
+        {
+          "item": "cobblemon:everstone",
+          "price": 30000
+        },
+        {
+          "item": "cobblemon:link_cable",
+          "price": 50000
+        },
+        {
+          "item": "cobblemon:kings_rock",
+          "price": 50000
+        },
+        {
+          "item": "cobblemon:metal_coat",
+          "price": 50000
+        },
+        {
+          "item": "cobblemon:dragon_scale",
+          "price": 50000
+        },
+        {
+          "item": "cobblemon:upgrade",
+          "price": 50000
+        },
+        {
+          "item": "cobblemon:prism_scale",
+          "price": 50000
+        },
+        {
+          "item": "cobblemon:razor_claw",
+          "price": 50000
+        },
+        {
+          "item": "cobblemon:razor_fang",
+          "price": 50000
+        },
+        {
+          "item": "cobblemon:deep_sea_scale",
+          "price": 50000
+        },
+        {
+          "item": "cobblemon:deep_sea_tooth",
+          "price": 50000
+        },
+        {
+          "item": "cobblemon:sachet",
+          "price": 50000
+        },
+        {
+          "item": "cobblemon:whipped_dream",
+          "price": 50000
+        },
+        {
+          "item": "cobblemon:dubious_disc",
+          "price": 75000
+        },
+        {
+          "item": "cobblemon:electirizer",
+          "price": 75000
+        },
+        {
+          "item": "cobblemon:magmarizer",
+          "price": 75000
+        },
+        {
+          "item": "cobblemon:protector",
+          "price": 75000
+        },
+        {
+          "item": "cobblemon:reaper_cloth",
+          "price": 75000
+        },
+        {
+          "item": "cobblemon:destiny_knot",
+          "price": 100000
+        }
+      ]
+    },
+    {
+      "name": "Resources",
+      "offers": [
+        {
+          "item": "minecraft:coal"
+        },
+        {
+          "item": "minecraft:copper_ingot"
+        },
+        {
+          "item": "minecraft:iron_ingot"
+        },
+        {
+          "item": "minecraft:gold_ingot"
+        },
+        {
+          "item": "minecraft:redstone"
+        },
+        {
+          "item": "minecraft:lapis_lazuli"
+        },
+        {
+          "item": "minecraft:quartz"
+        },
+        {
+          "item": "minecraft:glowstone_dust"
+        },
+        {
+          "item": "minecraft:diamond"
+        },
+        {
+          "item": "minecraft:obsidian"
+        },
+        {
+          "item": "minecraft:oak_log"
+        },
+        {
+          "item": "minecraft:spruce_log"
+        },
+        {
+          "item": "minecraft:birch_log"
+        },
+        {
+          "item": "minecraft:jungle_log"
+        },
+        {
+          "item": "minecraft:dark_oak_log"
+        },
+        {
+          "item": "minecraft:cherry_log"
+        },
+        {
+          "item": "minecraft:leather"
+        },
+        {
+          "item": "minecraft:string",
+          "min_price": 100
+        },
+        {
+          "item": "minecraft:slime_ball"
+        },
+        {
+          "item": "minecraft:gunpowder"
+        },
+        {
+          "item": "minecraft:ender_pearl"
+        },
+        {
+          "item": "minecraft:blaze_rod"
+        },
+        {
+          "item": "minecraft:sand",
+          "min_price": 20
+        },
+        {
+          "item": "minecraft:glass",
+          "min_price": 40
+        },
+        {
+          "item": "minecraft:clay_ball",
+          "min_price": 100
+        }
+      ]
+    },
+    {
+      "name": "Farming",
+      "offers": [
+        {
+          "item": "minecraft:wheat_seeds",
+          "min_price": 50
+        },
+        {
+          "item": "minecraft:beetroot_seeds",
+          "min_price": 50
+        },
+        {
+          "item": "minecraft:melon_seeds",
+          "min_price": 100
+        },
+        {
+          "item": "minecraft:pumpkin_seeds",
+          "min_price": 100
+        },
+        {
+          "item": "minecraft:carrot",
+          "min_price": 100
+        },
+        {
+          "item": "minecraft:potato",
+          "min_price": 100
+        },
+        {
+          "item": "minecraft:sugar_cane"
+        },
+        {
+          "item": "minecraft:cocoa_beans"
+        },
+        {
+          "item": "minecraft:oak_sapling",
+          "min_price": 100
+        },
+        {
+          "item": "minecraft:spruce_sapling",
+          "min_price": 100
+        },
+        {
+          "item": "minecraft:birch_sapling",
+          "min_price": 100
+        },
+        {
+          "item": "minecraft:jungle_sapling",
+          "min_price": 100
+        },
+        {
+          "item": "minecraft:cherry_sapling",
+          "min_price": 100
+        },
+        {
+          "item": "farmersdelight:cabbage_seeds",
+          "min_price": 50
+        },
+        {
+          "item": "farmersdelight:tomato_seeds",
+          "min_price": 50
+        },
+        {
+          "item": "farmersdelight:onion"
+        },
+        {
+          "item": "farmersdelight:rice",
+          "min_price": 50
+        },
+        {
+          "item": "cobblemon:red_apricorn_seed",
+          "min_price": 500
+        },
+        {
+          "item": "cobblemon:yellow_apricorn_seed",
+          "min_price": 500
+        },
+        {
+          "item": "cobblemon:green_apricorn_seed",
+          "min_price": 500
+        },
+        {
+          "item": "cobblemon:blue_apricorn_seed",
+          "min_price": 500
+        },
+        {
+          "item": "cobblemon:pink_apricorn_seed",
+          "min_price": 500
+        },
+        {
+          "item": "cobblemon:black_apricorn_seed",
+          "min_price": 500
+        },
+        {
+          "item": "cobblemon:white_apricorn_seed",
+          "min_price": 500
+        },
+        {
+          "item": "cobblemon:oran_berry",
+          "min_price": 500
+        },
+        {
+          "item": "cobblemon:pecha_berry",
+          "min_price": 500
+        },
+        {
+          "item": "cobblemon:cheri_berry",
+          "min_price": 500
+        },
+        {
+          "item": "cobblemon:chesto_berry",
+          "min_price": 500
+        },
+        {
+          "item": "cobblemon:rawst_berry",
+          "min_price": 500
+        },
+        {
+          "item": "cobblemon:aspear_berry",
+          "min_price": 500
+        },
+        {
+          "item": "cobblemon:leppa_berry",
+          "min_price": 500
+        },
+        {
+          "item": "cobblemon:lum_berry",
+          "min_price": 2000
+        }
+      ]
+    }
+  ]
+}

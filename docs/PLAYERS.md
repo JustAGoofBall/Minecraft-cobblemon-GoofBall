@@ -83,7 +83,7 @@ pack to move it to *Selected*).
 | Elevator | Stand on an elevator block: **jump** to go up, **sneak** to go down to the next elevator |
 | Storage | Tom's Simple Storage: connect chests with an *Inventory Connector* + *Storage Terminal*. Refined Storage: full digital storage network |
 | Pokémon jobs (Cobbleworkers) | Put Pokémon in a **Pasture Block** near crops, berries or apricorns and a chest; they harvest into the chest |
-| Money | CobbleDollars: earn money from battles; spend it at merchants and in the Casino Rocket machines |
+| Money | CobbleDollars: earn money from battles, or sell almost anything you mine, farm or find at a Cobble Merchant (**Bank** tab). Spend it in the merchant's **Shop** and in the Casino Rocket machines. Selling gives at most a quarter of the shop price |
 | Loot chests (Lootr) | Every player gets their own loot from structure chests |
 | Fast travel (Waystones) | Right-click a waystone to discover it; use any waystone to teleport to the ones you've found |
 | Finding Pokémon (PokéNav) | Craft a PokéNav; it shows what spawns nearby and can track a Pokémon |

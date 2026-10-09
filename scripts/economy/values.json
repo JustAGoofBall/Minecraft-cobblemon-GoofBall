@@ -1,0 +1,694 @@
+{
+  "_comment": "Base values for scripts/build_economy.py. rules: first match wins. match = item id, #tag or re:<regex on the id>. value = base value before scale (0 = worthless, missing = derived from recipes). bank = category in the sell list (missing/false = can't be sold). Crafted items get the value of their cheapest recipe automatically; only give a value to things you find, mine, farm or loot.",
+  "scale": 5,
+  "unscaled": [
+    "minecraft:emerald",
+    "re:minecraft:(deepslate_)?emerald_ore"
+  ],
+  "common": {
+    "earnCobbleDollarsFromNPC": true,
+    "earnCobbleDollarsFromWildPokemon": true,
+    "earnCobbleDollarsFromQuickBattle": true,
+    "cobbleDollarsIncomeMultiplier": 1.0,
+    "playerDataSaveFrequency": 5
+  },
+  "bank_categories": [
+    "Ores & Metals",
+    "Gems & Minerals",
+    "Wood",
+    "Farming",
+    "Food",
+    "Animal & Mob Drops",
+    "Nether & End",
+    "Ocean",
+    "Apricorns",
+    "Berries",
+    "Mints & Herbs",
+    "Evolution",
+    "Held Items",
+    "Medicine & Candy",
+    "Poké Balls",
+    "Fossils"
+  ],
+  "never_sell": [
+    "#minecraft:enchantable/durability",
+    "#c:tools",
+    "#c:armors",
+    "re:.*_(sword|pickaxe|axe|shovel|hoe|helmet|chestplate|leggings|boots|bow|crossbow|trident|shield|fishing_rod|shears|elytra|rod|horse_armor)$",
+    "re:.*spawn_egg$",
+    "minecraft:potion",
+    "minecraft:splash_potion",
+    "minecraft:lingering_potion",
+    "minecraft:tipped_arrow",
+    "minecraft:enchanted_book",
+    "minecraft:written_book",
+    "minecraft:filled_map",
+    "minecraft:dragon_egg",
+    "minecraft:command_block",
+    "minecraft:barrier",
+    "minecraft:debug_stick",
+    "minecraft:knowledge_book",
+    "re:(chipped|casinorocket|mega_showdown|legendarymonuments|cobbreeding|refinedstorage|cobblefurnies|travelersbackpack|waystones|toms_storage|cobblenav|lootr|cobblemonraiddens|rctmod|cobbledollars|patchouli):.*",
+    "re:cobblemon:.*_(rod|rod_cast|model|gui)$",
+    "re:cobblemon:(pokedex.*|npc_editor|pc|healing_machine|pasture|monitor|fossil_analyzer|restoration_tank|display_case|link_cable_.*)",
+    "cobblemon:master_ball",
+    "cobblemon:ancient_origin_ball",
+    "cobblemon:cherish_ball",
+    "cobblemon:beast_ball"
+  ],
+  "rules": [
+    {
+      "match": "re:minecraft:(cobblestone|cobbled_deepslate|stone|deepslate|dirt|coarse_dirt|grass_block|sand|red_sand|gravel|netherrack|tuff|andesite|diorite|granite|calcite|blackstone|basalt|smooth_basalt|end_stone|soul_sand|soul_soil|mud|clay|terracotta|snow_block|snowball|ice|moss_block|rooted_dirt|podzol|mycelium|dripstone_block|pointed_dripstone|cobweb)",
+      "value": 0
+    },
+    {
+      "match": "re:minecraft:(wheat|carrot|potato|beetroot|sugar_cane|cactus|cocoa_beans|nether_wart|red_mushroom|brown_mushroom)",
+      "value": 2,
+      "bank": "Farming"
+    },
+    {
+      "match": "re:farmersdelight:(cabbage|tomato|onion|rice_panicle)",
+      "value": 2,
+      "bank": "Farming"
+    },
+    {
+      "match": "re:farmersdelight:wild_.*",
+      "value": 2
+    },
+    {
+      "match": "re:cobblemon:(medicinal_leek|big_root|energy_root|revival_herb|pep_up_flower|vivichoke|galarica_nuts|hearty_grains|tasty_tail)",
+      "value": 5,
+      "bank": "Mints & Herbs"
+    },
+    {
+      "match": "#cobblemon:mint_seeds",
+      "value": 0
+    },
+    {
+      "match": "re:cobblemon:(.*_apricorn_seed|vivichoke_seeds)",
+      "value": 0
+    },
+    {
+      "match": "#minecraft:leaves",
+      "value": 0
+    },
+    {
+      "match": "#minecraft:saplings",
+      "value": 0
+    },
+    {
+      "match": "#c:seeds",
+      "value": 0
+    },
+    {
+      "match": "#minecraft:flowers",
+      "value": 0
+    },
+    {
+      "match": "re:minecraft:(short_grass|tall_grass|fern|large_fern|dead_bush|vine|seagrass|stick|wheat_seeds|beetroot_seeds|melon_seeds|pumpkin_seeds|torchflower_seeds|pitcher_pod)",
+      "value": 0
+    },
+    {
+      "match": "re:minecraft:.*_concrete",
+      "value": 1
+    },
+    {
+      "match": "minecraft:glow_lichen",
+      "value": 0
+    },
+    {
+      "match": "minecraft:saddle",
+      "value": 20
+    },
+    {
+      "match": "minecraft:emerald",
+      "value": 100,
+      "bank": "Gems & Minerals"
+    },
+    {
+      "match": "re:minecraft:(deepslate_)?coal_ore",
+      "value": 5
+    },
+    {
+      "match": "re:minecraft:(deepslate_)?copper_ore",
+      "value": 5
+    },
+    {
+      "match": "re:(minecraft:(deepslate_)?iron_ore|legendarymonuments:distortion_(deepslate_)?iron_ore)",
+      "value": 30
+    },
+    {
+      "match": "re:minecraft:((deepslate_)?gold_ore|nether_gold_ore)",
+      "value": 40
+    },
+    {
+      "match": "re:minecraft:(deepslate_)?diamond_ore",
+      "value": 400
+    },
+    {
+      "match": "re:minecraft:(deepslate_)?emerald_ore",
+      "value": 100,
+      "_note": "unscaled like emerald"
+    },
+    {
+      "match": "re:minecraft:(deepslate_)?lapis_ore",
+      "value": 10
+    },
+    {
+      "match": "re:minecraft:(deepslate_)?redstone_ore",
+      "value": 8
+    },
+    {
+      "match": "minecraft:nether_quartz_ore",
+      "value": 6
+    },
+    {
+      "match": "re:(cobblemon:.*_stone_ore|mega_showdown:mega_meteorid_.*_ore)",
+      "value": 300
+    },
+    {
+      "match": "minecraft:sculk",
+      "value": 1
+    },
+    {
+      "match": "minecraft:milk_bucket",
+      "value": 19,
+      "_note": "bucket (18) + milk"
+    },
+    {
+      "match": "re:(cobblemon:moomoo_milk|farmersdelight:milk_bottle)",
+      "value": 2
+    },
+    {
+      "match": "re:farmersdelight:(ham|smoked_ham)",
+      "value": 9
+    },
+    {
+      "match": "re:farmersdelight:(pie_crust|bamboo_basket|red_mushroom_colony|brown_mushroom_colony|straw|tree_bark)",
+      "value": 1
+    },
+    {
+      "match": "re:farmersdelight:.*_crate",
+      "value": 18
+    },
+    {
+      "match": "minecraft:coal",
+      "value": 5,
+      "bank": "Ores & Metals"
+    },
+    {
+      "match": "minecraft:charcoal",
+      "value": 4,
+      "bank": "Ores & Metals"
+    },
+    {
+      "match": "minecraft:raw_copper",
+      "value": 5,
+      "bank": "Ores & Metals"
+    },
+    {
+      "match": "minecraft:copper_ingot",
+      "value": 5,
+      "bank": "Ores & Metals"
+    },
+    {
+      "match": "minecraft:raw_iron",
+      "value": 30,
+      "bank": "Ores & Metals"
+    },
+    {
+      "match": "minecraft:iron_ingot",
+      "value": 30,
+      "bank": "Ores & Metals"
+    },
+    {
+      "match": "minecraft:raw_gold",
+      "value": 40,
+      "bank": "Ores & Metals"
+    },
+    {
+      "match": "minecraft:gold_ingot",
+      "value": 40,
+      "bank": "Ores & Metals"
+    },
+    {
+      "match": "minecraft:ancient_debris",
+      "value": 300,
+      "bank": "Ores & Metals"
+    },
+    {
+      "match": "minecraft:netherite_scrap",
+      "value": 300,
+      "bank": "Ores & Metals"
+    },
+    {
+      "match": "re:minecraft:(iron_nugget|gold_nugget|netherite_ingot|coal_block|copper_block|raw_copper_block|iron_block|raw_iron_block|gold_block|raw_gold_block|netherite_block)",
+      "bank": "Ores & Metals"
+    },
+    {
+      "match": "minecraft:diamond",
+      "value": 400,
+      "bank": "Gems & Minerals"
+    },
+    {
+      "match": "minecraft:lapis_lazuli",
+      "value": 10,
+      "bank": "Gems & Minerals"
+    },
+    {
+      "match": "minecraft:redstone",
+      "value": 8,
+      "bank": "Gems & Minerals"
+    },
+    {
+      "match": "minecraft:quartz",
+      "value": 6,
+      "bank": "Gems & Minerals"
+    },
+    {
+      "match": "minecraft:amethyst_shard",
+      "value": 5,
+      "bank": "Gems & Minerals"
+    },
+    {
+      "match": "minecraft:glowstone_dust",
+      "value": 5,
+      "bank": "Gems & Minerals"
+    },
+    {
+      "match": "minecraft:obsidian",
+      "value": 8,
+      "bank": "Gems & Minerals"
+    },
+    {
+      "match": "minecraft:crying_obsidian",
+      "value": 10,
+      "bank": "Gems & Minerals"
+    },
+    {
+      "match": "minecraft:echo_shard",
+      "value": 100,
+      "bank": "Gems & Minerals"
+    },
+    {
+      "match": "minecraft:flint",
+      "value": 1,
+      "bank": "Gems & Minerals"
+    },
+    {
+      "match": "re:minecraft:(diamond_block|emerald_block|lapis_block|redstone_block|quartz_block|amethyst_block|glowstone)",
+      "bank": "Gems & Minerals"
+    },
+    {
+      "match": "#minecraft:logs",
+      "value": 8,
+      "bank": "Wood"
+    },
+    {
+      "match": "#cobblemon:apricorn_logs",
+      "value": 8,
+      "bank": "Wood"
+    },
+    {
+      "match": "re:minecraft:(bamboo|bamboo_block)",
+      "value": 1,
+      "bank": "Wood"
+    },
+    {
+      "match": "re:minecraft:(melon_slice|sweet_berries|glow_berries|kelp|chorus_fruit|poisonous_potato)",
+      "value": 1,
+      "bank": "Farming"
+    },
+    {
+      "match": "re:minecraft:(pumpkin|melon)",
+      "value": 5,
+      "bank": "Farming"
+    },
+    {
+      "match": "minecraft:apple",
+      "value": 3,
+      "bank": "Farming"
+    },
+    {
+      "match": "minecraft:egg",
+      "value": 2,
+      "bank": "Farming"
+    },
+    {
+      "match": "minecraft:honeycomb",
+      "value": 5,
+      "bank": "Farming"
+    },
+    {
+      "match": "re:minecraft:(hay_block|dried_kelp_block|honeycomb_block|sugar|dried_kelp)",
+      "bank": "Farming"
+    },
+    {
+      "match": "re:farmersdelight:(cabbage_leaf|straw|tree_bark)",
+      "bank": "Farming"
+    },
+    {
+      "match": "re:minecraft:(bread|baked_potato|cooked_beef|cooked_porkchop|cooked_chicken|cooked_mutton|cooked_rabbit|cooked_cod|cooked_salmon|pumpkin_pie|cookie|cake|golden_carrot|golden_apple|mushroom_stew|beetroot_soup|rabbit_stew)",
+      "bank": "Food"
+    },
+    {
+      "match": "minecraft:enchanted_golden_apple",
+      "value": 500,
+      "bank": "Food"
+    },
+    {
+      "match": "re:minecraft:(beef|porkchop|mutton)",
+      "value": 3,
+      "bank": "Animal & Mob Drops"
+    },
+    {
+      "match": "re:minecraft:(chicken|rabbit|feather|rabbit_hide)",
+      "value": 2,
+      "bank": "Animal & Mob Drops"
+    },
+    {
+      "match": "minecraft:leather",
+      "value": 5,
+      "bank": "Animal & Mob Drops"
+    },
+    {
+      "match": "#minecraft:wool",
+      "value": 3,
+      "bank": "Animal & Mob Drops"
+    },
+    {
+      "match": "minecraft:rotten_flesh",
+      "value": 1,
+      "bank": "Animal & Mob Drops"
+    },
+    {
+      "match": "re:minecraft:(bone|string|spider_eye|ink_sac|arrow)",
+      "value": 2,
+      "bank": "Animal & Mob Drops"
+    },
+    {
+      "match": "minecraft:bone_meal",
+      "bank": "Animal & Mob Drops"
+    },
+    {
+      "match": "minecraft:glow_ink_sac",
+      "value": 5,
+      "bank": "Animal & Mob Drops"
+    },
+    {
+      "match": "minecraft:gunpowder",
+      "value": 6,
+      "bank": "Animal & Mob Drops"
+    },
+    {
+      "match": "minecraft:slime_ball",
+      "value": 8,
+      "bank": "Animal & Mob Drops"
+    },
+    {
+      "match": "minecraft:ender_pearl",
+      "value": 20,
+      "bank": "Animal & Mob Drops"
+    },
+    {
+      "match": "minecraft:phantom_membrane",
+      "value": 15,
+      "bank": "Animal & Mob Drops"
+    },
+    {
+      "match": "minecraft:rabbit_foot",
+      "value": 20,
+      "bank": "Animal & Mob Drops"
+    },
+    {
+      "match": "minecraft:totem_of_undying",
+      "value": 300,
+      "bank": "Animal & Mob Drops"
+    },
+    {
+      "match": "minecraft:turtle_scute",
+      "value": 30,
+      "bank": "Animal & Mob Drops"
+    },
+    {
+      "match": "minecraft:armadillo_scute",
+      "value": 10,
+      "bank": "Animal & Mob Drops"
+    },
+    {
+      "match": "minecraft:breeze_rod",
+      "value": 30,
+      "bank": "Animal & Mob Drops"
+    },
+    {
+      "match": "re:minecraft:(slime_block|ender_eye)",
+      "bank": "Animal & Mob Drops"
+    },
+    {
+      "match": "minecraft:blaze_rod",
+      "value": 30,
+      "bank": "Nether & End"
+    },
+    {
+      "match": "minecraft:ghast_tear",
+      "value": 40,
+      "bank": "Nether & End"
+    },
+    {
+      "match": "minecraft:magma_cream",
+      "bank": "Nether & End"
+    },
+    {
+      "match": "minecraft:blaze_powder",
+      "bank": "Nether & End"
+    },
+    {
+      "match": "minecraft:shulker_shell",
+      "value": 100,
+      "bank": "Nether & End"
+    },
+    {
+      "match": "minecraft:nether_star",
+      "value": 3000,
+      "bank": "Nether & End"
+    },
+    {
+      "match": "minecraft:wither_skeleton_skull",
+      "value": 200,
+      "bank": "Nether & End"
+    },
+    {
+      "match": "minecraft:dragon_breath",
+      "value": 20,
+      "bank": "Nether & End"
+    },
+    {
+      "match": "re:minecraft:(crimson_fungus|warped_fungus|weeping_vines|twisting_vines|nether_wart_block|warped_wart_block|shroomlight)",
+      "value": 1
+    },
+    {
+      "match": "re:minecraft:(cod|salmon|tropical_fish|pufferfish)",
+      "value": 3,
+      "bank": "Ocean"
+    },
+    {
+      "match": "minecraft:prismarine_shard",
+      "value": 5,
+      "bank": "Ocean"
+    },
+    {
+      "match": "minecraft:prismarine_crystals",
+      "value": 8,
+      "bank": "Ocean"
+    },
+    {
+      "match": "minecraft:nautilus_shell",
+      "value": 50,
+      "bank": "Ocean"
+    },
+    {
+      "match": "minecraft:heart_of_the_sea",
+      "value": 1000,
+      "bank": "Ocean"
+    },
+    {
+      "match": "minecraft:sponge",
+      "value": 50,
+      "bank": "Ocean"
+    },
+    {
+      "match": "minecraft:wet_sponge",
+      "value": 50
+    },
+    {
+      "match": "minecraft:sea_pickle",
+      "value": 2,
+      "bank": "Ocean"
+    },
+    {
+      "match": "re:cobblemon:(scroll_of_darkness|scroll_of_waters)",
+      "value": 0
+    },
+    {
+      "match": "cobblemon:relic_coin",
+      "value": 4.5,
+      "_note": "blasts into a gold nugget"
+    },
+    {
+      "match": "re:cobblemon:(sweet_apple|syrupy_apple|tart_apple)",
+      "value": 30,
+      "bank": "Evolution"
+    },
+    {
+      "match": "re:cobblemon:(black_augurite|auspicious_armor|malicious_armor|chipped_pot|cracked_pot|unremarkable_teacup|masterpiece_teacup|oval_stone|peat_block)",
+      "value": 100,
+      "bank": "Evolution"
+    },
+    {
+      "match": "re:cobblemon:(power_anklet|power_band|power_belt|power_bracer|power_lens|power_weight|lucky_egg|leftovers)",
+      "value": 400,
+      "bank": "Held Items"
+    },
+    {
+      "match": "re:cobblemon:(absorb_bulb|black_sludge|bright_powder|float_stone|grip_claw|lagging_tail|light_ball|mental_herb|metal_powder|mirror_herb|power_herb|quick_powder|shed_shell|smoke_ball|sticky_barb|toxic_orb|white_herb)",
+      "value": 150,
+      "bank": "Held Items"
+    },
+    {
+      "match": "re:cobblemon:(deep_sea_scale|deep_sea_tooth|dragon_scale|prism_scale|razor_claw|razor_fang)",
+      "value": 150,
+      "bank": "Evolution"
+    },
+    {
+      "match": "re:cobblemon:(dragon_fang|quick_claw|eviolite)",
+      "value": 150,
+      "bank": "Held Items"
+    },
+    {
+      "match": "cobblemon:everstone",
+      "value": 50,
+      "bank": "Held Items"
+    },
+    {
+      "match": "cobblemon:rare_candy",
+      "value": 500,
+      "bank": "Medicine & Candy"
+    },
+    {
+      "match": "cobblemon:heal_powder",
+      "value": 5,
+      "bank": "Medicine & Candy"
+    },
+    {
+      "match": "#cobblemon:apricorns",
+      "value": 6,
+      "bank": "Apricorns"
+    },
+    {
+      "match": "#cobblemon:berries",
+      "value": 5,
+      "bank": "Berries"
+    },
+    {
+      "match": "#cobblemon:mint_leaves",
+      "value": 15,
+      "bank": "Mints & Herbs"
+    },
+    {
+      "match": "#cobblemon:mints",
+      "bank": "Mints & Herbs"
+    },
+    {
+      "match": "#cobblemon:herbs",
+      "bank": "Mints & Herbs"
+    },
+    {
+      "match": "#cobblemon:evolution_stones",
+      "value": 300,
+      "bank": "Evolution"
+    },
+    {
+      "match": "#cobblemon:evolution_stone_blocks",
+      "bank": "Evolution"
+    },
+    {
+      "match": "#cobblemon:evolution_items",
+      "bank": "Evolution"
+    },
+    {
+      "match": "#cobblemon:type_gems",
+      "value": 20,
+      "bank": "Held Items"
+    },
+    {
+      "match": "#cobblemon:feathers",
+      "value": 15,
+      "bank": "Medicine & Candy"
+    },
+    {
+      "match": "#cobblemon:fossils",
+      "value": 1000,
+      "bank": "Fossils"
+    },
+    {
+      "match": "re:cobblemon:fossilized_.*",
+      "value": 1000,
+      "bank": "Fossils"
+    },
+    {
+      "match": "#cobblemon:held/is_held_item",
+      "bank": "Held Items"
+    },
+    {
+      "match": "#cobblemon:poke_balls",
+      "bank": "Poké Balls"
+    },
+    {
+      "match": "#cobblemon:potions",
+      "bank": "Medicine & Candy"
+    },
+    {
+      "match": "#cobblemon:remedies",
+      "bank": "Medicine & Candy"
+    },
+    {
+      "match": "#cobblemon:revives",
+      "bank": "Medicine & Candy"
+    },
+    {
+      "match": "#cobblemon:ethers",
+      "bank": "Medicine & Candy"
+    },
+    {
+      "match": "#cobblemon:vitamins",
+      "bank": "Medicine & Candy"
+    },
+    {
+      "match": "#cobblemon:mochis",
+      "bank": "Medicine & Candy"
+    },
+    {
+      "match": "#cobblemon:experience_candies",
+      "bank": "Medicine & Candy"
+    },
+    {
+      "match": "#cobblemon:battle_items",
+      "bank": "Medicine & Candy"
+    },
+    {
+      "match": "re:cobblemon:(antidote|awakening|burn_heal|ice_heal|paralyze_heal|full_heal|full_restore|heal_powder|rare_candy)",
+      "bank": "Medicine & Candy"
+    },
+    {
+      "match": "#cobblemon:sweets",
+      "bank": "Evolution"
+    },
+    {
+      "match": "#cobblemon:tumblestones",
+      "value": 2
+    }
+  ],
+  "ignore_unpriced": [
+    "re:cobbreeding:.*"
+  ]
+}
