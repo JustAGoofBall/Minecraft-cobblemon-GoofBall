@@ -86,7 +86,7 @@ Players and the server must always use the **same version**.
 **7 shader packs:** Complementary Reimagined, Complementary Unbound, BSL, Photon, Solas, Bliss,
 MakeUp Ultra Fast (for low-end PCs).
 
-**9 resource packs** (minimap icons, RCT trainer textures and Battle Tracks on by default, the rest under Options → Resource Packs): Fresh Animations,
+**9 resource packs** (all on by default; jor's music pack is loaded by Reactive Music): Fresh Animations,
 E19 Cobblemon Minimap Icons, RCT Trainer Textures+, Cobblemon Battle Tracks, Cobblemon Interface, Cobblemon Emissive Ores,
 jor's Cobblemon Music Pack, Better Leaves, Fast Better Grass.
 

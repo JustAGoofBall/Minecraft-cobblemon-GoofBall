@@ -57,9 +57,9 @@ Shaders cost a lot of FPS. Choose **(off)** in the same menu to turn them off ag
 has its own settings (quality presets) behind the **Shader Pack Settings** button.
 
 ## Resource packs
-**E19 Cobblemon Minimap Icons** and **RCT Trainer Textures+** are turned on the first time you start
-the pack; the others are off. Change them under **Options → Resource Packs** (click the arrow next to a
-pack to move it to *Selected*).
+All resource packs are turned on the first time you start the pack. jor's music pack is not a normal
+resource pack: the Reactive Music mod loads it by itself. Turn packs off or change their order under
+**Options → Resource Packs** (click the arrow next to a pack to move it between *Available* and *Selected*).
 
 | Resource pack | What it does |
 |---|---|
@@ -72,32 +72,51 @@ pack to move it to *Selected*).
 | Better Leaves | Bushier trees |
 | Fast Better Grass | Grass blocks look grassy on the sides too |
 
-## Handy keys and tips
+## Keys
+| What | Key |
+|---|---|
+| Send out / call back Pokémon, Pokémon summary, PokéNav | **R**, **M**, **N** |
+| Select Pokémon in your party / hide the party bar | **↑** **↓** / **O** |
+| Look around while riding a Pokémon | **Left Alt** |
+| World map, minimap settings, minimap bigger | **J**, **;**, **Z** |
+| New waypoint, waypoint list, quick temporary waypoint | **,**, **U**, **Numpad +** |
+| Voice chat menu, groups, mute microphone, push-to-talk | **V**, **G**, **I**, **Caps Lock** |
+| Badge Box (PokeBadges) | **Y** |
+| Backpack (while wearing it) / switch its tool | **B** / **.** |
+| Tom's storage terminal (wireless) / Refined Storage wireless grid | **[** / **]** |
+| Accessories (trinket slots) | **H** |
+| Raid den invite: accept / decline / free the mouse | **Enter** / **Backspace** / **Right Alt** |
+| Shaders on/off | **K** |
+| Block info (Jade): settings, show/hide, liquids | **Numpad 0**, **1**, **2** |
+| Recipes (EMI) | Item list on the right of your inventory; click an item for its recipe, **U** for uses |
+
+These defaults are set the first time you start the pack, and no two keys overlap. A few rarely used keys
+are left unbound (*Reload Shaders*, *Disable Voice Chat*, *Hide Icons*). Your own changes are never
+overwritten. Change keys under **Options → Controls → Key Binds**: it has a search bar and a
+*Show conflicts* button (Controlling).
+
+## Minimap
+Xaero's minimap shows every entity as an icon (Pokémon get their own icon from the E19 pack), with the
+name of Pokémon, NPCs and players next to it. Change this under minimap settings (**;**) → *Entity Radar*.
+
+## Tips
 | What | How |
 |---|---|
-| Voice chat menu / mute microphone | **V** / **I** (push-to-talk is **Caps Lock** by default) |
-| Pokémon summary (Cobblemon) | **M** |
-| World map / minimap settings / new waypoint | **J** / **;** / **,** |
-| Recipes (EMI) | Item list on the right of your inventory; click an item for its recipe, **U** for uses |
-| Open your backpack (Traveler's Backpack) | **B** while wearing it |
 | Elevator | Stand on an elevator block: **jump** to go up, **sneak** to go down to the next elevator |
 | Storage | Tom's Simple Storage: connect chests with an *Inventory Connector* + *Storage Terminal*. Refined Storage: full digital storage network (no power needed). All parts are also for sale in a Cobble Merchant's **Storage** shop tab |
 | Pokémon jobs (Cobbleworkers) | Put Pokémon in a **Pasture Block** near crops, berries or apricorns and a chest; they harvest into the chest |
 | Money | CobbleDollars: earn money from battles, or sell almost anything you mine, farm or find at a Cobble Merchant (**Bank** tab). Spend it in the merchant's **Shop** and in the Casino Rocket machines. Selling gives at most a quarter of the shop price |
 | No vanilla mobs | Only Pokémon, trainers/NPCs and villagers. No cows, zombies or creepers, and no phantoms. Spawner blocks in dungeons and fortresses still work. Leather, wool, string, pearls and the like come from Pokémon drops, villagers and the merchant's shop |
-| Gym badges (PokeBadges) | Beat a Kanto, Johto or Sinnoh gym leader (Radical Trainers) to get their badge. Keep them in the **Badge Box** (`/pokebadges open`) |
+| Gym badges (PokeBadges) | Beat a Kanto, Johto or Sinnoh gym leader (Radical Trainers) to get their badge. Keep them in the **Badge Box** (**Y**, or `/pokebadges open`) |
 | Pokémon Centers and Poké Marts | Found in the world outside the spawn area: healing machine and PC in the Center, Cobble Merchants in the Mart |
 | Loot chests (Lootr) | Every player gets their own loot from structure chests |
 | Fast travel (Waystones) | Right-click a waystone to discover it; use any waystone to teleport to the ones you've found |
 | Finding Pokémon (PokéNav) | Craft a PokéNav; it shows what spawns nearby and can track a Pokémon |
 | Pokédex wiki (Cobblepedia) | Look up evolutions, spawn locations and moves in-game |
-| Key conflicts | **Options → Controls → Key Binds** has a search bar and a *Show conflicts* button (Controlling) |
-
-These defaults are set the first time you start the pack, so no two mods share a key (some mods' keys
-are left unbound, for example *Reload Shaders* and the backpack's *Swap Tool*). Your own changes are never
-overwritten. Change keys under **Options → Controls → Key Binds**.
 
 ## Updating
 - **Modrinth App** (pack installed from Modrinth): the app tells you when there's an update.
 - **Imported `.mrpack`**: download the new `.mrpack` and import it again. To keep your settings, copy
   `options.txt` and the `config/` folder from your old instance to the new one.
+- The pack's default keys, resource packs and minimap settings only land in a **new** instance (or when
+  that settings file is missing). An update never overwrites your own settings.
