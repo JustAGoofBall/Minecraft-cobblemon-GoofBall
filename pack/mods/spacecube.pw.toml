@@ -1,0 +1,13 @@
+name = "Space Cube"
+filename = "spacecube-fabric-0.9.19.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/H5uBVVRE/versions/3CpNCXfs/spacecube-fabric-0.9.19.jar"
+hash-format = "sha512"
+hash = "ac777e3d56eafa06f9fae63fba6fe27251158bee4886553cde4cb187cacb20e98013897d84464cb47f55ba7d17ec3dd2ba4338613541ce626bdb1dccac82eb24"
+
+[update]
+[update.modrinth]
+mod-id = "H5uBVVRE"
+version = "3CpNCXfs"

@@ -838,6 +838,44 @@
         },
         {
           "item": "toms_storage:open_crate"
+        },
+        {
+          "item": "reinfchest:copper_chest"
+        },
+        {
+          "item": "reinfchest:iron_chest"
+        },
+        {
+          "item": "reinfchest:gold_chest"
+        },
+        {
+          "item": "reinfchest:diamond_chest"
+        },
+        {
+          "item": "colossalchests:chest_wall_wood"
+        },
+        {
+          "item": "colossalchests:colossal_chest_wood"
+        },
+        {
+          "item": "colossalchests:interface_wood"
+        },
+        {
+          "item": "colossalchests:upgrade_tool"
+        },
+        {
+          "item": "botanypots:terracotta_botany_pot",
+          "min_price": 50
+        },
+        {
+          "item": "botanypots:terracotta_hopper_botany_pot",
+          "min_price": 150
+        },
+        {
+          "item": "cobblemon_incubator:egg_incubator"
+        },
+        {
+          "item": "berrypouch:berry_pouch"
         }
       ]
     }

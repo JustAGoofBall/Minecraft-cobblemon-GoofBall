@@ -82,6 +82,7 @@ resource pack: the Reactive Music mod loads it by itself. Turn packs off or chan
 | New waypoint, waypoint list, quick temporary waypoint | **,**, **U**, **Numpad +** |
 | Voice chat menu, groups, mute microphone, push-to-talk | **V**, **G**, **I**, **Caps Lock** |
 | Badge Box (PokeBadges) | **Y** |
+| Berry Pouch: open / switch bait or Poké Ball left, right / auto-equip bait | **'** / **-**, **=** / **\\** |
 | Backpack (while wearing it) / switch its tool | **B** / **.** |
 | Tom's storage terminal (wireless) / Refined Storage wireless grid | **[** / **]** |
 | Accessories (trinket slots) | **H** |
@@ -113,6 +114,13 @@ name of Pokémon, NPCs and players next to it. Change this under minimap setting
 | Fast travel (Waystones) | Right-click a waystone to discover it; use any waystone to teleport to the ones you've found |
 | Finding Pokémon (PokéNav) | Craft a PokéNav; it shows what spawns nearby and can track a Pokémon |
 | Pokédex wiki (Cobblepedia) | Look up evolutions, spawn locations and moves in-game |
+| Vein mining (VeinMiner) | Mine one ore with the right pickaxe and the whole vein breaks (up to 100 blocks, costs durability per block) |
+| Botany Pots | Put dirt (or farmland) and a sapling, crop, berry or apricorn in a Botany Pot: it grows and drops by itself. A *hopper* pot pushes the harvest into a chest below. Elite/Ultra/Mega pots (Botany Pots Tiers) are faster |
+| Egg Incubator | Put an egg in: it hatches 5× faster and shows the Pokémon's nature, ability and IVs. Upgrades: speed, PC delivery, filter |
+| Bottle Caps | Fished up as treasure (normal rod or Poké Rod). Right-click your Pokémon to max an IV; Gold Bottle Cap maxes all six. Craft a stat cap from a silver cap and that stat's mint leaf |
+| Berry Pouch | Wear it (accessory slot): berries you pick up go in by themselves. Also: apricorn basket, Poké Ball launcher |
+| Bigger chests | Reinforced Chests (copper → netherite). Colossal Chests: build a hollow cube of chest walls with one core (and interfaces for hoppers) |
+| Space Cube | A block with a whole room inside (like Compact Machines): use the Personal Shrinking Device on it to go in and out |
 
 ## Updating
 - **Modrinth App** (pack installed from Modrinth): the app tells you when there's an update.

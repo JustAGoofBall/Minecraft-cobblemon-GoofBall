@@ -904,6 +904,54 @@
       {
         "item": "toms_storage:open_crate",
         "price": "140"
+      },
+      {
+        "item": "reinfchest:copper_chest",
+        "price": "870"
+      },
+      {
+        "item": "reinfchest:iron_chest",
+        "price": "5500"
+      },
+      {
+        "item": "reinfchest:gold_chest",
+        "price": "12000"
+      },
+      {
+        "item": "reinfchest:diamond_chest",
+        "price": "76000"
+      },
+      {
+        "item": "colossalchests:chest_wall_wood",
+        "price": "230"
+      },
+      {
+        "item": "colossalchests:colossal_chest_wood",
+        "price": "800"
+      },
+      {
+        "item": "colossalchests:interface_wood",
+        "price": "230"
+      },
+      {
+        "item": "colossalchests:upgrade_tool",
+        "price": "230"
+      },
+      {
+        "item": "botanypots:terracotta_botany_pot",
+        "price": "50"
+      },
+      {
+        "item": "botanypots:terracotta_hopper_botany_pot",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon_incubator:egg_incubator",
+        "price": "9000"
+      },
+      {
+        "item": "berrypouch:berry_pouch",
+        "price": "320"
       }
     ]
   }

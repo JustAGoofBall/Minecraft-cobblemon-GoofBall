@@ -1,0 +1,13 @@
+name = "Botany Pots Tiers"
+filename = "botanypotstiers-fabric-1.21.1-7.0.11.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fvMhZPuf/versions/UI3ooTkf/botanypotstiers-fabric-1.21.1-7.0.11.jar"
+hash-format = "sha512"
+hash = "a9e9275167a0414d11cd539c9e40b28988b93bdc33c1cd5463c9ef592dd39d98515b5bf033c5e7da1aa59d394a9677345ae6fce60c318ddceacd13a2a4127f74"
+
+[update]
+[update.modrinth]
+mod-id = "fvMhZPuf"
+version = "UI3ooTkf"
