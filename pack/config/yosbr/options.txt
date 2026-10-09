@@ -1,15 +1,21 @@
-resourcePacks:["fabric","cobbreeding:pasturefix","cobblemon:regionbiasforms","cobblemon:gyaradosjump","file/E19 Cobblemon Minimap Icons.zip","file/RCT Trainers+ [1.7] v2.2.zip","file/Battle Tracks v1.2.zip"]
+resourcePacks:["fabric","cobbreeding:pasturefix","cobblemon:regionbiasforms","cobblemon:gyaradosjump","file/FreshAnimations_v1.10.4.zip","file/Better-Leaves-9.6.zip","file/Emissive-Cobblemon-Ores-1.7.zip","file/Cobblemon Interface v1.6.0.zip","file/RCT Trainers+ [1.7] v2.2.zip","file/E19 Cobblemon Minimap Icons.zip","file/Battle Tracks v1.2.zip","file/Fast Better Grass.zip"]
 key_gui.xaero_open_map:key.keyboard.j
 key_gui.xaero_minimap_settings:key.keyboard.semicolon
 key_gui.xaero_new_waypoint:key.keyboard.comma
+key_gui.xaero_open_settings:key.keyboard.unknown
 key_key.mute_microphone:key.keyboard.i
+key_key.push_to_talk:key.keyboard.caps.lock
 key_key.hide_icons:key.keyboard.unknown
 key_key.disable_voice_chat:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
-key_key.toms_storage.open_terminal:key.keyboard.unknown
-key_key.travelersbackpack.cycle_tool:key.keyboard.unknown
+key_key.pokebadges.open_badgebox:key.keyboard.y
+key_key.toms_storage.open_terminal:key.keyboard.left.bracket
+key_key.refinedstorage.open_wireless_grid:key.keyboard.right.bracket
 key_key.refinedstorage.focus_search_bar:key.keyboard.unknown
+key_key.travelersbackpack.cycle_tool:key.keyboard.period
+key_key.cobblemonraiddens.accept:key.keyboard.enter
+key_key.cobblemonraiddens.deny:key.keyboard.backspace
 key_key.cobblemonraiddens.mouse:key.keyboard.right.alt
 renderDistance:10
 onboardAccessibility:false

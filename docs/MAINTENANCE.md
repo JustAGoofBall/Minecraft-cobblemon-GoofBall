@@ -153,3 +153,13 @@ Start with `-Dgoofball.skipSync=true` to skip steps 1–3.
 Files you want to ship, like default configs, go in `pack/` at the same place as in the Minecraft
 folder (e.g. `pack/config/jade/…`), then run `packwiz refresh`. Players get them in the `.mrpack`;
 the server launcher only writes them if the file doesn't exist yet.
+
+Files in `pack/config/` are overwritten each time a player imports a new `.mrpack`. For settings that
+players should be able to change themselves, use one of these first-launch-only defaults (they never
+overwrite an existing file):
+
+| File | What it sets |
+|---|---|
+| `pack/config/yosbr/options.txt` | Keybinds and enabled resource packs (YOSBR copies it to `options.txt`). Every `key_` line is checked against the defaults of all client mods so no two keys overlap; when you add a mod with keybinds, check **Show conflicts** in Controlling |
+| `pack/config/yosbr/config/…` | Any mod config, copied to `config/…` (now: `ReactiveMusic.json5`, which picks jor's songpack) |
+| `pack/defaultconfigs/xaero/minimap/default_radar_categories_client.json` | Xaero's entity radar: icons for everything, names for living entities. Xaero reads it when a player has no radar settings yet |

@@ -5,8 +5,16 @@ file = "config/shipped-servers.json"
 hash = "5d164e24ebac2c245bfd88a9a2d49fff63084be850042ef3dcedac65c336ea76"
 
 [[files]]
+file = "config/yosbr/config/ReactiveMusic.json5"
+hash = "a29232ed659b1b8a224a4b22b8f4402bd5265d9f3eec170458530a18654cbb9c"
+
+[[files]]
 file = "config/yosbr/options.txt"
-hash = "62892757728014c084cdce4d87c6a94bf85c541b95463e79474cbb15b69e04aa"
+hash = "67cdd53d359a29f040b9906d1b6a08af771f5b3810baf6e3db97416ab377db03"
+
+[[files]]
+file = "defaultconfigs/xaero/minimap/default_radar_categories_client.json"
+hash = "944ab9c4d89abd7176ca19c6603f5811cecb5dd42705e25143ac357388448132"
 
 [[files]]
 file = "mods/accessories.pw.toml"
