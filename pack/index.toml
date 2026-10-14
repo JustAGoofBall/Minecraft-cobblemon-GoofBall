@@ -642,6 +642,11 @@ hash = "9be64b33cd7338d94558a356a878ea49df6c9ea8308d9fb46ae2fc73cd87386f"
 metafile = true
 
 [[files]]
+file = "resourcepacks/complete-cobblemon-collection-legendary-spawns.pw.toml"
+hash = "92c90c5ef08f2afe73124c1950264f8ba0ce7ba5a415fb52ebe7120072873c54"
+metafile = true
+
+[[files]]
 file = "resourcepacks/e19_cobblemon_minimap_icons.pw.toml"
 hash = "af0b126cddc976becb8411d97ba35fd6c99586adf27dc813380843011f42423c"
 metafile = true
