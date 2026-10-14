@@ -1,0 +1,13 @@
+name = "Complete Cobblemon Collection (w Legendary Spawns)"
+filename = "CCC_2.21wLegendSpawns.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/578VPQc9/versions/I8bKErmB/CCC_2.21wLegendSpawns.zip"
+hash-format = "sha512"
+hash = "02142651b459a0ab02b81aa7e620377c68552eec366238b2dddda9df77c4330773a910a19821443ec4b333da829fc6774a66e0379a180c5e80449740e384b68d"
+
+[update]
+[update.modrinth]
+mod-id = "578VPQc9"
+version = "I8bKErmB"

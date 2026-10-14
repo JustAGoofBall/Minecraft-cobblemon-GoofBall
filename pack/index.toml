@@ -172,6 +172,11 @@ hash = "33ee6f1d39c83f1eb96104b2a7cfdbfaa670eb71fc30f7c028321a3e5ab98150"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-unique-legends.pw.toml"
+hash = "9c1a57ea182f24ea674b7acd522c823849bbd9e494f8f00c3585540cc7bd5dc8"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "4ee82c782d240cf3bce3c939203ddc4f331e80c1f8e499208370f53bbc9ba6f3"
 metafile = true
@@ -639,6 +644,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/cobblemon-music-pack.pw.toml"
 hash = "9be64b33cd7338d94558a356a878ea49df6c9ea8308d9fb46ae2fc73cd87386f"
+metafile = true
+
+[[files]]
+file = "resourcepacks/complete-cobblemon-collection-legendary-spawns.pw.toml"
+hash = "92c90c5ef08f2afe73124c1950264f8ba0ce7ba5a415fb52ebe7120072873c54"
 metafile = true
 
 [[files]]

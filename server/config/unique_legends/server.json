@@ -1,0 +1,94 @@
+{
+  "enabled": true,
+  "mode": "SPECIES",
+  "trackedPokemons": [],
+  "untrackedPokemons": [],
+  "trackedLabels": [
+    "legendary",
+    "mythical",
+    "ultra_beast",
+    "paradox"
+  ],
+  "untrackedLabels": [],
+  "ignoreLockIfShiny": false,
+  "evolutionUnlockMode": "TERMINAL",
+  "evolutionUnlockModeComment": "TERMINAL = unlock pre-evolutions when reaching final form. ACCUMULATE = keep all pre-evolutions locked forever.",
+  "captureLimitPerSpecies": 1,
+  "releaseOnInactive": false,
+  "inactiveDaysToRelease": 30,
+  "checkInactiveOnServerStart": true,
+  "checkInactiveIntervalMinutes": 60,
+  "scanExistingPokemonOnServerStart": true,
+  "scanExistingPokemonOnlyWhenRegistryEmpty": true,
+  "messages": {
+    "prefix": "&6[Unique Legends]&r ",
+    "blockCapture": "&cThis unique Pokemon already belongs to &e{owner}&c.",
+    "releasedByInactivity": "&eYour unique Pokemon &b{species}&e was released due to inactivity.",
+    "broadcastCapture": "&6{player}&e captured the unique Pokemon &b{species}&e.",
+    "captureTitle": "&6Unique Pokemon Captured",
+    "captureSubtitle": "&e{player}&7 claimed &b{species}",
+    "broadcastReleaseByInactivity": "&b{species}&e was released due to &6{owner}&e's inactivity.",
+    "releaseUnlocked": "&a{species}&7 was removed from the unique list because &e{player}&7 released it.",
+    "commandReload": "&aConfig and storage reloaded.",
+    "commandListEmpty": "&7No species are currently locked.",
+    "commandListEntry": "&b{species}&7 -> &e{owner}&7 (&8{pokemon_uuid}&7)",
+    "commandInfoUnlocked": "&b{species}&7 is not locked.",
+    "commandInfoEntry": "&b{species}&7 belongs to &e{owner}&7 (&8{owner_uuid}&7), Pokemon &8{pokemon_uuid}&7.",
+    "commandUnlockMissing": "&b{species}&7 was not registered.",
+    "commandUnlockSuccess": "&a{species}&7 was manually unlocked.",
+    "commandCheckInactive": "&aCheck complete.&7 Released: &e{released}&7.",
+    "commandScanSummary": "&aScan complete.&7 Players: &e{players}&7. Pokemon scanned: &e{scanned}&7. Registered: &e{registered}&7. Stale locks released: &e{stale_locks}&7. Owners updated: &e{ownership_updates}&7. Duplicates: &e{duplicates}&7.",
+    "commandScanDuplicate": "&cDuplicate:&7 {duplicate}",
+    "commandDebugStatus": "&7enabled=&e{enabled}&7, tracked=&e{tracked}&7, untracked=&e{untracked}&7, labels=&e{tracked_labels}&7, locks=&e{locks}&7",
+    "guiTitle": "&6Unique Legends &8- &7Page {page}/{pages}",
+    "guiSearchPlayerButtonName": "&eSearch by Player",
+    "guiSearchPlayerButtonLore": [
+      "&7Click and type a player name in chat.",
+      "&8Type cancel to stop searching."
+    ],
+    "guiSearchPokemonButtonName": "&bSearch by Pokemon",
+    "guiSearchPokemonButtonLore": [
+      "&7Click and type a Pokemon name in chat.",
+      "&8Type cancel to stop searching."
+    ],
+    "guiClearFilterButtonName": "&aShow All Locks",
+    "guiClearFilterButtonLore": [
+      "&7Clear the current search filter."
+    ],
+    "guiPreviousPageButtonName": "&ePrevious Page",
+    "guiPreviousPageButtonLore": [
+      "&7Go to page &e{target_page}&7."
+    ],
+    "guiNextPageButtonName": "&eNext Page",
+    "guiNextPageButtonLore": [
+      "&7Go to page &e{target_page}&7."
+    ],
+    "guiPageInfoName": "&6Page {page}/{pages}",
+    "guiPageInfoLore": [
+      "&7Showing &e{shown}&7 of &e{total}&7 locked unique Pokemon.",
+      "&7Filter: &f{filter}"
+    ],
+    "guiNoLocksName": "&cNo Locks Found",
+    "guiNoLocksLore": [
+      "&7No unique Pokemon match this view."
+    ],
+    "guiLockedPokemonName": "&b{species}",
+    "guiLockedPokemonLore": [
+      "&7Owner: &e{owner}",
+      "&7Owner UUID: &8{owner_uuid}",
+      "&7Pokemon UUID: &8{pokemon_uuid}",
+      "&7Captured: &f{captured_at}",
+      "&7Last seen: &f{last_seen_at}"
+    ],
+    "guiSearchPromptPlayer": "&eType the player name in chat to filter unique locks. &7Type &ccancel&7 to stop.",
+    "guiSearchPromptPokemon": "&eType the Pokemon name in chat to filter unique locks. &7Type &ccancel&7 to stop.",
+    "guiSearchCancelled": "&7Search cancelled.",
+    "guiFilterAll": "All",
+    "guiFilterPlayer": "Player: {query}",
+    "guiFilterPokemon": "Pokemon: {query}"
+  },
+  "broadcastCapture": true,
+  "titleBroadcastCapture": true,
+  "broadcastReleaseByInactivity": true,
+  "debug": false
+}
