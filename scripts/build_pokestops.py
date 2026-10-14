@@ -61,18 +61,19 @@ C = lambda n: f"cobblemon:{n}"
 heals = [item(C(n), 25) for n in ("antidote", "paralyze_heal", "awakening", "burn_heal", "ice_heal")]
 berries = [item(C("oran_berry"), 40, 1, 3)] + [item(C(n), 25, 1, 2)
            for n in ("razz_berry", "pinap_berry", "nanab_berry", "pecha_berry", "cheri_berry")]
+coins = [item(C("relic_coin"), 20, 1, 2)]  # Gimmighoul coins
 potions = [item(C("potion"), 50), item(C("super_potion"), 30), item(C("hyper_potion"), 8)]
 
 TABLES = {
     # general stop: balls, medicine, berries, a little candy
     "pokestop_loot": table(
         [item(C("poke_ball"), 50, 1, 3), item(C("great_ball"), 30), item(C("ultra_ball"), 8),
-         *potions, *heals, *berries, item(C("revive"), 10), item(C("exp_candy_xs"), 20),
+         *potions, *heals, *berries, *coins, item(C("revive"), 10), item(C("exp_candy_xs"), 20),
          item(C("pp_up"), 5), item(C("exp_candy_s"), 4)], 0.08, 0.004),
     # winged stop: ancient balls and berries, slightly better TM chance
     "wingedstop_loot": table(
         [item(C("ancient_poke_ball"), 50, 1, 2), item(C("ancient_great_ball"), 25),
-         item(C("ancient_ultra_ball"), 8), *potions, *berries, item(C("revive"), 10),
+         item(C("ancient_ultra_ball"), 8), *potions, *berries, *coins, item(C("revive"), 10),
          item(C("exp_candy_xs"), 20), item(C("exp_candy_s"), 4)], 0.10, 0.004),
     # pokeball stop: ball variety (no Master Ball)
     "pokeballstop_loot": table(

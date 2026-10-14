@@ -162,6 +162,21 @@
         },
         {
           "type": "minecraft:item",
+          "name": "cobblemon:relic_coin",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "cobblemon:revive",
           "weight": 10
         },
