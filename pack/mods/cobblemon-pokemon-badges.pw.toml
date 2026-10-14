@@ -1,0 +1,13 @@
+name = "Cobblemon Pokemon Badges"
+filename = "cobblemonpokemonbadges-fabric-0.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pPldOOeY/versions/LFfopB1R/cobblemonpokemonbadges-fabric-0.1.1.jar"
+hash-format = "sha512"
+hash = "13962aa463c8ec02ca490b6e0e1b475990f5a80ab921fb361ed864802562a0a5325d41779060e3a7e32fa43aec3e0e2a9b90fb5f940b6b4088e7b6639cfc03c9"
+
+[update]
+[update.modrinth]
+mod-id = "pPldOOeY"
+version = "LFfopB1R"
