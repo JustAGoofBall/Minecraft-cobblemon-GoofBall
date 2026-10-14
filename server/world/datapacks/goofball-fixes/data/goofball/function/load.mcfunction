@@ -6,3 +6,4 @@ gamerule doPatrolSpawning false
 gamerule doTraderSpawning false
 gamerule doInsomnia false
 schedule function goofball:remove_vanilla_mobs 100t replace
+schedule function goofball:arena_place 200t replace

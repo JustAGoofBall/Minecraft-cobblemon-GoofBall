@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:dark_forest",
+    "minecraft:cherry_grove",
+    "#minecraft:is_taiga"
+  ]
+}

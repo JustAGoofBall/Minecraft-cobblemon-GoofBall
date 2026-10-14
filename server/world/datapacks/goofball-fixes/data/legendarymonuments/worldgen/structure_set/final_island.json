@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 6038999912,
+    "separation": 100,
+    "spacing": 150
+  },
+  "structures": [
+    {
+      "structure": "legendarymonuments:final_island",
+      "weight": 1
+    }
+  ]
+}
