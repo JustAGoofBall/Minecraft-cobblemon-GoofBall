@@ -113,8 +113,11 @@ def build_biomes(opp):
         m = re.match(r"data/([^/]+)/worldgen/structure/(pokemon_stadium_.+)\.json$", n)
         if m:
             d = json.loads(opp.read(n))
-            d["biomes"] = STADIUM_BIOMES
+            # a HolderSet is either one "#tag" or a list of plain ids: tags in a list are invalid
+            d["biomes"] = "#cobblemonopponents:pokemon_stadium_biomes"
             write_json(DP / f"data/{m.group(1)}/worldgen/structure/{m.group(2)}.json", d)
+    write_json(DP / "data/cobblemonopponents/tags/worldgen/biome/pokemon_stadium_biomes.json",
+               {"values": STADIUM_BIOMES})
 
 
 # ---------------------------------------------------------------- arena (structure NBT)
