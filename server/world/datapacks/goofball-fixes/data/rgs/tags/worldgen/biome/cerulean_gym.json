@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": [
+    "#minecraft:is_beach",
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "minecraft:stony_shore",
+    "minecraft:lukewarm_ocean",
+    "minecraft:warm_ocean"
+  ]
+}

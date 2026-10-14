@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 220402,
+    "separation": 100,
+    "spacing": 150
+  },
+  "structures": [
+    {
+      "structure": "legendarymonuments:crown_shrine",
+      "weight": 1
+    }
+  ]
+}

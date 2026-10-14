@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 34778512,
+    "separation": 100,
+    "spacing": 150
+  },
+  "structures": [
+    {
+      "structure": "legendarymonuments:spear_pillar",
+      "weight": 1
+    }
+  ]
+}

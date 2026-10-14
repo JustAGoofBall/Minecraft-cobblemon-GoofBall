@@ -1,0 +1,31 @@
+{
+  "structures": [
+    {
+      "structure": "cobblemonopponents:pokemon_stadium_cynthia",
+      "weight": 1
+    },
+    {
+      "structure": "cobblemonopponents:pokemon_stadium_lance",
+      "weight": 1
+    },
+    {
+      "structure": "cobblemonopponents:pokemon_stadium_n",
+      "weight": 1
+    },
+    {
+      "structure": "cobblemonopponents:pokemon_stadium_steven",
+      "weight": 1
+    },
+    {
+      "structure": "cobblemonopponents:pokemon_stadium_geeta",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1247265,
+    "spacing": 150,
+    "separation": 100,
+    "spread_type": "triangular"
+  }
+}
