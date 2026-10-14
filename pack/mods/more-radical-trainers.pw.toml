@@ -1,0 +1,13 @@
+name = "More Radical Trainers: SV"
+filename = "more-radical-trainers-1.8.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kXl4B00S/versions/IkRVN81d/more-radical-trainers-1.8.1.jar"
+hash-format = "sha512"
+hash = "f5e8ebd3fd8696ef39556b2550c6f23858dfb216653713397c84c885b4289b042f8599c3c46ec935d0b611c559b6ccc846a8803c878e4bf87d4a8b043373c885"
+
+[update]
+[update.modrinth]
+mod-id = "kXl4B00S"
+version = "IkRVN81d"

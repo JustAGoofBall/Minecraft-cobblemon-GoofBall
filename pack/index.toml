@@ -177,6 +177,11 @@ hash = "e9f2b8b147dd42077d1c4dea2e2c8903769e01a35554fa2f1f03c5a5c42843f2"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-pokemon-badges.pw.toml"
+hash = "f9fca804b47d62948dc79c800723fa4e2e8d114171af6c19c901a59b99fbb073"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-pokenav.pw.toml"
 hash = "beef877ae05ddf412ce68470a80c59fa7fcf66e4eea2aaecdf267e84925c6822"
 metafile = true
@@ -422,6 +427,11 @@ hash = "1f535387821f4162b951a8cdd79f2dd56cd70c9fb2de4f41bd4d8e973c59216f"
 metafile = true
 
 [[files]]
+file = "mods/more-radical-trainers.pw.toml"
+hash = "070cd04c1d52b913c95837f3cdfd4cb2781cc5528389dd5c23efc86935f92f5f"
+metafile = true
+
+[[files]]
 file = "mods/moreculling.pw.toml"
 hash = "8d013469f5b94e1150927ef3c8d985070222fa61f8c7122173304ffb80363c40"
 metafile = true
@@ -474,6 +484,16 @@ metafile = true
 [[files]]
 file = "mods/radical-gyms-cobblemon.pw.toml"
 hash = "72e3e06137eb1eaa5cc5beed861303e89ff1a9e22825661ecae947c1970a537f"
+metafile = true
+
+[[files]]
+file = "mods/rct-addon-toppoh-league.pw.toml"
+hash = "ca4995d390ef5c98e6fdfcdcf982e884524a388e140f94677ecffe82e504e3ca"
+metafile = true
+
+[[files]]
+file = "mods/rct-capturecap.pw.toml"
+hash = "02e135e48209c0a965c1f682352bae11af1369f6c685e72358a79bf0a3d94f4e"
 metafile = true
 
 [[files]]
