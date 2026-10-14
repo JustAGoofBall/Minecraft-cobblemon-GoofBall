@@ -1,0 +1,6 @@
+#Cooldown Settings (seconds, per player per stop)
+[cooldownSettings]
+	pokestops = 1800
+	wingedstops = 1800
+	pokeballstops = 1800
+	healingstops = 600

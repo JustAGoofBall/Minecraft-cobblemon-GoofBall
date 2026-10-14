@@ -1,0 +1,13 @@
+name = "Cobblemon Pokestops"
+filename = "cobblemon-pokestops-fabric-1.10.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3clcaaoH/versions/h1WQZBkq/cobblemon-pokestops-fabric-1.10.1.jar"
+hash-format = "sha512"
+hash = "10c3536c3c8dd7d7eac945a4cbebed71c820295874d3391d6f2e0b84e4ec4a51adfc769537326e6293065b7420575fa036fc5424b6d135a52fa48428e7cf8810"
+
+[update]
+[update.modrinth]
+mod-id = "3clcaaoH"
+version = "h1WQZBkq"

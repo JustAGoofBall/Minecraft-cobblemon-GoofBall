@@ -187,8 +187,8 @@ hash = "beef877ae05ddf412ce68470a80c59fa7fcf66e4eea2aaecdf267e84925c6822"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-pokestop.pw.toml"
-hash = "58a3a77f8e15753773821b5bf895ce53030cd35043c74611e4e979b3065f9346"
+file = "mods/cobblemon-pokestops.pw.toml"
+hash = "2d9e23cc31729e49b5076fbc785629b40c90836168bd81098558bb683efd7070"
 metafile = true
 
 [[files]]
@@ -399,6 +399,11 @@ metafile = true
 [[files]]
 file = "mods/lootrmon.pw.toml"
 hash = "942152b427795abe9456546d323d0f90d1dbe7692200874ca2dd76da8f265ad3"
+metafile = true
+
+[[files]]
+file = "mods/matthiesen-core.pw.toml"
+hash = "c79a63c28d4be2d3c0e7886b27ed0bf65d1c1a48ab6b677be22e6a3d27262004"
 metafile = true
 
 [[files]]
