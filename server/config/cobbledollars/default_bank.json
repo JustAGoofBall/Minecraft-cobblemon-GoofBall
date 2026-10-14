@@ -1400,6 +1400,18 @@
     "price": "470"
   },
   {
+    "item": "cobblemon:relic_coin",
+    "price": "22"
+  },
+  {
+    "item": "cobblemon:relic_coin_pouch",
+    "price": "198"
+  },
+  {
+    "item": "cobblemon:relic_coin_sack",
+    "price": "1782"
+  },
+  {
     "item": "cobblemon:ribbon_sweet",
     "price": "85"
   },
