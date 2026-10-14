@@ -187,6 +187,11 @@ hash = "beef877ae05ddf412ce68470a80c59fa7fcf66e4eea2aaecdf267e84925c6822"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-pokestop.pw.toml"
+hash = "58a3a77f8e15753773821b5bf895ce53030cd35043c74611e4e979b3065f9346"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-safepastures.pw.toml"
 hash = "77b3aabe7668b9f4e8e16ba1ed5b352cc388bbc732b7c86b0ce9cde41b0a362c"
 metafile = true
