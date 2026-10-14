@@ -1,10 +1,18 @@
 {
-  "cooldownSeconds": 1800,
+  "cooldownSeconds": 2700,
   "rewards": [
-    { "item": "cobblemon:poke_ball",     "min": 1, "max": 3, "roll": 1 },
-    { "item": "cobblemon:great_ball",    "min": 1, "max": 1, "roll": 1 },
-    { "item": "cobblemon:potion",        "min": 1, "max": 2, "roll": 1 },
-    { "item": "cobblemon:oran_berry",    "min": 1, "max": 3, "roll": 1 },
-    { "item": "cobblemon:exp_candy_xs",  "min": 1, "max": 1, "roll": 1 }
+    { "item": "cobblemon:poke_ball",    "min": 1, "max": 3, "roll": 1 },
+    { "item": "cobblemon:great_ball",   "min": 1, "max": 1, "roll": 1 },
+    { "item": "cobblemon:potion",       "min": 1, "max": 2, "roll": 1 },
+    { "item": "cobblemon:antidote",     "min": 1, "max": 1, "roll": 1 },
+    { "item": "cobblemon:paralyze_heal","min": 1, "max": 1, "roll": 1 },
+    { "item": "cobblemon:awakening",    "min": 1, "max": 1, "roll": 1 },
+    { "item": "cobblemon:burn_heal",    "min": 1, "max": 1, "roll": 1 },
+    { "item": "cobblemon:ice_heal",     "min": 1, "max": 1, "roll": 1 },
+    { "item": "cobblemon:oran_berry",   "min": 1, "max": 3, "roll": 1 },
+    { "item": "cobblemon:razz_berry",   "min": 1, "max": 2, "roll": 1 },
+    { "item": "cobblemon:pinap_berry",  "min": 1, "max": 2, "roll": 1 },
+    { "item": "cobblemon:nanab_berry",  "min": 1, "max": 2, "roll": 1 },
+    { "item": "cobblemon:exp_candy_xs", "min": 1, "max": 1, "roll": 1 }
   ]
 }
