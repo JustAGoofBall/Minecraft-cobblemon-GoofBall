@@ -1,0 +1,13 @@
+name = "RCT Addon - Toppoh League Radical Cobblemon Trainers"
+filename = "rct-addon-toppoh-league-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/UJPeGd10/versions/9GQyOp3l/rct-addon-toppoh-league-1.2.1.jar"
+hash-format = "sha512"
+hash = "ba9e6661fe33311589586d3c1e1d28eaffd853007686707a3c806500c4e5a9e5c75136003a4a300491449acc4a301d718afde393efe23c6d8812dcac48128d51"
+
+[update]
+[update.modrinth]
+mod-id = "UJPeGd10"
+version = "9GQyOp3l"
