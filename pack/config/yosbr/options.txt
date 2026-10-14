@@ -25,3 +25,4 @@ onboardAccessibility:false
 skipMultiplayerWarning:true
 tutorialStep:none
 joinedFirstServer:true
+key_key.stickyfingers.mode:key.keyboard.semicolon
