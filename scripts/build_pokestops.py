@@ -2,7 +2,7 @@
 """Generate the Cobblemon Pokestops loot-table overrides (goofball-fixes datapack).
 
 Each stop gives 1-2 items from a weighted common pool, plus small independent
-chances (random_chance) at a TM and at a mega stone. Mega stones are on the
+chances (random_chance) at a TM, a mega stone, a Blank-Z and legend items. Mega stones are on the
 economy never_sell list and TMs are not in the bank, so none of it can be sold.
 """
 import json, pathlib
@@ -26,6 +26,14 @@ pidgeotite pinsirite sableye_placeholder salamencite sceptilite scizorite sharpe
 slowbronite steelixite swampertite tyranitarite venusaurite""".split()
 MEGA = [m for m in MEGA if "placeholder" not in m]
 
+# Ingredients that legendary summons / forms need (Legendary Monuments + Mega Showdown).
+# Both namespaces are on the economy never_sell list, so none of this can be sold.
+LEGEND_ITEMS = ["legendarymonuments:" + n for n in (
+    "lightstone_shard", "darkstone_shard", "iceroot_carrot", "special_spices",
+    "special_leafy_greens", "special_meat_chunks", "meltan_candy", "galar_particle",
+    "golem_scrap")] + ["mega_showdown:" + n for n in (
+    "soul_dew", "gracidea_flower", "reveal_glass", "prison_bottle")]
+
 def item(name, weight, lo=1, hi=1):
     e = {"type": "minecraft:item", "name": name, "weight": weight}
     if (lo, hi) != (1, 1):
@@ -33,7 +41,7 @@ def item(name, weight, lo=1, hi=1):
                            "count": {"type": "minecraft:uniform", "min": lo, "max": hi}}]
     return e
 
-def table(common, tm_chance, mega_chance):
+def table(common, tm_chance, mega_chance, blank_z_chance=0.01, legend_chance=0.02):
     tm_entries = [{"type": "minecraft:item", "name": "cobblemon:technical_machine",
                    "functions": [{"function": "minecraft:set_components",
                                   "components": {"cobblemon:tm_move": {"move": m}}}]}
@@ -43,7 +51,11 @@ def table(common, tm_chance, mega_chance):
     return {"type": "minecraft:chest", "pools": [
         {"rolls": 1, "bonus_rolls": 0.6, "entries": common},
         {"rolls": 1, "conditions": chance(tm_chance), "entries": tm_entries},
-        {"rolls": 1, "conditions": chance(mega_chance), "entries": mega_entries}]}
+        {"rolls": 1, "conditions": chance(mega_chance), "entries": mega_entries},
+        {"rolls": 1, "conditions": chance(blank_z_chance),
+         "entries": [{"type": "minecraft:item", "name": "mega_showdown:blank_z"}]},
+        {"rolls": 1, "conditions": chance(legend_chance),
+         "entries": [{"type": "minecraft:item", "name": n} for n in LEGEND_ITEMS]}]}
 
 C = lambda n: f"cobblemon:{n}"
 heals = [item(C(n), 25) for n in ("antidote", "paralyze_heal", "awakening", "burn_heal", "ice_heal")]
@@ -56,12 +68,12 @@ TABLES = {
     "pokestop_loot": table(
         [item(C("poke_ball"), 50, 1, 3), item(C("great_ball"), 30), item(C("ultra_ball"), 8),
          *potions, *heals, *berries, item(C("revive"), 10), item(C("exp_candy_xs"), 20),
-         item(C("pp_up"), 5), item(C("exp_candy_s"), 4)], 0.04, 0.004),
+         item(C("pp_up"), 5), item(C("exp_candy_s"), 4)], 0.08, 0.004),
     # winged stop: ancient balls and berries, slightly better TM chance
     "wingedstop_loot": table(
         [item(C("ancient_poke_ball"), 50, 1, 2), item(C("ancient_great_ball"), 25),
          item(C("ancient_ultra_ball"), 8), *potions, *berries, item(C("revive"), 10),
-         item(C("exp_candy_xs"), 20), item(C("exp_candy_s"), 4)], 0.06, 0.004),
+         item(C("exp_candy_xs"), 20), item(C("exp_candy_s"), 4)], 0.10, 0.004),
     # pokeball stop: ball variety (no Master Ball)
     "pokeballstop_loot": table(
         [item(C("poke_ball"), 40, 1, 3),
@@ -69,7 +81,7 @@ TABLES = {
          *[item(C(n), 20) for n in ("friend_ball", "dive_ball", "lure_ball", "nest_ball")],
          *[item(C(n), 8) for n in ("heavy_ball", "quick_ball", "dusk_ball", "premier_ball",
                                     "ultra_ball", "timer_ball", "luxury_ball", "level_ball",
-                                    "sport_ball", "fast_ball", "park_ball")]], 0.03, 0.003),
+                                    "sport_ball", "fast_ball", "park_ball")]], 0.06, 0.003),
 }
 
 if __name__ == "__main__":

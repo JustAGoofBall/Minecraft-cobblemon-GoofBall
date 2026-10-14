@@ -187,7 +187,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.04
+          "chance": 0.08
         }
       ],
       "entries": [
@@ -1071,6 +1071,84 @@
         {
           "type": "minecraft:item",
           "name": "mega_showdown:venusaurite"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.01
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:blank_z"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.02
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:lightstone_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:darkstone_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:iceroot_carrot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:special_spices"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:special_leafy_greens"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:special_meat_chunks"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:meltan_candy"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:galar_particle"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarymonuments:golem_scrap"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:soul_dew"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:gracidea_flower"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:reveal_glass"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:prison_bottle"
         }
       ]
     }
