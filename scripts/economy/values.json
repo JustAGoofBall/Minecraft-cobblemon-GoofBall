@@ -532,7 +532,12 @@
     {
       "match": "cobblemon:relic_coin",
       "value": 4.5,
-      "_note": "blasts into a gold nugget"
+      "bank": "Evolution",
+      "_note": "blasts into a gold nugget; sells like one (Gimmighoul coins)"
+    },
+    {
+      "match": "re:cobblemon:relic_coin_(pouch|sack)",
+      "bank": "Evolution"
     },
     {
       "match": "re:cobblemon:(sweet_apple|syrupy_apple|tart_apple)",

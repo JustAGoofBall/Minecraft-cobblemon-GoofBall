@@ -1,0 +1,13 @@
+name = "Cobblemon Move Dex"
+filename = "CobblemonMoveDex-1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/tWd2nw8o/versions/P6scgczb/CobblemonMoveDex-1.2.jar"
+hash-format = "sha512"
+hash = "f32b065599b7ab9429ab3c83ec79b95bc3f5d0e5dd999d01065863c69c39519e0a0e6b8e92a1349a55391e2d3d67c02a232d9c5774f5a13cc21d94603511ca6d"
+
+[update]
+[update.modrinth]
+mod-id = "tWd2nw8o"
+version = "P6scgczb"
