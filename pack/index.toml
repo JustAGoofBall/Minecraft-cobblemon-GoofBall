@@ -172,6 +172,11 @@ hash = "33ee6f1d39c83f1eb96104b2a7cfdbfaa670eb71fc30f7c028321a3e5ab98150"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-unique-legends.pw.toml"
+hash = "9c1a57ea182f24ea674b7acd522c823849bbd9e494f8f00c3585540cc7bd5dc8"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "4ee82c782d240cf3bce3c939203ddc4f331e80c1f8e499208370f53bbc9ba6f3"
 metafile = true
