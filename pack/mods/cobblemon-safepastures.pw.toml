@@ -1,0 +1,13 @@
+name = "Cobblemon: SafePastures"
+filename = "SafePastures(Fabric)-1.1.2+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qpe01spE/versions/gHHJ8bPf/SafePastures%28Fabric%29-1.1.2%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "98cb6f77b8aeb8f5754ebec229f6fe4b92482124d94825deafb0bac093c1fc5860a8d0545b582bfeeb683dbf41e0748470e87df4fbab45df4173a45ffb2eeb92"
+
+[update]
+[update.modrinth]
+mod-id = "qpe01spE"
+version = "gHHJ8bPf"

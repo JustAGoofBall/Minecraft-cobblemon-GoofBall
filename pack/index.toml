@@ -97,6 +97,16 @@ hash = "24a70bb68313d67594a842d664d9e2672e9495b3a7613410c8f9fd65a68dc114"
 metafile = true
 
 [[files]]
+file = "mods/catch-indicator.pw.toml"
+hash = "0b3f5077664c6c6a37f2f8b511c7d5f69afad78c707803a9ace94b0fbddab1e1"
+metafile = true
+
+[[files]]
+file = "mods/catch-rate-display.pw.toml"
+hash = "aab58784abf7244373810eff5b06a8f870cbdc9c951fa6afaed0e2015291263f"
+metafile = true
+
+[[files]]
 file = "mods/chipped.pw.toml"
 hash = "a4d21da45c40e8f1e3b76c9855ea3f1c15736cf2b12475e9de3efd05f8f48a8d"
 metafile = true
@@ -132,8 +142,18 @@ hash = "5ddeb6f55fc1e3ccf36bd3733768ff64337e5531b018a05668c7e9d42f3c2b19"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-better-pokedex-scanner.pw.toml"
+hash = "179d0dad1ee055fed8953f256d5160ad2925ea6535f5fa6f55e90f6544029da1"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-botany-pots.pw.toml"
 hash = "180c46a241f32b5908bb727645952a0bf59141a568bb180b2625d17af0d88b03"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-box-link.pw.toml"
+hash = "32b6ea31b754b523f8c46822279d6672e3577e56b30aa00b2651102797249feb"
 metafile = true
 
 [[files]]
@@ -152,8 +172,28 @@ hash = "ee057daa85d289dc2a860fcb7108d19d4b355235348498de63892daa262ec277"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-move-inspector.pw.toml"
+hash = "4e76f090124a1b285a0ab9b09e3233c2f381ebdde6bc329c41a2c1b613ed6a0c"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-party-extras.pw.toml"
+hash = "e9f2b8b147dd42077d1c4dea2e2c8903769e01a35554fa2f1f03c5a5c42843f2"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-pokenav.pw.toml"
 hash = "beef877ae05ddf412ce68470a80c59fa7fcf66e4eea2aaecdf267e84925c6822"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-safepastures.pw.toml"
+hash = "77b3aabe7668b9f4e8e16ba1ed5b352cc388bbc732b7c86b0ce9cde41b0a362c"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-smartphone.pw.toml"
+hash = "47cc2d9782a11845c5869dd5868d5d03323ad9e4b2ca215278e9bcb6944f275d"
 metafile = true
 
 [[files]]
@@ -172,6 +212,11 @@ hash = "33ee6f1d39c83f1eb96104b2a7cfdbfaa670eb71fc30f7c028321a3e5ab98150"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-ui-tweaks.pw.toml"
+hash = "4d08fa48ec55d9238c9144f82d812aae1b8bd1e66dc16a0374ec8df94d4b5eb3"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-unique-legends.pw.toml"
 hash = "9c1a57ea182f24ea674b7acd522c823849bbd9e494f8f00c3585540cc7bd5dc8"
 metafile = true
@@ -184,6 +229,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemoneditor.pw.toml"
 hash = "9dd07fa7d5ba4600d191de9f6d88a57343eb7ab65126610ef375ebd52e5b9f75"
+metafile = true
+
+[[files]]
+file = "mods/cobblemonmovedex.pw.toml"
+hash = "900bb3c60f4d94fc1af4c76b034469706d34264fab64e4a45ff53fcbee66eef4"
 metafile = true
 
 [[files]]
