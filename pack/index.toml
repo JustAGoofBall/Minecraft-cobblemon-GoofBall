@@ -10,7 +10,7 @@ hash = "a29232ed659b1b8a224a4b22b8f4402bd5265d9f3eec170458530a18654cbb9c"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "f438b783f6d896efc41f84b38535af5292ee613a763786aa88b5d9f12d2b6b25"
+hash = "964a14bac31acec7d88dfb8791c2974164095a18c9c7700af188ccc9ae0efa4f"
 
 [[files]]
 file = "defaultconfigs/xaero/minimap/default_radar_categories_client.json"
@@ -557,6 +557,11 @@ hash = "f2b1e5e03c75404e88144da6bc7552ecd85a198ff40b5da89f8253578d09e6b6"
 metafile = true
 
 [[files]]
+file = "mods/smelting-enchantment.pw.toml"
+hash = "db5c25d307081f757a3a89c2c2c09817a834acb7f72292b7e81e83550d1a478e"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "3d74d987e377deef32d3971d7c1260cb7bb68ce8bc930f80ed4d9ea3073a35f3"
 metafile = true
@@ -574,6 +579,11 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "f03452b38a7ce73431c647b772f11051d30bb23891f6dfba1173a65319f4d7ac"
+metafile = true
+
+[[files]]
+file = "mods/sticky-fingers.pw.toml"
+hash = "22d8ca26c0af8214feb35c95f8aafbd438e40eac4dfb9a10b90d75e646645528"
 metafile = true
 
 [[files]]

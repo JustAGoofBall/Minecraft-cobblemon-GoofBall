@@ -1,0 +1,13 @@
+name = "Smelting Enchantment"
+filename = "smelting-enchantment-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NhwceuDF/versions/rTwomfyF/smelting-enchantment-1.2.0.jar"
+hash-format = "sha512"
+hash = "07b271544ab32d9217614004efc3bf90ca33cf9030301116a279c2d4dcc9a4f3ad539167716469f54222fe36f3689f7af1d95450b3bacae55ed054c766b3b413"
+
+[update]
+[update.modrinth]
+mod-id = "NhwceuDF"
+version = "rTwomfyF"

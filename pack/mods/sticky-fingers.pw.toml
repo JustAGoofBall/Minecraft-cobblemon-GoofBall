@@ -1,0 +1,13 @@
+name = "Sticky Fingers"
+filename = "sticky-fingers-0.3.2-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mIp86VuA/versions/VrbiNAhc/sticky-fingers-0.3.2-1.21.1.jar"
+hash-format = "sha512"
+hash = "fab81bdfc3e4c0b350e5921d17f2114568eec066727860538a3e92226d3e6863e8ac8a994a5299bad023a0a2cc5e0ef522dfe1aa601d37f3a29348b810dc03fd"
+
+[update]
+[update.modrinth]
+mod-id = "mIp86VuA"
+version = "VrbiNAhc"
