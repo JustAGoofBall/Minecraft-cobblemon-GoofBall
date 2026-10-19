@@ -96,10 +96,13 @@ and run `/reload` (or restart). It contains:
 - a fix for Legendary Monuments 8.2: its battle-victory scripts crashed the server after beating any
   other NPC (RCT trainers). The Archie/Maxie/Mustard/Zinnia scripts also only set their
   `defeated` variable for their own NPC (guarded by that NPC's reward toggle). Remove the override when a Legendary Monuments update fixes it.
-- no vanilla mobs: `function/load.mcfunction` turns natural mob spawning off on every start, and
-  `remove_vanilla_mobs` drops the mobs in `tags/entity_type/removed_mobs.json` into the void every
-  5 seconds (also the ones that were already in the world). Spawner-block mobs, villagers, golems and
-  bosses are not in that list. Give a mob the tag `goofball_keep` to keep it.
+- no vanilla mobs (only villagers stay): the server-only mod **MobsBeGone** discards every new spawn of the
+  mobs in `server/config/mobsbegone-blacklist.json` (natural, spawner blocks, sculk shriekers, infested
+  blocks, spawn eggs, commands; also golems, the Ender Dragon and the Wither). It only sees new spawns, so
+  `remove_vanilla_mobs` still drops mobs that world generation saved in chunks (same list in
+  `tags/entity_type/removed_mobs.json`) into the void every 5 seconds, and `function/load.mcfunction`
+  turns natural mob spawning off. Keep both lists the same. Give a mob the tag `goofball_keep` to keep it
+  from the void function (MobsBeGone has no exceptions).
 - keep inventory: the same `load.mcfunction` sets `gamerule keepInventory false` (and `spawnChunkRadius 0`)
   on every start, because Gravestones places no grave while keepInventory is on. To change it for a running
   server use `/gamerule` in-game, and edit the file too. Gravestones' own settings are in
