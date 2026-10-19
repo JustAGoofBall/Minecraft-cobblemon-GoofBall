@@ -94,7 +94,8 @@ in-game (op) or restart. Run it again after adding or updating mods: new recipes
 Ships in the server zip as `world/datapacks/goofball-fixes`; on an existing server copy it there by hand
 and run `/reload` (or restart). It contains:
 - a fix for Legendary Monuments 8.2: its battle-victory scripts crashed the server after beating any
-  other NPC (RCT trainers). Remove the override when a Legendary Monuments update fixes it.
+  other NPC (RCT trainers). The Archie/Maxie/Mustard/Zinnia scripts also only set their
+  `defeated` variable for their own NPC (guarded by that NPC's reward toggle). Remove the override when a Legendary Monuments update fixes it.
 - no vanilla mobs: `function/load.mcfunction` turns natural mob spawning off on every start, and
   `remove_vanilla_mobs` drops the mobs in `tags/entity_type/removed_mobs.json` into the void every
   5 seconds (also the ones that were already in the world). Spawner-block mobs, villagers, golems and
