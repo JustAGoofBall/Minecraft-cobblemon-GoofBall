@@ -81,7 +81,7 @@ Players and the server must always use the **same version**.
 [Entity Culling](https://modrinth.com/mod/entityculling), [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast),
 [EMF](https://modrinth.com/mod/entity-model-features)/[ETF](https://modrinth.com/mod/entitytexturefeatures),
 [Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap) + [World Map](https://modrinth.com/mod/xaeros-world-map),
-[EMI](https://modrinth.com/mod/emi), [Mod Menu](https://modrinth.com/mod/modmenu),
+[EMI](https://modrinth.com/mod/emi) + [Refined Storage - EMI Integration](https://modrinth.com/mod/refined-storage-emi-integration) (recipe transfer into the RS Crafting Grid), [Mod Menu](https://modrinth.com/mod/modmenu),
 [Mouse Tweaks](https://modrinth.com/mod/mouse-tweaks), [Reactive Music](https://modrinth.com/mod/reactive-music),
 [YOSBR](https://modrinth.com/mod/yosbr) (default keybinds without key conflicts, first launch only),
 [Controlling](https://modrinth.com/mod/controlling) + [Searchables](https://modrinth.com/mod/searchables) (search keybinds, show conflicts),
