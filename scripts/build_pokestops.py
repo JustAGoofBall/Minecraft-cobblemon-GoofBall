@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the Cobblemon Pokestops loot-table overrides (goofball-fixes datapack).
 
-Each stop gives 1-2 items from a weighted common pool, plus small independent
+Each stop gives 3-5 items from a weighted common pool, plus small independent
 chances (random_chance) at a TM, a mega stone, a Blank-Z and legend items. Mega stones are on the
 economy never_sell list and TMs are not in the bank, so none of it can be sold.
 """
@@ -49,7 +49,8 @@ def table(common, tm_chance, mega_chance, blank_z_chance=0.01, legend_chance=0.0
     mega_entries = [{"type": "minecraft:item", "name": f"mega_showdown:{m}"} for m in MEGA]
     chance = lambda c: [{"condition": "minecraft:random_chance", "chance": c}]
     return {"type": "minecraft:chest", "pools": [
-        {"rolls": 1, "bonus_rolls": 0.6, "entries": common},
+        {"rolls": {"type": "minecraft:uniform", "min": 3, "max": 5}, "bonus_rolls": 0.6,
+         "entries": common},
         {"rolls": 1, "conditions": chance(tm_chance), "entries": tm_entries},
         {"rolls": 1, "conditions": chance(mega_chance), "entries": mega_entries},
         {"rolls": 1, "conditions": chance(blank_z_chance),

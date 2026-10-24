@@ -425,6 +425,11 @@ hash = "c1f064f5bd1b81425eb842aba64bb071a9ec68b61f9350ca4fe28c62d5adffff"
 metafile = true
 
 [[files]]
+file = "mods/mobsbegone.pw.toml"
+hash = "07dead0c8e36d9604c611c2c8d4f0c99f85410dfa0daf6f9a779747d9a6b86af"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "b9651d06e56ad51c1cdcf4b03b6a34328b7dc941f263ff92b189ee26a47cc224"
 metafile = true

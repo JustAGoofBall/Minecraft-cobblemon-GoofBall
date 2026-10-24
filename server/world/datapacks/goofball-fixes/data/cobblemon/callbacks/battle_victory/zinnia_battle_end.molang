@@ -1,4 +1,4 @@
-'GoofBall fix: Legendary Monuments 8.2 runs this for every NPC. NPCs without this config variable (RCT trainers) give 0 instead of a string and q.is_blank crashed the server.';
+'GoofBall fix: Legendary Monuments 8.2 runs this for every NPC. NPCs without this config variable (RCT trainers) give 0 instead of a string and q.is_blank crashed the server. The battle-repeat block is limited to this NPC (via its reward toggle): for RCT trainers !toggle_battle_repeat was true and set_npc_variable crashed on a non-NPC.';
 for_each(t.loser, c.npc_losers, {
   (t.loser.npc.config.quest_update_on_player_wins != 0 ? !q.is_blank(t.loser.npc.config.quest_update_on_player_wins) : 0) ? {
     for_each(t.player_winner, c.player_winners, {
@@ -10,7 +10,7 @@ for_each(t.loser, c.npc_losers, {
     });
   };
 
-  !t.loser.npc.config.toggle_battle_repeat ? {
+  (t.loser.npc.config.toggle_zinnia_battle_reward && !t.loser.npc.config.toggle_battle_repeat) ? {
     for_each(t.player_winner, c.player_winners, {
       v.player = t.player_winner.player;
       v.npc = t.loser.npc;
