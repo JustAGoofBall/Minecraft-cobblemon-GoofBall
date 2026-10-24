@@ -1,0 +1,29 @@
+'GoofBall: vanilla XP for won battles, because this server has no vanilla mobs. Each winning player gets ceil(level / 4) points per defeated wild Pokemon (also trial spawner Pokemon) and 25 points per defeated trainer or NPC. Nothing when the battle ended in a capture, and nothing for PvP losers. Numbers never go into the command text (they could print as 5.0): the points are given as repeated literal 10 and 1 point commands.';
+!c.was_wild_capture ? {
+  t.xp = 0;
+
+  for_each(t.wild, c.wild_pokemon_losers, {
+    t.lv = t.wild.level;
+    (t.lv < 1) ? { t.lv = 20; };
+    t.xp = t.xp + math.ceil(t.lv / 4);
+  });
+
+  t.trainers = 0;
+  for_each(t.loser, c.losers, {
+    !t.loser.is_wild ? { t.trainers = t.trainers + 1; };
+  });
+  t.trainers = t.trainers - q.length(c.player_losers);
+  (t.trainers > 0) ? { t.xp = t.xp + t.trainers * 25; };
+
+  (t.xp > 200) ? { t.xp = 200; };
+
+  (t.xp > 0) ? {
+    t.tens = math.floor(t.xp / 10);
+    t.ones = t.xp - t.tens * 10;
+    for_each(t.player_winner, c.player_winners, {
+      q.set_query('player', t.player_winner.player);
+      loop(t.tens, { q.run_command('xp add ' + q.player.username + ' 10 points'); });
+      loop(t.ones, { q.run_command('xp add ' + q.player.username + ' 1 points'); });
+    });
+  };
+};

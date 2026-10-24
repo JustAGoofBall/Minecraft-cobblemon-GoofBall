@@ -301,6 +301,10 @@
         {
           "item": "cobblemon:exp_share",
           "price": 250000
+        },
+        {
+          "item": "minecraft:experience_bottle",
+          "price": 300
         }
       ]
     },
