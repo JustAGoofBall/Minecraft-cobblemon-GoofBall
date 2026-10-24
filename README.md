@@ -58,6 +58,7 @@ Players and the server must always use the **same version**.
 | [YUNG's](https://modrinth.com/user/YUNGNICKYOUNG) Better Dungeons, Mineshafts, Strongholds, Desert/Jungle Temples, Witch Huts, Ocean Monuments, Nether Fortresses, End Island, Bridges, Extras | Reworked vanilla structures |
 | [Towns and Towers](https://modrinth.com/mod/towns-and-towers) | More village types and outposts |
 | [Dungeons and Taverns](https://modrinth.com/mod/dungeons-and-taverns) | Taverns, dungeons, ruins and more |
+| [Cobblemon Trials Edition](https://modrinth.com/mod/cobblemon-trials-edition) | Spawners in trial chambers, dungeons, mineshafts, fortresses, bastions, strongholds and ancient cities become Pokémon trial spawners (only in newly generated chunks) |
 | [Lootr](https://modrinth.com/mod/lootr) + [Lootrmon](https://modrinth.com/mod/lootrmon) | Every player gets their own loot from structure chests, including Cobblemon's gilded chests |
 
 ### Gameplay
