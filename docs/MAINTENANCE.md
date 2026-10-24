@@ -160,6 +160,6 @@ overwrite an existing file):
 
 | File | What it sets |
 |---|---|
-| `pack/config/yosbr/options.txt` | Keybinds and enabled resource packs (YOSBR copies it to `options.txt`). Every `key_` line is checked against the defaults of all client mods so no two keys overlap; when you add a mod with keybinds, check **Show conflicts** in Controlling |
-| `pack/config/yosbr/config/…` | Any mod config, copied to `config/…` (now: `ReactiveMusic.json5`, which picks jor's songpack) |
+| `pack/config/yosbr/options.txt` | Keybinds and enabled resource packs (YOSBR copies it to `options.txt`). Keep the `version:3955` line at the top: without it Minecraft treats the file as pre-1.13 and throws the whole file away (`Failed to load options`). Every `key_` line is checked against the defaults of all client mods so no two keys overlap; when you add a mod with keybinds, check **Show conflicts** in Controlling |
+| `pack/config/yosbr/config/…` | Any mod config, copied to `config/…` (now: `ReactiveMusic.json5`, which picks jor's songpack, and `durability-viewer.json`) |
 | `pack/defaultconfigs/xaero/minimap/default_radar_categories_client.json` | Xaero's entity radar: icons for everything, names for living entities. Xaero reads it when a player has no radar settings yet |

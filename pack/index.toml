@@ -9,8 +9,12 @@ file = "config/yosbr/config/ReactiveMusic.json5"
 hash = "a29232ed659b1b8a224a4b22b8f4402bd5265d9f3eec170458530a18654cbb9c"
 
 [[files]]
+file = "config/yosbr/config/durability-viewer.json"
+hash = "cd21aada6e998c7da4b5eb57a58c946426aa4ab73c1860cd6ee6f16930a2055d"
+
+[[files]]
 file = "config/yosbr/options.txt"
-hash = "964a14bac31acec7d88dfb8791c2974164095a18c9c7700af188ccc9ae0efa4f"
+hash = "0810c1a180faa247575beccde1c959acf5d63f5dbb8ffdf5fdfd36a32f39a998"
 
 [[files]]
 file = "defaultconfigs/xaero/minimap/default_radar_categories_client.json"

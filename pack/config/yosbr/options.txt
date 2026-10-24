@@ -1,3 +1,4 @@
+version:3955
 resourcePacks:["fabric","cobbreeding:pasturefix","cobblemon:regionbiasforms","cobblemon:gyaradosjump","file/FreshAnimations_v1.10.4.zip","file/Better-Leaves-9.6.zip","file/Emissive-Cobblemon-Ores-1.7.zip","file/Cobblemon Interface v1.6.0.zip","file/RCT Trainers+ [1.7] v2.2.zip","file/E19 Cobblemon Minimap Icons.zip","file/Battle Tracks v1.2.zip","file/Fast Better Grass.zip"]
 key_gui.xaero_open_map:key.keyboard.j
 key_gui.xaero_minimap_settings:key.keyboard.semicolon
@@ -26,3 +27,24 @@ skipMultiplayerWarning:true
 tutorialStep:none
 joinedFirstServer:true
 key_key.stickyfingers.mode:key.keyboard.n
+key_key.saveToolbarActivator:key.keyboard.unknown
+key_key.loadToolbarActivator:key.keyboard.unknown
+key_key.cobblemon_smartphone.open:key.keyboard.grave.accent
+key_key.cobblemon_smartphone.scanner:key.keyboard.c
+key_key.cobblemonboxlink.open_pc.desc:key.keyboard.x
+key_key.berrypouch.toggle_auto_berry:key.keyboard.backslash
+key_key.durabilityviewer.showhide:key.keyboard.keypad.3
+key_key.catchrate.toggle_hud:key.keyboard.keypad.4
+key_key.catchrate.show_comparison:key.keyboard.keypad.5
+key_key.jade.narrate:key.keyboard.unknown
+key_iris.keybind.toggleShaders:key.keyboard.k
+key_accessories.key.open_accessories_screen:key.keyboard.h
+key_key.travelersbackpack.inventory:key.keyboard.b
+key_gui.xaero_enlarge_map:key.keyboard.z
+key_gui.xaero_waypoints_key:key.keyboard.u
+key_gui.xaero_instant_waypoint:key.keyboard.keypad.add
+key_key.voice_chat:key.keyboard.v
+key_key.voice_chat_group:key.keyboard.g
+key_key.jade.config:key.keyboard.keypad.0
+key_key.jade.show_overlay:key.keyboard.keypad.1
+key_key.jade.toggle_liquid:key.keyboard.keypad.2
