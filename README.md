@@ -73,6 +73,7 @@ Players and the server must always use the **same version**.
 | [Farmer's Delight Refabricated](https://modrinth.com/mod/farmers-delight-refabricated) | Farming and cooking |
 | [OpenBlocks Elevator](https://modrinth.com/mod/openblocks-elevator-fabric) | Elevator blocks: jump to go up, sneak to go down |
 | [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat) | Proximity voice chat |
+| [Gravestones](https://modrinth.com/mod/pneumono_gravestones) + [PneumonoCore](https://modrinth.com/mod/pneumono_core) | A gravestone with your items and XP appears where you die (keep inventory is off) |
 | [Waystones](https://modrinth.com/mod/waystones) | Teleport between waystones you've discovered |
 | [Jade](https://modrinth.com/mod/jade), [AppleSkin](https://modrinth.com/mod/appleskin) | Info tooltips, hunger/saturation display |
 
