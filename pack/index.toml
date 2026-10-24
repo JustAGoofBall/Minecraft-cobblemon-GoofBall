@@ -291,6 +291,11 @@ hash = "447ec530620e3c0da62316cb3358e43c15132084aab22ba992fefac199ca92a9"
 metafile = true
 
 [[files]]
+file = "mods/durability-viewer-updated.pw.toml"
+hash = "3f931d9ea25b7b74bc9325e211e3f9da9b7121f749865ff1dd328073b55fd272"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "582070fa54fe1743a837c0351eee7ea4a79080e647d5438656d372ae9433b272"
 metafile = true
@@ -398,6 +403,11 @@ metafile = true
 [[files]]
 file = "mods/lootrmon.pw.toml"
 hash = "942152b427795abe9456546d323d0f90d1dbe7692200874ca2dd76da8f265ad3"
+metafile = true
+
+[[files]]
+file = "mods/malilib.pw.toml"
+hash = "4842a349ba8e18407a4e32ef184ad1d2a437ff8e5b0c158391b6225216b4b8ce"
 metafile = true
 
 [[files]]
