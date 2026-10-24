@@ -110,7 +110,7 @@ The minimap sits in the top-right corner. To move it, open the minimap settings 
 | What | How |
 |---|---|
 | Elevator | Stand on an elevator block: **jump** to go up, **sneak** to go down to the next elevator |
-| Storage | Tom's Simple Storage: connect chests with an *Inventory Connector* + *Storage Terminal*. Refined Storage: full digital storage network (no power needed). All parts are also for sale in a Cobble Merchant's **Storage** shop tab |
+| Storage | Tom's Simple Storage: connect chests with an *Inventory Connector* + *Storage Terminal*. Refined Storage: full digital storage network (no power needed); in its Crafting Grid, open a recipe in EMI and click the **+** button to fill the grid from your network (missing items can be autocrafted, see the preview). All parts are also for sale in a Cobble Merchant's **Storage** shop tab |
 | Pokémon jobs (Cobbleworkers) | Put Pokémon in a **Pasture Block** near crops, berries or apricorns and a chest; they harvest into the chest |
 | Money | CobbleDollars: earn money from battles, or sell almost anything you mine, farm or find at a Cobble Merchant (**Bank** tab). Spend it in the merchant's **Shop** and in the Casino Rocket machines. Selling gives at most a quarter of the shop price |
 | No vanilla mobs | Only Pokémon, trainers/NPCs and villagers. No cows, zombies or creepers, and no phantoms. Spawner blocks in dungeons and fortresses still work. Leather, wool, string, pearls and the like come from Pokémon drops, villagers and the merchant's shop |

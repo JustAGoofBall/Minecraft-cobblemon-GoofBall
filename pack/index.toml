@@ -530,6 +530,11 @@ hash = "f8c2abb9b0f43207b6fdfd96d9168aa35a4781034179e3a89b47f3f34c193ed9"
 metafile = true
 
 [[files]]
+file = "mods/refined-storage-emi-integration.pw.toml"
+hash = "64a66b8b0d7238f266d254e970a12947a00f43ce6e055c7e8b84b1384bcfb074"
+metafile = true
+
+[[files]]
 file = "mods/refined-storage.pw.toml"
 hash = "06af6f61d536f1049960f607ef87c6858480a89ce758007b4e27718a845ed415"
 metafile = true

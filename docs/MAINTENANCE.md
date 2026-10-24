@@ -56,6 +56,8 @@ If you edited `side` by hand, run `packwiz refresh`.
   When chunks unload, for example during pre-generation, the server thread then waits forever and the
   watchdog kills the server after 60 s. Before unpinning a newer version (`packwiz unpin cobblemonraiddens`),
   run the pre-generation test below and check that the server doesn't crash.
+- Mods that hard-depend on a client-only mod must be client-only too: *Refined Storage - EMI Integration* requires EMI,
+  which the server doesn't have, so it is `side = "client"` even though Modrinth lists it as server-required.
 - Performance/admin mods that players don't need (C2ME, ServerCore, Let Me Despawn, Chunky, spark) get
   `side = "server"`.
 
