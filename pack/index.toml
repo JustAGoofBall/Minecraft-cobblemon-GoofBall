@@ -485,6 +485,16 @@ hash = "2b8ac8de79c5561e98265a274dd19081f0de540b1cb5cd3c2151f31a9402ee13"
 metafile = true
 
 [[files]]
+file = "mods/pneumono_core.pw.toml"
+hash = "9be080be11214e809cb69d400e69ccd20f535835c02acfe49aed61dfecb2c619"
+metafile = true
+
+[[files]]
+file = "mods/pneumono_gravestones.pw.toml"
+hash = "e87eb7f513d2d0f6b5f3a98bac1e51d249f5a69a140808ebb04d5495cada262a"
+metafile = true
+
+[[files]]
 file = "mods/pokebadges.pw.toml"
 hash = "73164a5461a361e2651bd38a2678cafa8746f326952f7b331f8810b1052ea71f"
 metafile = true

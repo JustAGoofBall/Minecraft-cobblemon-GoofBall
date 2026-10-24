@@ -114,7 +114,7 @@ The minimap sits in the top-right corner. To move it, open the minimap settings 
 | Pokémon jobs (Cobbleworkers) | Put Pokémon in a **Pasture Block** near crops, berries or apricorns and a chest; they harvest into the chest |
 | Money | CobbleDollars: earn money from battles, or sell almost anything you mine, farm or find at a Cobble Merchant (**Bank** tab). Spend it in the merchant's **Shop** and in the Casino Rocket machines. Selling gives at most a quarter of the shop price |
 | No vanilla mobs | Only Pokémon, trainers/NPCs and villagers. No cows, zombies or creepers, and no phantoms. Spawner blocks in dungeons and fortresses still work. Leather, wool, string, pearls and the like come from Pokémon drops, villagers and the merchant's shop |
-| Keep inventory | When you die you keep your items and XP, so there is no need to run back for your stuff |
+| Gravestones | When you die, a gravestone appears with your items and XP: right-click it to get everything back in its old place. Only you can open it. It cracks over time (a step every 8 hours) and with every later death; when it has fully broken (3 steps, so after about a day), the items spill on the ground and disappear after 5 minutes, so pick your things up soon |
 | Gym badges (PokeBadges) | Beat a Kanto, Johto or Sinnoh gym leader (Radical Trainers) to get their badge. Keep them in the **Badge Box** (**Y**, or `/pokebadges open`) |
 | Pokémon Centers and Poké Marts | Found in the world outside the spawn area: healing machine and PC in the Center, Cobble Merchants in the Mart |
 | Loot chests (Lootr) | Every player gets their own loot from structure chests |
