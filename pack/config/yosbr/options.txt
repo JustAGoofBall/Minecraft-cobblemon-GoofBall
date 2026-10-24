@@ -1,3 +1,4 @@
+version:3955
 resourcePacks:["fabric","cobbreeding:pasturefix","cobblemon:regionbiasforms","cobblemon:gyaradosjump","file/FreshAnimations_v1.10.4.zip","file/Better-Leaves-9.6.zip","file/Emissive-Cobblemon-Ores-1.7.zip","file/Cobblemon Interface v1.6.0.zip","file/RCT Trainers+ [1.7] v2.2.zip","file/E19 Cobblemon Minimap Icons.zip","file/Battle Tracks v1.2.zip","file/Fast Better Grass.zip"]
 key_gui.xaero_open_map:key.keyboard.j
 key_gui.xaero_minimap_settings:key.keyboard.semicolon

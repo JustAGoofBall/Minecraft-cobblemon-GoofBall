@@ -10,7 +10,7 @@ hash = "a29232ed659b1b8a224a4b22b8f4402bd5265d9f3eec170458530a18654cbb9c"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "964a14bac31acec7d88dfb8791c2974164095a18c9c7700af188ccc9ae0efa4f"
+hash = "39a4b4dff4e8ccdcece5c7e36e2a12a29ad605177497f885fd44b7228bd2aff5"
 
 [[files]]
 file = "defaultconfigs/xaero/minimap/default_radar_categories_client.json"
