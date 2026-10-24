@@ -75,13 +75,13 @@ resource pack: the Reactive Music mod loads it by itself. Turn packs off or chan
 ## Keys
 | What | Key |
 |---|---|
-| Send out / call back Pokémon, Pokémon summary | **R**, **M** |
-| Smartphone: open / scan the Pokémon you look at | **`** / **C** |
-| Open your PC anywhere (Box Link) | **X** |
+| Send out / call back Pokémon, Pokémon summary | **R**, **C** |
+| Smartphone: open / scan the Pokémon you look at | **`** / **Numpad 6** |
+| Open your PC anywhere (Box Link) | **J** |
 | Magnet on/off (Sticky Fingers) | **N** |
 | Select Pokémon in your party / hide the party bar | **↑** **↓** / **O** |
 | Look around while riding a Pokémon | **Left Alt** |
-| World map, minimap settings, minimap bigger | **J**, **;**, **Z** |
+| World map, minimap settings, minimap bigger | **M**, **;**, **Z** |
 | New waypoint, waypoint list, quick temporary waypoint | **,**, **U**, **Numpad +** |
 | Voice chat menu, groups, mute microphone, push-to-talk | **V**, **G**, **I**, **Caps Lock** |
 | Badge Box (PokeBadges) | **Y** |
@@ -97,7 +97,7 @@ resource pack: the Reactive Music mod loads it by itself. Turn packs off or chan
 
 These defaults are set the first time you start the pack, and no two keys overlap. A few rarely used keys
 are left unbound (*Reload Shaders*, *Disable Voice Chat*, *Hide Icons*, and the creative-only
-*Save/Load Toolbar Activator*). Your own changes are never
+*Save Toolbar Activator*, because **C** is the Pokémon summary). Your own changes are never
 overwritten. Change keys under **Options → Controls → Key Binds**: it has a search bar and a
 *Show conflicts* button (Controlling).
 
