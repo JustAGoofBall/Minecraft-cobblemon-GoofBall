@@ -97,6 +97,8 @@ and run `/reload` (or restart). It contains:
   `remove_vanilla_mobs` drops the mobs in `tags/entity_type/removed_mobs.json` into the void every
   5 seconds (also the ones that were already in the world). Spawner-block mobs, villagers, golems and
   bosses are not in that list. Give a mob the tag `goofball_keep` to keep it.
+- keep inventory: the same `load.mcfunction` sets `gamerule keepInventory true` (and `spawnChunkRadius 0`)
+  on every start. To change it for a running server use `/gamerule` in-game, and edit the file too.
 - gym badges: `data/rctmod/loot_table/trainers/single/<leader>.json` = RCT's own loot for that leader plus
   one PokeBadges badge (Kanto, Johto and Sinnoh leaders; the Unbound leaders have no matching badge).
   After an RCT update, regenerate them from the new RCT loot tables.

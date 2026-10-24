@@ -14,7 +14,7 @@ hash = "cd21aada6e998c7da4b5eb57a58c946426aa4ab73c1860cd6ee6f16930a2055d"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "0810c1a180faa247575beccde1c959acf5d63f5dbb8ffdf5fdfd36a32f39a998"
+hash = "4efa6b538e733e99ab6d98b76bcf049db249e6b09481143b308103a77e735695"
 
 [[files]]
 file = "defaultconfigs/xaero/minimap/default_radar_categories_client.json"
@@ -221,11 +221,6 @@ hash = "33ee6f1d39c83f1eb96104b2a7cfdbfaa670eb71fc30f7c028321a3e5ab98150"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-ui-tweaks.pw.toml"
-hash = "4d08fa48ec55d9238c9144f82d812aae1b8bd1e66dc16a0374ec8df94d4b5eb3"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-unique-legends.pw.toml"
 hash = "9c1a57ea182f24ea674b7acd522c823849bbd9e494f8f00c3585540cc7bd5dc8"
 metafile = true
@@ -293,6 +288,11 @@ metafile = true
 [[files]]
 file = "mods/dungeons-and-taverns.pw.toml"
 hash = "447ec530620e3c0da62316cb3358e43c15132084aab22ba992fefac199ca92a9"
+metafile = true
+
+[[files]]
+file = "mods/durability-viewer-updated.pw.toml"
+hash = "3f931d9ea25b7b74bc9325e211e3f9da9b7121f749865ff1dd328073b55fd272"
 metafile = true
 
 [[files]]
@@ -403,6 +403,11 @@ metafile = true
 [[files]]
 file = "mods/lootrmon.pw.toml"
 hash = "942152b427795abe9456546d323d0f90d1dbe7692200874ca2dd76da8f265ad3"
+metafile = true
+
+[[files]]
+file = "mods/malilib.pw.toml"
+hash = "4842a349ba8e18407a4e32ef184ad1d2a437ff8e5b0c158391b6225216b4b8ce"
 metafile = true
 
 [[files]]

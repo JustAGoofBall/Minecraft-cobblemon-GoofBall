@@ -75,13 +75,13 @@ resource pack: the Reactive Music mod loads it by itself. Turn packs off or chan
 ## Keys
 | What | Key |
 |---|---|
-| Send out / call back Pokémon, Pokémon summary | **R**, **M** |
-| Smartphone: open / scan the Pokémon you look at | **`** / **C** |
-| Open your PC anywhere (Box Link) | **X** |
+| Send out / call back Pokémon, Pokémon summary | **R**, **C** |
+| Smartphone: open / scan the Pokémon you look at | **`** / **Numpad 6** |
+| Open your PC anywhere (Box Link) | **J** |
 | Magnet on/off (Sticky Fingers) | **N** |
 | Select Pokémon in your party / hide the party bar | **↑** **↓** / **O** |
 | Look around while riding a Pokémon | **Left Alt** |
-| World map, minimap settings, minimap bigger | **J**, **;**, **Z** |
+| World map, minimap settings, minimap bigger | **M**, **;**, **Z** |
 | New waypoint, waypoint list, quick temporary waypoint | **,**, **U**, **Numpad +** |
 | Voice chat menu, groups, mute microphone, push-to-talk | **V**, **G**, **I**, **Caps Lock** |
 | Badge Box (PokeBadges) | **Y** |
@@ -97,7 +97,7 @@ resource pack: the Reactive Music mod loads it by itself. Turn packs off or chan
 
 These defaults are set the first time you start the pack, and no two keys overlap. A few rarely used keys
 are left unbound (*Reload Shaders*, *Disable Voice Chat*, *Hide Icons*, and the creative-only
-*Save/Load Toolbar Activator*). Your own changes are never
+*Save Toolbar Activator*, because **C** is the Pokémon summary). Your own changes are never
 overwritten. Change keys under **Options → Controls → Key Binds**: it has a search bar and a
 *Show conflicts* button (Controlling).
 
@@ -113,6 +113,7 @@ name of Pokémon, NPCs and players next to it. Change this under minimap setting
 | Pokémon jobs (Cobbleworkers) | Put Pokémon in a **Pasture Block** near crops, berries or apricorns and a chest; they harvest into the chest |
 | Money | CobbleDollars: earn money from battles, or sell almost anything you mine, farm or find at a Cobble Merchant (**Bank** tab). Spend it in the merchant's **Shop** and in the Casino Rocket machines. Selling gives at most a quarter of the shop price |
 | No vanilla mobs | Only Pokémon, trainers/NPCs and villagers. No cows, zombies or creepers, and no phantoms. Spawner blocks in dungeons and fortresses still work. Leather, wool, string, pearls and the like come from Pokémon drops, villagers and the merchant's shop |
+| Keep inventory | When you die you keep your items and XP, so there is no need to run back for your stuff |
 | Gym badges (PokeBadges) | Beat a Kanto, Johto or Sinnoh gym leader (Radical Trainers) to get their badge. Keep them in the **Badge Box** (**Y**, or `/pokebadges open`) |
 | Pokémon Centers and Poké Marts | Found in the world outside the spawn area: healing machine and PC in the Center, Cobble Merchants in the Mart |
 | Loot chests (Lootr) | Every player gets their own loot from structure chests |

@@ -89,6 +89,7 @@ Players and the server must always use the **same version**.
 [Sodium Extra](https://modrinth.com/mod/sodium-extra) + [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options),
 [Dynamic FPS](https://modrinth.com/mod/dynamic-fps), [LambDynamicLights](https://modrinth.com/mod/lambdynamiclights),
 [More Culling](https://modrinth.com/mod/moreculling),
+[Durability Viewer](https://modrinth.com/mod/durability-viewer-updated) + [MaLiLib](https://modrinth.com/mod/malilib) (armor/tool durability HUD, bottom-left),
 [Modpack Shipped Servers](https://modrinth.com/mod/modpack-shipped-servers) (the GoofBall server is already in your server list).
 
 **7 shader packs:** Complementary Reimagined, Complementary Unbound, BSL, Photon, Solas, Bliss,
