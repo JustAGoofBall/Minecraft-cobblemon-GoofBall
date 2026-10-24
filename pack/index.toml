@@ -21,6 +21,10 @@ file = "defaultconfigs/xaero/minimap/default_radar_categories_client.json"
 hash = "944ab9c4d89abd7176ca19c6603f5811cecb5dd42705e25143ac357388448132"
 
 [[files]]
+file = "defaultconfigs/xaerohud.txt"
+hash = "e5730258c0a3694a74922767dd44e4c2615385e09fdfdde1d961e2dde40e559a"
+
+[[files]]
 file = "mods/accessories.pw.toml"
 hash = "5285ba249b00d0d12a3cd1f64a5536e7618770dee31d3d240f9d4345ef69f888"
 metafile = true

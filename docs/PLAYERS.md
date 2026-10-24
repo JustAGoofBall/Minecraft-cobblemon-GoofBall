@@ -104,6 +104,7 @@ overwritten. Change keys under **Options → Controls → Key Binds**: it has a 
 ## Minimap
 Xaero's minimap shows every entity as an icon (Pokémon get their own icon from the E19 pack), with the
 name of Pokémon, NPCs and players next to it. Change this under minimap settings (**;**) → *Entity Radar*.
+The minimap sits in the top-right corner. To move it, open the minimap settings (**;**): *Edit Mode* lets you drag it, *Choose a Preset* puts it in a corner.
 
 ## Tips
 | What | How |
