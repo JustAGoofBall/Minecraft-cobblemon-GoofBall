@@ -1,0 +1,18 @@
+{
+  "Settings": {
+    "ArmorAroundHotbar": false,
+    "HUDCorner": "Bottom-Left",
+    "EffectDuration": true,
+    "HideDamageOverPercent": 100,
+    "SoundBelowDurability": 100,
+    "SoundBelowPercent": 10,
+    "Percentages": false,
+    "SetWindowTitle": true,
+    "ShowAllTrinkets": true,
+    "PercentToShowDamage": 100,
+    "ShowFreeInventorySlots": true,
+    "TooltipColor": "#0054FB54",
+    "WarningMode": "Sound"
+  },
+  "config_version": 1
+}

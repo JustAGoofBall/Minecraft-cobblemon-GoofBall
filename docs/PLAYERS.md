@@ -75,7 +75,10 @@ resource pack: the Reactive Music mod loads it by itself. Turn packs off or chan
 ## Keys
 | What | Key |
 |---|---|
-| Send out / call back Pokémon, Pokémon summary, PokéNav | **R**, **M**, **N** |
+| Send out / call back Pokémon, Pokémon summary | **R**, **M** |
+| Smartphone: open / scan the Pokémon you look at | **`** / **C** |
+| Open your PC anywhere (Box Link) | **X** |
+| Magnet on/off (Sticky Fingers) | **N** |
 | Select Pokémon in your party / hide the party bar | **↑** **↓** / **O** |
 | Look around while riding a Pokémon | **Left Alt** |
 | World map, minimap settings, minimap bigger | **J**, **;**, **Z** |
@@ -89,10 +92,12 @@ resource pack: the Reactive Music mod loads it by itself. Turn packs off or chan
 | Raid den invite: accept / decline / free the mouse | **Enter** / **Backspace** / **Right Alt** |
 | Shaders on/off | **K** |
 | Block info (Jade): settings, show/hide, liquids | **Numpad 0**, **1**, **2** |
+| Durability display show/hide / catch rate HUD on/off, compare balls | **Numpad 3** / **Numpad 4**, **5** |
 | Recipes (EMI) | Item list on the right of your inventory; click an item for its recipe, **U** for uses |
 
 These defaults are set the first time you start the pack, and no two keys overlap. A few rarely used keys
-are left unbound (*Reload Shaders*, *Disable Voice Chat*, *Hide Icons*). Your own changes are never
+are left unbound (*Reload Shaders*, *Disable Voice Chat*, *Hide Icons*, and the creative-only
+*Save/Load Toolbar Activator*). Your own changes are never
 overwritten. Change keys under **Options → Controls → Key Binds**: it has a search bar and a
 *Show conflicts* button (Controlling).
 
