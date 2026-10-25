@@ -77,12 +77,15 @@ On an existing server, change that line in `config/waystones-common.toml` by han
 - `values.json`: value of raw materials (first matching rule wins; `scale` multiplies everything except
   `unscaled`), which items can be sold (`bank` category) and `never_sell`. Crafted items get the value of
   their cheapest recipe automatically.
-- `shops.json`: shop tabs. Fixed `price`, or 4x the value (at least `min_price`).
+- `shops.json`: shop tabs. Fixed `price`, or 4x the value (at least `min_price`). An offer can set its own
+  `markup` (instead of 4) and `sell_ratio` (instead of 0.25, max 0.5): the ores (coal, copper, iron, gold,
+  redstone, lapis, quartz, diamond) use `markup` 2 / `sell_ratio` 0.5, so their buy and sell prices are closer.
+  Storage items crafted from ores have a fixed `price`, so ore value changes don't make them dearer.
 - `external_prices.json`: where else players can buy things (Casino Rocket merchants, villagers, gacha).
 
 The script reads the recipes, tags and items from the server's jars and refuses to write anything if a
-price could be exploited: selling for more than 25% of a buy price anywhere, a recipe whose outputs sell
-for more than the inputs are worth, a gacha pull worth more than half its price, or a shop item a cured
+price could be exploited: selling for more than 25% of a buy price anywhere (or the offer's `sell_ratio`), a recipe whose outputs sell
+for more than the inputs are worth, a gacha pull worth more than 60% of its price, or a shop item a cured
 villager would swap for an emerald worth more.
 
 ```

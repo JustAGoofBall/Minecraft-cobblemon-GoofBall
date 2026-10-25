@@ -34,9 +34,10 @@ ECON_DIR = REPO_ROOT / "scripts" / "economy"
 OUT_DIR = REPO_ROOT / "server" / "config" / "cobbledollars"
 VANILLA_JAR = "versions/1.21.1/server-1.21.1.jar"
 
-SELL_RATIO = 0.25  # sell price <= 25% of the cheapest buy price
-BUY_MARKUP = 4  # auto shop price = 4 x value
-GACHA_RATIO = 0.5  # expected sell value of a gacha pull <= 50% of its price
+SELL_RATIO = 0.25  # sell price <= 25% of the cheapest buy price (an offer can set its own "sell_ratio")
+MAX_SELL_RATIO = 0.5  # highest "sell_ratio" an offer may use: buying and selling back always loses half
+BUY_MARKUP = 4  # auto shop price = 4 x value (an offer can set its own "markup")
+GACHA_RATIO = 0.6  # expected sell value of a gacha pull <= 60% of its price (was 50%; the copper gacha holds many ingots)
 INF = math.inf
 
 # Items that come back when crafting (bucket of milk -> empty bucket).
@@ -313,7 +314,7 @@ def main():
     for cat in shops_cfg["categories"]:
         for o in cat["offers"]:
             if "price" in o:
-                add_cap(o["item"], o["price"] * SELL_RATIO, f"our shop sells it for {o['price']}")
+                add_cap(o["item"], o["price"] * o.get("sell_ratio", SELL_RATIO), f"our shop sells it for {o['price']}")
 
     # Recipes.
     recipes, skipped = [], defaultdict(int)
@@ -393,12 +394,15 @@ def main():
             price = o.get("price")
             if price is None:
                 v = value[item]
-                price = nice(max(BUY_MARKUP * v, o.get("min_price", 0))) if v < INF else 0
+                price = nice(max(o.get("markup", BUY_MARKUP) * v, o.get("min_price", 0))) if v < INF else 0
                 if price < 1 or v < 1 and "min_price" not in o:
                     errors.append(f"shops.json: {item} has no price and no value")
                     continue
             offers.append({"item": item, "price": str(price)})
-            if item in bank and bank[item] > price * SELL_RATIO:
+            ratio = o.get("sell_ratio", SELL_RATIO)
+            if ratio > MAX_SELL_RATIO:
+                errors.append(f"shops.json: {item} sell_ratio {ratio} > {MAX_SELL_RATIO}")
+            if item in bank and bank[item] > price * ratio:
                 errors.append(f"{item}: sells for {bank[item]} but the shop sells it for {price}")
         shop_out.append({"name": cat["name"], "offers": offers})
     villager_buys = set(ext_cfg["villager_buys"])

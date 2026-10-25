@@ -134,7 +134,8 @@
     "minecraft:crossbow": 1,
     "minecraft:fishing_rod": 1,
     "minecraft:shears": 1,
-    "minecraft:shield": 1
+    "minecraft:shield": 1,
+    "minecraft:leather_horse_armor": 1
   },
   "gacha_prices": {
     "copper:coin": "coin_prices.copper",

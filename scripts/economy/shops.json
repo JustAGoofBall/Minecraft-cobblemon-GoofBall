@@ -499,32 +499,48 @@
       "offers": [
         {
           "item": "minecraft:coal",
-          "min_price": 200
+          "min_price": 200,
+          "markup": 2,
+          "sell_ratio": 0.5
         },
         {
-          "item": "minecraft:copper_ingot"
+          "item": "minecraft:copper_ingot",
+          "markup": 2,
+          "sell_ratio": 0.5
         },
         {
-          "item": "minecraft:iron_ingot"
+          "item": "minecraft:iron_ingot",
+          "markup": 2,
+          "sell_ratio": 0.5
         },
         {
-          "item": "minecraft:gold_ingot"
+          "item": "minecraft:gold_ingot",
+          "markup": 2,
+          "sell_ratio": 0.5
         },
         {
-          "item": "minecraft:redstone"
+          "item": "minecraft:redstone",
+          "markup": 2,
+          "sell_ratio": 0.5
         },
         {
-          "item": "minecraft:lapis_lazuli"
+          "item": "minecraft:lapis_lazuli",
+          "markup": 2,
+          "sell_ratio": 0.5
         },
         {
           "item": "minecraft:quartz",
-          "min_price": 200
+          "min_price": 200,
+          "markup": 2,
+          "sell_ratio": 0.5
         },
         {
           "item": "minecraft:glowstone_dust"
         },
         {
-          "item": "minecraft:diamond"
+          "item": "minecraft:diamond",
+          "markup": 2,
+          "sell_ratio": 0.5
         },
         {
           "item": "minecraft:obsidian"
@@ -719,130 +735,170 @@
       "name": "Storage",
       "offers": [
         {
-          "item": "refinedstorage:controller"
+          "item": "refinedstorage:controller",
+          "price": 15000
         },
         {
-          "item": "refinedstorage:cable"
+          "item": "refinedstorage:cable",
+          "price": 64
         },
         {
-          "item": "refinedstorage:disk_drive"
+          "item": "refinedstorage:disk_drive",
+          "price": 15000
         },
         {
-          "item": "refinedstorage:grid"
+          "item": "refinedstorage:grid",
+          "price": 8400
         },
         {
-          "item": "refinedstorage:crafting_grid"
+          "item": "refinedstorage:crafting_grid",
+          "price": 17000
         },
         {
-          "item": "refinedstorage:pattern_grid"
+          "item": "refinedstorage:pattern_grid",
+          "price": 19000
         },
         {
-          "item": "refinedstorage:pattern"
+          "item": "refinedstorage:pattern",
+          "price": 1900
         },
         {
-          "item": "refinedstorage:autocrafter"
+          "item": "refinedstorage:autocrafter",
+          "price": 25000
         },
         {
-          "item": "refinedstorage:importer"
+          "item": "refinedstorage:importer",
+          "price": 2200
         },
         {
-          "item": "refinedstorage:exporter"
+          "item": "refinedstorage:exporter",
+          "price": 2200
         },
         {
-          "item": "refinedstorage:external_storage"
+          "item": "refinedstorage:external_storage",
+          "price": 4700
         },
         {
-          "item": "refinedstorage:interface"
+          "item": "refinedstorage:interface",
+          "price": 11000
         },
         {
-          "item": "refinedstorage:constructor"
+          "item": "refinedstorage:constructor",
+          "price": 20000
         },
         {
-          "item": "refinedstorage:destructor"
+          "item": "refinedstorage:destructor",
+          "price": 21000
         },
         {
-          "item": "refinedstorage:1k_storage_disk"
+          "item": "refinedstorage:1k_storage_disk",
+          "price": 3000
         },
         {
-          "item": "refinedstorage:4k_storage_disk"
+          "item": "refinedstorage:4k_storage_disk",
+          "price": 9400
         },
         {
-          "item": "refinedstorage:16k_storage_disk"
+          "item": "refinedstorage:16k_storage_disk",
+          "price": 30000
         },
         {
-          "item": "refinedstorage:64k_storage_disk"
+          "item": "refinedstorage:64k_storage_disk",
+          "price": 120000
         },
         {
-          "item": "refinedstorage:storage_housing"
+          "item": "refinedstorage:storage_housing",
+          "price": 1900
         },
         {
-          "item": "refinedstorage:speed_upgrade"
+          "item": "refinedstorage:speed_upgrade",
+          "price": 6300
         },
         {
-          "item": "refinedstorage:stack_upgrade"
+          "item": "refinedstorage:stack_upgrade",
+          "price": 26000
         },
         {
-          "item": "refinedstorage:wireless_grid"
+          "item": "refinedstorage:wireless_grid",
+          "price": 20000
         },
         {
-          "item": "refinedstorage:network_transmitter"
+          "item": "refinedstorage:network_transmitter",
+          "price": 51000
         },
         {
-          "item": "refinedstorage:network_receiver"
+          "item": "refinedstorage:network_receiver",
+          "price": 51000
         },
         {
-          "item": "refinedstorage:relay"
+          "item": "refinedstorage:relay",
+          "price": 13000
         },
         {
-          "item": "refinedstorage:wrench"
+          "item": "refinedstorage:wrench",
+          "price": 3700
         },
         {
-          "item": "refinedstorage:machine_casing"
+          "item": "refinedstorage:machine_casing",
+          "price": 3700
         },
         {
-          "item": "refinedstorage:silicon"
+          "item": "refinedstorage:silicon",
+          "price": 120
         },
         {
-          "item": "refinedstorage:quartz_enriched_iron"
+          "item": "refinedstorage:quartz_enriched_iron",
+          "price": 460
         },
         {
-          "item": "refinedstorage:basic_processor"
+          "item": "refinedstorage:basic_processor",
+          "price": 890
         },
         {
-          "item": "refinedstorage:improved_processor"
+          "item": "refinedstorage:improved_processor",
+          "price": 1100
         },
         {
-          "item": "refinedstorage:advanced_processor"
+          "item": "refinedstorage:advanced_processor",
+          "price": 8400
         },
         {
-          "item": "toms_storage:storage_terminal"
+          "item": "toms_storage:storage_terminal",
+          "price": 1400
         },
         {
-          "item": "toms_storage:crafting_terminal"
+          "item": "toms_storage:crafting_terminal",
+          "price": 34000
         },
         {
-          "item": "toms_storage:inventory_connector"
+          "item": "toms_storage:inventory_connector",
+          "price": 9200
         },
         {
           "item": "toms_storage:inventory_cable"
         },
         {
-          "item": "toms_storage:inventory_cable_connector"
+          "item": "toms_storage:inventory_cable_connector",
+          "price": 8700
         },
         {
           "item": "toms_storage:inventory_interface"
         },
         {
-          "item": "toms_storage:wireless_terminal"
+          "item": "toms_storage:wireless_terminal",
+          "price": 1500
         },
         {
-          "item": "toms_storage:level_emitter"
+          "item": "toms_storage:level_emitter",
+          "price": 800
         },
         {
-          "item": "toms_storage:basic_inventory_hopper"
+          "item": "toms_storage:basic_inventory_hopper",
+          "price": 3000
         },
         {
-          "item": "toms_storage:filing_cabinet"
+          "item": "toms_storage:filing_cabinet",
+          "price": 1400
         },
         {
           "item": "toms_storage:trim"
@@ -851,22 +907,27 @@
           "item": "toms_storage:open_crate"
         },
         {
-          "item": "reinfchest:copper_chest"
+          "item": "reinfchest:copper_chest",
+          "price": 870
         },
         {
-          "item": "reinfchest:iron_chest"
+          "item": "reinfchest:iron_chest",
+          "price": 5500
         },
         {
-          "item": "reinfchest:gold_chest"
+          "item": "reinfchest:gold_chest",
+          "price": 12000
         },
         {
-          "item": "reinfchest:diamond_chest"
+          "item": "reinfchest:diamond_chest",
+          "price": 76000
         },
         {
           "item": "colossalchests:chest_wall_wood"
         },
         {
-          "item": "colossalchests:colossal_chest_wood"
+          "item": "colossalchests:colossal_chest_wood",
+          "price": 800
         },
         {
           "item": "colossalchests:interface_wood"
@@ -880,10 +941,11 @@
         },
         {
           "item": "botanypots:terracotta_hopper_botany_pot",
-          "min_price": 150
+          "price": 3000
         },
         {
-          "item": "cobblemon_incubator:egg_incubator"
+          "item": "cobblemon_incubator:egg_incubator",
+          "price": 9000
         },
         {
           "item": "berrypouch:berry_pouch"

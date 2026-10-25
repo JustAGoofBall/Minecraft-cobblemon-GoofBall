@@ -34,7 +34,6 @@
   ],
   "never_sell": [
     "minecraft:elytra",
-    "re:.*_horse_armor$",
     "re:.*spawn_egg$",
     "minecraft:potion",
     "minecraft:splash_potion",
@@ -128,23 +127,23 @@
     },
     {
       "match": "re:minecraft:(deepslate_)?coal_ore",
-      "value": 5
+      "value": 7.5
     },
     {
       "match": "re:minecraft:(deepslate_)?copper_ore",
-      "value": 5
+      "value": 7.5
     },
     {
       "match": "re:(minecraft:(deepslate_)?iron_ore|legendarymonuments:distortion_(deepslate_)?iron_ore)",
-      "value": 30
+      "value": 45
     },
     {
       "match": "re:minecraft:((deepslate_)?gold_ore|nether_gold_ore)",
-      "value": 40
+      "value": 60
     },
     {
       "match": "re:minecraft:(deepslate_)?diamond_ore",
-      "value": 400
+      "value": 600
     },
     {
       "match": "re:minecraft:(deepslate_)?emerald_ore",
@@ -153,15 +152,15 @@
     },
     {
       "match": "re:minecraft:(deepslate_)?lapis_ore",
-      "value": 10
+      "value": 15
     },
     {
       "match": "re:minecraft:(deepslate_)?redstone_ore",
-      "value": 8
+      "value": 12
     },
     {
       "match": "minecraft:nether_quartz_ore",
-      "value": 6
+      "value": 9
     },
     {
       "match": "re:(cobblemon:.*_stone_ore|mega_showdown:mega_meteorid_.*_ore)",
@@ -194,7 +193,7 @@
     },
     {
       "match": "minecraft:coal",
-      "value": 5,
+      "value": 7.5,
       "bank": "Ores & Metals"
     },
     {
@@ -204,42 +203,42 @@
     },
     {
       "match": "minecraft:raw_copper",
-      "value": 5,
+      "value": 7.5,
       "bank": "Ores & Metals"
     },
     {
       "match": "minecraft:copper_ingot",
-      "value": 5,
+      "value": 7.5,
       "bank": "Ores & Metals"
     },
     {
       "match": "minecraft:raw_iron",
-      "value": 30,
+      "value": 45,
       "bank": "Ores & Metals"
     },
     {
       "match": "minecraft:iron_ingot",
-      "value": 30,
+      "value": 45,
       "bank": "Ores & Metals"
     },
     {
       "match": "minecraft:raw_gold",
-      "value": 40,
+      "value": 60,
       "bank": "Ores & Metals"
     },
     {
       "match": "minecraft:gold_ingot",
-      "value": 40,
+      "value": 60,
       "bank": "Ores & Metals"
     },
     {
       "match": "minecraft:ancient_debris",
-      "value": 300,
+      "value": 450,
       "bank": "Ores & Metals"
     },
     {
       "match": "minecraft:netherite_scrap",
-      "value": 300,
+      "value": 450,
       "bank": "Ores & Metals"
     },
     {
@@ -253,22 +252,22 @@
     },
     {
       "match": "minecraft:diamond",
-      "value": 400,
+      "value": 600,
       "bank": "Gems & Minerals"
     },
     {
       "match": "minecraft:lapis_lazuli",
-      "value": 10,
+      "value": 15,
       "bank": "Gems & Minerals"
     },
     {
       "match": "minecraft:redstone",
-      "value": 8,
+      "value": 12,
       "bank": "Gems & Minerals"
     },
     {
       "match": "minecraft:quartz",
-      "value": 6,
+      "value": 9,
       "bank": "Gems & Minerals"
     },
     {
@@ -722,6 +721,28 @@
     },
     {
       "match": "minecraft:shield",
+      "bank": "Armor"
+    },
+    {
+      "match": "minecraft:iron_horse_armor",
+      "value": 90,
+      "bank": "Armor",
+      "_note": "loot only (no recipe): about 2 iron ingots"
+    },
+    {
+      "match": "minecraft:golden_horse_armor",
+      "value": 120,
+      "bank": "Armor",
+      "_note": "loot only: about 2 gold ingots"
+    },
+    {
+      "match": "minecraft:diamond_horse_armor",
+      "value": 600,
+      "bank": "Armor",
+      "_note": "loot only: about 1 diamond"
+    },
+    {
+      "match": "minecraft:leather_horse_armor",
       "bank": "Armor"
     }
   ],

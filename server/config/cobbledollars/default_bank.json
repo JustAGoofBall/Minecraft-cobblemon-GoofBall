@@ -1,7 +1,7 @@
 [
   {
     "item": "minecraft:ancient_debris",
-    "price": "1500"
+    "price": "2250"
   },
   {
     "item": "minecraft:charcoal",
@@ -9,19 +9,19 @@
   },
   {
     "item": "minecraft:coal",
-    "price": "25"
+    "price": "37"
   },
   {
     "item": "minecraft:coal_block",
-    "price": "225"
+    "price": "333"
   },
   {
     "item": "minecraft:copper_block",
-    "price": "225"
+    "price": "333"
   },
   {
     "item": "minecraft:copper_ingot",
-    "price": "25"
+    "price": "37"
   },
   {
     "item": "minecraft:gold_block",
@@ -37,51 +37,51 @@
   },
   {
     "item": "minecraft:iron_block",
-    "price": "1296"
+    "price": "2025"
   },
   {
     "item": "minecraft:iron_ingot",
-    "price": "144"
-  },
-  {
-    "item": "minecraft:iron_nugget",
-    "price": "16"
-  },
-  {
-    "item": "minecraft:netherite_block",
-    "price": "61128"
-  },
-  {
-    "item": "minecraft:netherite_ingot",
-    "price": "6792"
-  },
-  {
-    "item": "minecraft:netherite_scrap",
-    "price": "1500"
-  },
-  {
-    "item": "minecraft:raw_copper",
-    "price": "25"
-  },
-  {
-    "item": "minecraft:raw_copper_block",
     "price": "225"
   },
   {
+    "item": "minecraft:iron_nugget",
+    "price": "25"
+  },
+  {
+    "item": "minecraft:netherite_block",
+    "price": "88128"
+  },
+  {
+    "item": "minecraft:netherite_ingot",
+    "price": "9792"
+  },
+  {
+    "item": "minecraft:netherite_scrap",
+    "price": "2250"
+  },
+  {
+    "item": "minecraft:raw_copper",
+    "price": "37"
+  },
+  {
+    "item": "minecraft:raw_copper_block",
+    "price": "333"
+  },
+  {
     "item": "minecraft:raw_gold",
-    "price": "200"
+    "price": "300"
   },
   {
     "item": "minecraft:raw_gold_block",
-    "price": "1800"
+    "price": "2700"
   },
   {
     "item": "minecraft:raw_iron",
-    "price": "150"
+    "price": "225"
   },
   {
     "item": "minecraft:raw_iron_block",
-    "price": "1350"
+    "price": "2025"
   },
   {
     "item": "minecraft:amethyst_block",
@@ -97,11 +97,11 @@
   },
   {
     "item": "minecraft:diamond",
-    "price": "2000"
+    "price": "3000"
   },
   {
     "item": "minecraft:diamond_block",
-    "price": "18000"
+    "price": "27000"
   },
   {
     "item": "minecraft:echo_shard",
@@ -129,11 +129,11 @@
   },
   {
     "item": "minecraft:lapis_block",
-    "price": "450"
+    "price": "675"
   },
   {
     "item": "minecraft:lapis_lazuli",
-    "price": "50"
+    "price": "75"
   },
   {
     "item": "minecraft:obsidian",
@@ -141,19 +141,19 @@
   },
   {
     "item": "minecraft:quartz",
-    "price": "30"
+    "price": "45"
   },
   {
     "item": "minecraft:quartz_block",
-    "price": "120"
+    "price": "180"
   },
   {
     "item": "minecraft:redstone",
-    "price": "40"
+    "price": "60"
   },
   {
     "item": "minecraft:redstone_block",
-    "price": "360"
+    "price": "540"
   },
   {
     "item": "cobblemon:apricorn_log",
@@ -1357,7 +1357,7 @@
   },
   {
     "item": "cobblemon:electirizer",
-    "price": "1728"
+    "price": "2232"
   },
   {
     "item": "cobblemon:fire_stone",
@@ -1389,7 +1389,7 @@
   },
   {
     "item": "cobblemon:kings_rock",
-    "price": "600"
+    "price": "900"
   },
   {
     "item": "cobblemon:leaf_stone",
@@ -1401,7 +1401,7 @@
   },
   {
     "item": "cobblemon:link_cable",
-    "price": "210"
+    "price": "264"
   },
   {
     "item": "cobblemon:love_sweet",
@@ -1409,7 +1409,7 @@
   },
   {
     "item": "cobblemon:magmarizer",
-    "price": "1136"
+    "price": "1508"
   },
   {
     "item": "cobblemon:malicious_armor",
@@ -1417,15 +1417,15 @@
   },
   {
     "item": "cobblemon:masterpiece_teacup",
-    "price": "60"
+    "price": "90"
   },
   {
     "item": "cobblemon:metal_alloy",
-    "price": "2076"
+    "price": "2400"
   },
   {
     "item": "cobblemon:metal_coat",
-    "price": "989"
+    "price": "1475"
   },
   {
     "item": "cobblemon:moon_stone",
@@ -1445,7 +1445,7 @@
   },
   {
     "item": "cobblemon:protector",
-    "price": "125"
+    "price": "137"
   },
   {
     "item": "cobblemon:razor_claw",
@@ -1525,11 +1525,11 @@
   },
   {
     "item": "cobblemon:unremarkable_teacup",
-    "price": "60"
+    "price": "90"
   },
   {
     "item": "cobblemon:upgrade",
-    "price": "335"
+    "price": "439"
   },
   {
     "item": "cobblemon:water_stone",
@@ -1541,7 +1541,7 @@
   },
   {
     "item": "cobblemon:ability_shield",
-    "price": "6469"
+    "price": "9675"
   },
   {
     "item": "cobblemon:absorb_bulb",
@@ -1553,7 +1553,7 @@
   },
   {
     "item": "cobblemon:assault_vest",
-    "price": "600"
+    "price": "624"
   },
   {
     "item": "cobblemon:binding_band",
@@ -1565,7 +1565,7 @@
   },
   {
     "item": "cobblemon:black_glasses",
-    "price": "488"
+    "price": "650"
   },
   {
     "item": "cobblemon:black_sludge",
@@ -1581,7 +1581,7 @@
   },
   {
     "item": "cobblemon:cell_battery",
-    "price": "209"
+    "price": "322"
   },
   {
     "item": "cobblemon:charcoal_stick",
@@ -1589,15 +1589,15 @@
   },
   {
     "item": "cobblemon:choice_band",
-    "price": "876"
+    "price": "1066"
   },
   {
     "item": "cobblemon:choice_scarf",
-    "price": "6220"
+    "price": "9220"
   },
   {
     "item": "cobblemon:choice_specs",
-    "price": "1406"
+    "price": "1639"
   },
   {
     "item": "cobblemon:cleanse_tag",
@@ -1605,7 +1605,7 @@
   },
   {
     "item": "cobblemon:clear_amulet",
-    "price": "4441"
+    "price": "6441"
   },
   {
     "item": "cobblemon:covert_cloak",
@@ -1633,7 +1633,7 @@
   },
   {
     "item": "cobblemon:eject_button",
-    "price": "850"
+    "price": "1295"
   },
   {
     "item": "cobblemon:eject_pack",
@@ -1653,7 +1653,7 @@
   },
   {
     "item": "cobblemon:exp_share",
-    "price": "836"
+    "price": "1048"
   },
   {
     "item": "cobblemon:expert_belt",
@@ -1661,7 +1661,7 @@
   },
   {
     "item": "cobblemon:fairy_feather",
-    "price": "165"
+    "price": "180"
   },
   {
     "item": "cobblemon:fairy_gem",
@@ -1689,11 +1689,11 @@
   },
   {
     "item": "cobblemon:focus_band",
-    "price": "300"
+    "price": "324"
   },
   {
     "item": "cobblemon:focus_sash",
-    "price": "225"
+    "price": "237"
   },
   {
     "item": "cobblemon:ghost_gem",
@@ -1721,7 +1721,7 @@
   },
   {
     "item": "cobblemon:heavy_duty_boots",
-    "price": "548"
+    "price": "710"
   },
   {
     "item": "cobblemon:ice_gem",
@@ -1733,7 +1733,7 @@
   },
   {
     "item": "cobblemon:iron_ball",
-    "price": "1296"
+    "price": "2025"
   },
   {
     "item": "cobblemon:lagging_tail",
@@ -1757,7 +1757,7 @@
   },
   {
     "item": "cobblemon:loaded_dice",
-    "price": "2932"
+    "price": "4390"
   },
   {
     "item": "cobblemon:lucky_egg",
@@ -1769,7 +1769,7 @@
   },
   {
     "item": "cobblemon:magnet",
-    "price": "766"
+    "price": "1135"
   },
   {
     "item": "cobblemon:mental_herb",
@@ -1781,7 +1781,7 @@
   },
   {
     "item": "cobblemon:metronome",
-    "price": "792"
+    "price": "1226"
   },
   {
     "item": "cobblemon:miracle_seed",
@@ -1793,7 +1793,7 @@
   },
   {
     "item": "cobblemon:muscle_band",
-    "price": "576"
+    "price": "616"
   },
   {
     "item": "cobblemon:mystic_water",
@@ -1809,7 +1809,7 @@
   },
   {
     "item": "cobblemon:poison_barb",
-    "price": "388"
+    "price": "550"
   },
   {
     "item": "cobblemon:poison_gem",
@@ -1845,7 +1845,7 @@
   },
   {
     "item": "cobblemon:protective_pads",
-    "price": "358"
+    "price": "520"
   },
   {
     "item": "cobblemon:psychic_gem",
@@ -1869,7 +1869,7 @@
   },
   {
     "item": "cobblemon:ring_target",
-    "price": "251"
+    "price": "331"
   },
   {
     "item": "cobblemon:rock_gem",
@@ -1881,7 +1881,7 @@
   },
   {
     "item": "cobblemon:room_service",
-    "price": "939"
+    "price": "1425"
   },
   {
     "item": "cobblemon:safety_goggles",
@@ -1889,7 +1889,7 @@
   },
   {
     "item": "cobblemon:scope_lens",
-    "price": "932"
+    "price": "1094"
   },
   {
     "item": "cobblemon:sharp_beak",
@@ -1901,7 +1901,7 @@
   },
   {
     "item": "cobblemon:shell_bell",
-    "price": "384"
+    "price": "465"
   },
   {
     "item": "cobblemon:silk_scarf",
@@ -1909,7 +1909,7 @@
   },
   {
     "item": "cobblemon:silver_powder",
-    "price": "136"
+    "price": "145"
   },
   {
     "item": "cobblemon:smoke_ball",
@@ -1925,7 +1925,7 @@
   },
   {
     "item": "cobblemon:soothe_bell",
-    "price": "478"
+    "price": "730"
   },
   {
     "item": "cobblemon:spell_tag",
@@ -1941,7 +1941,7 @@
   },
   {
     "item": "cobblemon:terrain_extender",
-    "price": "1031"
+    "price": "1598"
   },
   {
     "item": "cobblemon:throat_spray",
@@ -1953,11 +1953,11 @@
   },
   {
     "item": "cobblemon:twisted_spoon",
-    "price": "260"
+    "price": "350"
   },
   {
     "item": "cobblemon:utility_umbrella",
-    "price": "194"
+    "price": "275"
   },
   {
     "item": "cobblemon:water_gem",
@@ -1973,15 +1973,15 @@
   },
   {
     "item": "cobblemon:wide_lens",
-    "price": "363"
+    "price": "549"
   },
   {
     "item": "cobblemon:wise_glasses",
-    "price": "432"
+    "price": "625"
   },
   {
     "item": "cobblemon:zoom_lens",
-    "price": "694"
+    "price": "730"
   },
   {
     "item": "cobblemon:antidote",
@@ -2209,15 +2209,15 @@
   },
   {
     "item": "cobblemon:ancient_azure_ball",
-    "price": "26"
+    "price": "29"
   },
   {
     "item": "cobblemon:ancient_citrine_ball",
-    "price": "26"
+    "price": "29"
   },
   {
     "item": "cobblemon:ancient_feather_ball",
-    "price": "26"
+    "price": "29"
   },
   {
     "item": "cobblemon:ancient_gigaton_ball",
@@ -2225,15 +2225,15 @@
   },
   {
     "item": "cobblemon:ancient_great_ball",
-    "price": "56"
+    "price": "76"
   },
   {
     "item": "cobblemon:ancient_heavy_ball",
-    "price": "26"
+    "price": "29"
   },
   {
     "item": "cobblemon:ancient_ivory_ball",
-    "price": "26"
+    "price": "29"
   },
   {
     "item": "cobblemon:ancient_jet_ball",
@@ -2241,19 +2241,19 @@
   },
   {
     "item": "cobblemon:ancient_leaden_ball",
-    "price": "56"
+    "price": "76"
   },
   {
     "item": "cobblemon:ancient_poke_ball",
-    "price": "26"
+    "price": "29"
   },
   {
     "item": "cobblemon:ancient_roseate_ball",
-    "price": "26"
+    "price": "29"
   },
   {
     "item": "cobblemon:ancient_slate_ball",
-    "price": "26"
+    "price": "29"
   },
   {
     "item": "cobblemon:ancient_ultra_ball",
@@ -2261,27 +2261,27 @@
   },
   {
     "item": "cobblemon:ancient_verdant_ball",
-    "price": "26"
+    "price": "29"
   },
   {
     "item": "cobblemon:ancient_wing_ball",
-    "price": "56"
+    "price": "76"
   },
   {
     "item": "cobblemon:azure_ball",
-    "price": "36"
+    "price": "39"
   },
   {
     "item": "cobblemon:citrine_ball",
-    "price": "36"
+    "price": "39"
   },
   {
     "item": "cobblemon:dive_ball",
-    "price": "66"
+    "price": "86"
   },
   {
     "item": "cobblemon:dream_ball",
-    "price": "530"
+    "price": "780"
   },
   {
     "item": "cobblemon:dusk_ball",
@@ -2289,27 +2289,27 @@
   },
   {
     "item": "cobblemon:fast_ball",
-    "price": "66"
+    "price": "86"
   },
   {
     "item": "cobblemon:friend_ball",
-    "price": "66"
+    "price": "86"
   },
   {
     "item": "cobblemon:great_ball",
-    "price": "66"
+    "price": "86"
   },
   {
     "item": "cobblemon:heal_ball",
-    "price": "36"
+    "price": "39"
   },
   {
     "item": "cobblemon:heavy_ball",
-    "price": "66"
+    "price": "86"
   },
   {
     "item": "cobblemon:level_ball",
-    "price": "66"
+    "price": "86"
   },
   {
     "item": "cobblemon:love_ball",
@@ -2317,7 +2317,7 @@
   },
   {
     "item": "cobblemon:lure_ball",
-    "price": "66"
+    "price": "86"
   },
   {
     "item": "cobblemon:luxury_ball",
@@ -2325,27 +2325,27 @@
   },
   {
     "item": "cobblemon:moon_ball",
-    "price": "66"
+    "price": "86"
   },
   {
     "item": "cobblemon:nest_ball",
-    "price": "66"
+    "price": "86"
   },
   {
     "item": "cobblemon:net_ball",
-    "price": "66"
+    "price": "86"
   },
   {
     "item": "cobblemon:park_ball",
-    "price": "66"
+    "price": "86"
   },
   {
     "item": "cobblemon:poke_ball",
-    "price": "36"
+    "price": "39"
   },
   {
     "item": "cobblemon:premier_ball",
-    "price": "36"
+    "price": "39"
   },
   {
     "item": "cobblemon:quick_ball",
@@ -2357,19 +2357,19 @@
   },
   {
     "item": "cobblemon:roseate_ball",
-    "price": "36"
+    "price": "39"
   },
   {
     "item": "cobblemon:safari_ball",
-    "price": "36"
+    "price": "39"
   },
   {
     "item": "cobblemon:slate_ball",
-    "price": "36"
+    "price": "39"
   },
   {
     "item": "cobblemon:sport_ball",
-    "price": "66"
+    "price": "86"
   },
   {
     "item": "cobblemon:timer_ball",
@@ -2381,7 +2381,7 @@
   },
   {
     "item": "cobblemon:verdant_ball",
-    "price": "36"
+    "price": "39"
   },
   {
     "item": "cobblemon:armor_fossil",
@@ -2449,7 +2449,7 @@
   },
   {
     "item": "minecraft:brush",
-    "price": "35"
+    "price": "47"
   },
   {
     "item": "minecraft:carrot_on_a_stick",
@@ -2485,7 +2485,7 @@
   },
   {
     "item": "minecraft:flint_and_steel",
-    "price": "149"
+    "price": "230"
   },
   {
     "item": "minecraft:golden_axe",
@@ -2521,7 +2521,7 @@
   },
   {
     "item": "minecraft:iron_shovel",
-    "price": "144"
+    "price": "200"
   },
   {
     "item": "minecraft:iron_sword",
@@ -2529,23 +2529,23 @@
   },
   {
     "item": "minecraft:netherite_axe",
-    "price": "8492"
+    "price": "11492"
   },
   {
     "item": "minecraft:netherite_hoe",
-    "price": "8492"
+    "price": "11492"
   },
   {
     "item": "minecraft:netherite_pickaxe",
-    "price": "8492"
+    "price": "11492"
   },
   {
     "item": "minecraft:netherite_shovel",
-    "price": "8492"
+    "price": "11492"
   },
   {
     "item": "minecraft:netherite_sword",
-    "price": "8492"
+    "price": "11492"
   },
   {
     "item": "minecraft:shears",
@@ -2604,6 +2604,10 @@
     "price": "200"
   },
   {
+    "item": "minecraft:diamond_horse_armor",
+    "price": "3000"
+  },
+  {
     "item": "minecraft:diamond_leggings",
     "price": "200"
   },
@@ -2618,6 +2622,10 @@
   {
     "item": "minecraft:golden_helmet",
     "price": "990"
+  },
+  {
+    "item": "minecraft:golden_horse_armor",
+    "price": "600"
   },
   {
     "item": "minecraft:golden_leggings",
@@ -2636,6 +2644,10 @@
     "price": "200"
   },
   {
+    "item": "minecraft:iron_horse_armor",
+    "price": "450"
+  },
+  {
     "item": "minecraft:iron_leggings",
     "price": "200"
   },
@@ -2652,28 +2664,32 @@
     "price": "125"
   },
   {
+    "item": "minecraft:leather_horse_armor",
+    "price": "175"
+  },
+  {
     "item": "minecraft:leather_leggings",
     "price": "175"
   },
   {
     "item": "minecraft:netherite_boots",
-    "price": "8492"
+    "price": "11492"
   },
   {
     "item": "minecraft:netherite_chestplate",
-    "price": "8492"
+    "price": "11492"
   },
   {
     "item": "minecraft:netherite_helmet",
-    "price": "8492"
+    "price": "11492"
   },
   {
     "item": "minecraft:netherite_leggings",
-    "price": "8492"
+    "price": "11492"
   },
   {
     "item": "minecraft:shield",
-    "price": "156"
+    "price": "200"
   },
   {
     "item": "minecraft:turtle_helmet",
