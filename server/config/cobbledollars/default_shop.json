@@ -501,23 +501,23 @@
       },
       {
         "item": "minecraft:copper_ingot",
-        "price": "100"
+        "price": "74"
       },
       {
         "item": "minecraft:iron_ingot",
-        "price": "580"
+        "price": "450"
       },
       {
         "item": "minecraft:gold_ingot",
-        "price": "800"
+        "price": "400"
       },
       {
         "item": "minecraft:redstone",
-        "price": "160"
+        "price": "120"
       },
       {
         "item": "minecraft:lapis_lazuli",
-        "price": "200"
+        "price": "150"
       },
       {
         "item": "minecraft:quartz",
@@ -529,7 +529,7 @@
       },
       {
         "item": "minecraft:diamond",
-        "price": "8000"
+        "price": "6000"
       },
       {
         "item": "minecraft:obsidian",
