@@ -109,11 +109,11 @@
   },
   {
     "item": "minecraft:emerald",
-    "price": "100"
+    "price": "200"
   },
   {
     "item": "minecraft:emerald_block",
-    "price": "900"
+    "price": "1800"
   },
   {
     "item": "minecraft:flint",
@@ -141,11 +141,11 @@
   },
   {
     "item": "minecraft:quartz",
-    "price": "25"
+    "price": "30"
   },
   {
     "item": "minecraft:quartz_block",
-    "price": "100"
+    "price": "120"
   },
   {
     "item": "minecraft:redstone",
@@ -160,6 +160,10 @@
     "price": "40"
   },
   {
+    "item": "cobblemon:apricorn_planks",
+    "price": "10"
+  },
+  {
     "item": "cobblemon:apricorn_wood",
     "price": "40"
   },
@@ -170,6 +174,10 @@
   {
     "item": "cobblemon:saccharine_log_slathered",
     "price": "40"
+  },
+  {
+    "item": "cobblemon:saccharine_planks",
+    "price": "10"
   },
   {
     "item": "cobblemon:saccharine_wood",
@@ -196,6 +204,10 @@
     "price": "40"
   },
   {
+    "item": "minecraft:acacia_planks",
+    "price": "10"
+  },
+  {
     "item": "minecraft:acacia_wood",
     "price": "40"
   },
@@ -208,8 +220,16 @@
     "price": "5"
   },
   {
+    "item": "minecraft:bamboo_planks",
+    "price": "2"
+  },
+  {
     "item": "minecraft:birch_log",
     "price": "40"
+  },
+  {
+    "item": "minecraft:birch_planks",
+    "price": "10"
   },
   {
     "item": "minecraft:birch_wood",
@@ -220,12 +240,20 @@
     "price": "40"
   },
   {
+    "item": "minecraft:cherry_planks",
+    "price": "10"
+  },
+  {
     "item": "minecraft:cherry_wood",
     "price": "40"
   },
   {
     "item": "minecraft:crimson_hyphae",
     "price": "40"
+  },
+  {
+    "item": "minecraft:crimson_planks",
+    "price": "10"
   },
   {
     "item": "minecraft:crimson_stem",
@@ -236,12 +264,20 @@
     "price": "40"
   },
   {
+    "item": "minecraft:dark_oak_planks",
+    "price": "10"
+  },
+  {
     "item": "minecraft:dark_oak_wood",
     "price": "40"
   },
   {
     "item": "minecraft:jungle_log",
     "price": "40"
+  },
+  {
+    "item": "minecraft:jungle_planks",
+    "price": "10"
   },
   {
     "item": "minecraft:jungle_wood",
@@ -252,6 +288,10 @@
     "price": "40"
   },
   {
+    "item": "minecraft:mangrove_planks",
+    "price": "10"
+  },
+  {
     "item": "minecraft:mangrove_wood",
     "price": "40"
   },
@@ -260,12 +300,20 @@
     "price": "40"
   },
   {
+    "item": "minecraft:oak_planks",
+    "price": "10"
+  },
+  {
     "item": "minecraft:oak_wood",
     "price": "40"
   },
   {
     "item": "minecraft:spruce_log",
     "price": "40"
+  },
+  {
+    "item": "minecraft:spruce_planks",
+    "price": "10"
   },
   {
     "item": "minecraft:spruce_wood",
@@ -354,6 +402,10 @@
   {
     "item": "minecraft:warped_hyphae",
     "price": "40"
+  },
+  {
+    "item": "minecraft:warped_planks",
+    "price": "10"
   },
   {
     "item": "minecraft:warped_stem",
@@ -537,7 +589,7 @@
   },
   {
     "item": "minecraft:golden_carrot",
-    "price": "33"
+    "price": "66"
   },
   {
     "item": "minecraft:mushroom_stew",
@@ -578,6 +630,10 @@
   {
     "item": "minecraft:bone_meal",
     "price": "3"
+  },
+  {
+    "item": "minecraft:breeze_rod",
+    "price": "150"
   },
   {
     "item": "minecraft:brown_wool",
@@ -724,6 +780,10 @@
     "price": "75"
   },
   {
+    "item": "minecraft:blaze_rod",
+    "price": "150"
+  },
+  {
     "item": "minecraft:dragon_breath",
     "price": "100"
   },
@@ -757,7 +817,7 @@
   },
   {
     "item": "minecraft:nautilus_shell",
-    "price": "100"
+    "price": "200"
   },
   {
     "item": "minecraft:prismarine_crystals",
@@ -1341,7 +1401,7 @@
   },
   {
     "item": "cobblemon:link_cable",
-    "price": "200"
+    "price": "210"
   },
   {
     "item": "cobblemon:love_sweet",
@@ -1357,7 +1417,7 @@
   },
   {
     "item": "cobblemon:masterpiece_teacup",
-    "price": "50"
+    "price": "60"
   },
   {
     "item": "cobblemon:metal_alloy",
@@ -1465,7 +1525,7 @@
   },
   {
     "item": "cobblemon:unremarkable_teacup",
-    "price": "50"
+    "price": "60"
   },
   {
     "item": "cobblemon:upgrade",
@@ -1478,6 +1538,10 @@
   {
     "item": "cobblemon:water_stone_block",
     "price": "13500"
+  },
+  {
+    "item": "cobblemon:ability_shield",
+    "price": "6469"
   },
   {
     "item": "cobblemon:absorb_bulb",
@@ -1525,7 +1589,7 @@
   },
   {
     "item": "cobblemon:choice_band",
-    "price": "856"
+    "price": "876"
   },
   {
     "item": "cobblemon:choice_scarf",
@@ -1545,7 +1609,7 @@
   },
   {
     "item": "cobblemon:covert_cloak",
-    "price": "183"
+    "price": "216"
   },
   {
     "item": "cobblemon:damp_rock",
@@ -1589,7 +1653,7 @@
   },
   {
     "item": "cobblemon:exp_share",
-    "price": "1356"
+    "price": "836"
   },
   {
     "item": "cobblemon:expert_belt",
@@ -1597,7 +1661,7 @@
   },
   {
     "item": "cobblemon:fairy_feather",
-    "price": "160"
+    "price": "165"
   },
   {
     "item": "cobblemon:fairy_gem",
@@ -1654,6 +1718,10 @@
   {
     "item": "cobblemon:heat_rock",
     "price": "200"
+  },
+  {
+    "item": "cobblemon:heavy_duty_boots",
+    "price": "548"
   },
   {
     "item": "cobblemon:ice_gem",
@@ -1808,6 +1876,10 @@
     "price": "100"
   },
   {
+    "item": "cobblemon:rocky_helmet",
+    "price": "1986"
+  },
+  {
     "item": "cobblemon:room_service",
     "price": "939"
   },
@@ -1829,7 +1901,7 @@
   },
   {
     "item": "cobblemon:shell_bell",
-    "price": "284"
+    "price": "384"
   },
   {
     "item": "cobblemon:silk_scarf",
@@ -2370,5 +2442,241 @@
   {
     "item": "cobblemon:skull_fossil",
     "price": "5000"
+  },
+  {
+    "item": "minecraft:bow",
+    "price": "30"
+  },
+  {
+    "item": "minecraft:brush",
+    "price": "35"
+  },
+  {
+    "item": "minecraft:carrot_on_a_stick",
+    "price": "30"
+  },
+  {
+    "item": "minecraft:crossbow",
+    "price": "200"
+  },
+  {
+    "item": "minecraft:diamond_axe",
+    "price": "200"
+  },
+  {
+    "item": "minecraft:diamond_hoe",
+    "price": "200"
+  },
+  {
+    "item": "minecraft:diamond_pickaxe",
+    "price": "200"
+  },
+  {
+    "item": "minecraft:diamond_shovel",
+    "price": "200"
+  },
+  {
+    "item": "minecraft:diamond_sword",
+    "price": "200"
+  },
+  {
+    "item": "minecraft:fishing_rod",
+    "price": "20"
+  },
+  {
+    "item": "minecraft:flint_and_steel",
+    "price": "149"
+  },
+  {
+    "item": "minecraft:golden_axe",
+    "price": "594"
+  },
+  {
+    "item": "minecraft:golden_hoe",
+    "price": "396"
+  },
+  {
+    "item": "minecraft:golden_pickaxe",
+    "price": "594"
+  },
+  {
+    "item": "minecraft:golden_shovel",
+    "price": "198"
+  },
+  {
+    "item": "minecraft:golden_sword",
+    "price": "396"
+  },
+  {
+    "item": "minecraft:iron_axe",
+    "price": "200"
+  },
+  {
+    "item": "minecraft:iron_hoe",
+    "price": "200"
+  },
+  {
+    "item": "minecraft:iron_pickaxe",
+    "price": "200"
+  },
+  {
+    "item": "minecraft:iron_shovel",
+    "price": "144"
+  },
+  {
+    "item": "minecraft:iron_sword",
+    "price": "200"
+  },
+  {
+    "item": "minecraft:netherite_axe",
+    "price": "8492"
+  },
+  {
+    "item": "minecraft:netherite_hoe",
+    "price": "8492"
+  },
+  {
+    "item": "minecraft:netherite_pickaxe",
+    "price": "8492"
+  },
+  {
+    "item": "minecraft:netherite_shovel",
+    "price": "8492"
+  },
+  {
+    "item": "minecraft:netherite_sword",
+    "price": "8492"
+  },
+  {
+    "item": "minecraft:shears",
+    "price": "200"
+  },
+  {
+    "item": "minecraft:warped_fungus_on_a_stick",
+    "price": "25"
+  },
+  {
+    "item": "minecraft:wooden_axe",
+    "price": "6"
+  },
+  {
+    "item": "minecraft:wooden_hoe",
+    "price": "4"
+  },
+  {
+    "item": "minecraft:wooden_pickaxe",
+    "price": "6"
+  },
+  {
+    "item": "minecraft:wooden_shovel",
+    "price": "2"
+  },
+  {
+    "item": "minecraft:wooden_sword",
+    "price": "4"
+  },
+  {
+    "item": "minecraft:chainmail_boots",
+    "price": "100"
+  },
+  {
+    "item": "minecraft:chainmail_chestplate",
+    "price": "100"
+  },
+  {
+    "item": "minecraft:chainmail_helmet",
+    "price": "100"
+  },
+  {
+    "item": "minecraft:chainmail_leggings",
+    "price": "100"
+  },
+  {
+    "item": "minecraft:diamond_boots",
+    "price": "200"
+  },
+  {
+    "item": "minecraft:diamond_chestplate",
+    "price": "200"
+  },
+  {
+    "item": "minecraft:diamond_helmet",
+    "price": "200"
+  },
+  {
+    "item": "minecraft:diamond_leggings",
+    "price": "200"
+  },
+  {
+    "item": "minecraft:golden_boots",
+    "price": "792"
+  },
+  {
+    "item": "minecraft:golden_chestplate",
+    "price": "1584"
+  },
+  {
+    "item": "minecraft:golden_helmet",
+    "price": "990"
+  },
+  {
+    "item": "minecraft:golden_leggings",
+    "price": "1386"
+  },
+  {
+    "item": "minecraft:iron_boots",
+    "price": "200"
+  },
+  {
+    "item": "minecraft:iron_chestplate",
+    "price": "200"
+  },
+  {
+    "item": "minecraft:iron_helmet",
+    "price": "200"
+  },
+  {
+    "item": "minecraft:iron_leggings",
+    "price": "200"
+  },
+  {
+    "item": "minecraft:leather_boots",
+    "price": "100"
+  },
+  {
+    "item": "minecraft:leather_chestplate",
+    "price": "200"
+  },
+  {
+    "item": "minecraft:leather_helmet",
+    "price": "125"
+  },
+  {
+    "item": "minecraft:leather_leggings",
+    "price": "175"
+  },
+  {
+    "item": "minecraft:netherite_boots",
+    "price": "8492"
+  },
+  {
+    "item": "minecraft:netherite_chestplate",
+    "price": "8492"
+  },
+  {
+    "item": "minecraft:netherite_helmet",
+    "price": "8492"
+  },
+  {
+    "item": "minecraft:netherite_leggings",
+    "price": "8492"
+  },
+  {
+    "item": "minecraft:shield",
+    "price": "156"
+  },
+  {
+    "item": "minecraft:turtle_helmet",
+    "price": "750"
   }
 ]

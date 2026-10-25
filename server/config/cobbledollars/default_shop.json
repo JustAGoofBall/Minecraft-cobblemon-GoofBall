@@ -299,6 +299,10 @@
       {
         "item": "cobblemon:exp_share",
         "price": "250000"
+      },
+      {
+        "item": "minecraft:experience_bottle",
+        "price": "300"
       }
     ]
   },
@@ -493,7 +497,7 @@
     "offers": [
       {
         "item": "minecraft:coal",
-        "price": "100"
+        "price": "200"
       },
       {
         "item": "minecraft:copper_ingot",
@@ -517,7 +521,7 @@
       },
       {
         "item": "minecraft:quartz",
-        "price": "100"
+        "price": "200"
       },
       {
         "item": "minecraft:glowstone_dust",
@@ -557,11 +561,11 @@
       },
       {
         "item": "minecraft:leather",
-        "price": "100"
+        "price": "200"
       },
       {
         "item": "minecraft:string",
-        "price": "100"
+        "price": "200"
       },
       {
         "item": "minecraft:slime_ball",
@@ -589,7 +593,11 @@
       },
       {
         "item": "minecraft:clay_ball",
-        "price": "100"
+        "price": "200"
+      },
+      {
+        "item": "minecraft:wind_charge",
+        "price": "150"
       }
     ]
   },
@@ -614,11 +622,11 @@
       },
       {
         "item": "minecraft:carrot",
-        "price": "100"
+        "price": "200"
       },
       {
         "item": "minecraft:potato",
-        "price": "100"
+        "price": "200"
       },
       {
         "item": "minecraft:sugar_cane",
@@ -735,7 +743,7 @@
       },
       {
         "item": "refinedstorage:cable",
-        "price": "60"
+        "price": "64"
       },
       {
         "item": "refinedstorage:disk_drive",
@@ -743,7 +751,7 @@
       },
       {
         "item": "refinedstorage:grid",
-        "price": "8200"
+        "price": "8400"
       },
       {
         "item": "refinedstorage:crafting_grid",
@@ -759,7 +767,7 @@
       },
       {
         "item": "refinedstorage:autocrafter",
-        "price": "24000"
+        "price": "25000"
       },
       {
         "item": "refinedstorage:importer",
@@ -771,11 +779,11 @@
       },
       {
         "item": "refinedstorage:external_storage",
-        "price": "4600"
+        "price": "4700"
       },
       {
         "item": "refinedstorage:interface",
-        "price": "10000"
+        "price": "11000"
       },
       {
         "item": "refinedstorage:constructor",
@@ -783,19 +791,19 @@
       },
       {
         "item": "refinedstorage:destructor",
-        "price": "20000"
+        "price": "21000"
       },
       {
         "item": "refinedstorage:1k_storage_disk",
-        "price": "2900"
+        "price": "3000"
       },
       {
         "item": "refinedstorage:4k_storage_disk",
-        "price": "9000"
+        "price": "9400"
       },
       {
         "item": "refinedstorage:16k_storage_disk",
-        "price": "29000"
+        "price": "30000"
       },
       {
         "item": "refinedstorage:64k_storage_disk",
@@ -831,7 +839,7 @@
       },
       {
         "item": "refinedstorage:wrench",
-        "price": "3600"
+        "price": "3700"
       },
       {
         "item": "refinedstorage:machine_casing",
@@ -839,7 +847,7 @@
       },
       {
         "item": "refinedstorage:silicon",
-        "price": "100"
+        "price": "120"
       },
       {
         "item": "refinedstorage:quartz_enriched_iron",
@@ -847,7 +855,7 @@
       },
       {
         "item": "refinedstorage:basic_processor",
-        "price": "870"
+        "price": "890"
       },
       {
         "item": "refinedstorage:improved_processor",
@@ -855,7 +863,7 @@
       },
       {
         "item": "refinedstorage:advanced_processor",
-        "price": "8300"
+        "price": "8400"
       },
       {
         "item": "toms_storage:storage_terminal",
@@ -875,7 +883,7 @@
       },
       {
         "item": "toms_storage:inventory_cable_connector",
-        "price": "8600"
+        "price": "8700"
       },
       {
         "item": "toms_storage:inventory_interface",
@@ -887,7 +895,7 @@
       },
       {
         "item": "toms_storage:level_emitter",
-        "price": "780"
+        "price": "800"
       },
       {
         "item": "toms_storage:basic_inventory_hopper",
