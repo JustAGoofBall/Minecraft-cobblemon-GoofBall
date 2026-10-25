@@ -498,7 +498,8 @@
       "name": "Resources",
       "offers": [
         {
-          "item": "minecraft:coal"
+          "item": "minecraft:coal",
+          "min_price": 200
         },
         {
           "item": "minecraft:copper_ingot"
@@ -516,7 +517,8 @@
           "item": "minecraft:lapis_lazuli"
         },
         {
-          "item": "minecraft:quartz"
+          "item": "minecraft:quartz",
+          "min_price": 200
         },
         {
           "item": "minecraft:glowstone_dust"
@@ -546,11 +548,12 @@
           "item": "minecraft:cherry_log"
         },
         {
-          "item": "minecraft:leather"
+          "item": "minecraft:leather",
+          "min_price": 200
         },
         {
           "item": "minecraft:string",
-          "min_price": 100
+          "min_price": 200
         },
         {
           "item": "minecraft:slime_ball"
@@ -574,7 +577,11 @@
         },
         {
           "item": "minecraft:clay_ball",
-          "min_price": 100
+          "min_price": 200
+        },
+        {
+          "item": "minecraft:wind_charge",
+          "price": 150
         }
       ]
     },
@@ -599,11 +606,11 @@
         },
         {
           "item": "minecraft:carrot",
-          "min_price": 100
+          "min_price": 200
         },
         {
           "item": "minecraft:potato",
-          "min_price": 100
+          "min_price": 200
         },
         {
           "item": "minecraft:sugar_cane"

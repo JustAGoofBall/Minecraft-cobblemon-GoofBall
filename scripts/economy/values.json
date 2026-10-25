@@ -28,13 +28,13 @@
     "Held Items",
     "Medicine & Candy",
     "Poké Balls",
-    "Fossils"
+    "Fossils",
+    "Tools & Weapons",
+    "Armor"
   ],
   "never_sell": [
-    "#minecraft:enchantable/durability",
-    "#c:tools",
-    "#c:armors",
-    "re:.*_(sword|pickaxe|axe|shovel|hoe|helmet|chestplate|leggings|boots|bow|crossbow|trident|shield|fishing_rod|shears|elytra|rod|horse_armor)$",
+    "minecraft:elytra",
+    "re:.*_horse_armor$",
     "re:.*spawn_egg$",
     "minecraft:potion",
     "minecraft:splash_potion",
@@ -123,7 +123,7 @@
     },
     {
       "match": "minecraft:emerald",
-      "value": 100,
+      "value": 200,
       "bank": "Gems & Minerals"
     },
     {
@@ -148,7 +148,7 @@
     },
     {
       "match": "re:minecraft:(deepslate_)?emerald_ore",
-      "value": 100,
+      "value": 200,
       "_note": "unscaled like emerald"
     },
     {
@@ -243,6 +243,11 @@
       "bank": "Ores & Metals"
     },
     {
+      "match": "minecraft:netherite_upgrade_smithing_template",
+      "value": 300,
+      "_note": "bastion loot, like a netherite scrap; needed to price netherite tools and armor"
+    },
+    {
       "match": "re:minecraft:(iron_nugget|gold_nugget|netherite_ingot|coal_block|copper_block|raw_copper_block|iron_block|raw_iron_block|gold_block|raw_gold_block|netherite_block)",
       "bank": "Ores & Metals"
     },
@@ -303,6 +308,10 @@
     {
       "match": "#minecraft:logs",
       "value": 8,
+      "bank": "Wood"
+    },
+    {
+      "match": "#minecraft:planks",
       "bank": "Wood"
     },
     {
@@ -692,6 +701,28 @@
     {
       "match": "#cobblemon:tumblestones",
       "value": 2
+    },
+    {
+      "match": "re:minecraft:.*_(sword|pickaxe|axe|shovel|hoe)",
+      "bank": "Tools & Weapons"
+    },
+    {
+      "match": "re:minecraft:(bow|crossbow|trident|mace|shears|fishing_rod|flint_and_steel|brush|carrot_on_a_stick|warped_fungus_on_a_stick)",
+      "bank": "Tools & Weapons"
+    },
+    {
+      "match": "re:minecraft:chainmail_(helmet|chestplate|leggings|boots)",
+      "value": 20,
+      "bank": "Armor",
+      "_note": "loot and villagers only (no recipe)"
+    },
+    {
+      "match": "re:minecraft:.*_(helmet|chestplate|leggings|boots)",
+      "bank": "Armor"
+    },
+    {
+      "match": "minecraft:shield",
+      "bank": "Armor"
     }
   ],
   "ignore_unpriced": [
