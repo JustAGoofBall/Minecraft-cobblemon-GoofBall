@@ -368,6 +368,10 @@
       {
         "item": "cobblemon:pp_up",
         "price": "100000"
+      },
+      {
+        "item": "minecraft:totem_of_undying",
+        "price": "500000"
       }
     ]
   },
