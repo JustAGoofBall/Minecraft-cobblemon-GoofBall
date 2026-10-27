@@ -606,6 +606,10 @@
       {
         "item": "minecraft:nether_star",
         "price": "60000"
+      },
+      {
+        "item": "minecraft:dragon_egg",
+        "price": "1000000"
       }
     ]
   },
