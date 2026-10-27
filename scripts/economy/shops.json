@@ -602,6 +602,9 @@
         {
           "item": "minecraft:wind_charge",
           "price": 150
+        },
+        {
+          "item": "minecraft:nether_star"
         }
       ]
     },
