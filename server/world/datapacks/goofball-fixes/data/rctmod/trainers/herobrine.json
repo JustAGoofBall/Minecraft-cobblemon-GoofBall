@@ -1,0 +1,196 @@
+{
+  "name": "Herobrine",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "maxSelectMargin": 0.15
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 4
+  },
+  "bag": [],
+  "team": [
+    {
+      "species": "mewtwo",
+      "gender": "GENDERLESS",
+      "level": 100,
+      "nature": "timid",
+      "ability": "insomnia",
+      "moveset": [
+        "psystrike",
+        "fireblast",
+        "icebeam",
+        "recover"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "heldItem": [
+        "mega_showdown:mewtwonite_y"
+      ]
+    },
+    {
+      "species": "shaymin",
+      "gender": "GENDERLESS",
+      "level": 100,
+      "nature": "timid",
+      "ability": "serenegrace",
+      "moveset": [
+        "airslash",
+        "seedflare",
+        "earthpower",
+        "substitute"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "heldItem": [
+        "kings_rock"
+      ],
+      "aspects": [
+        "sky"
+      ]
+    },
+    {
+      "species": "victini",
+      "gender": "GENDERLESS",
+      "level": 100,
+      "nature": "jolly",
+      "ability": "victorystar",
+      "moveset": [
+        "vcreate",
+        "boltstrike",
+        "zenheadbutt",
+        "uturn"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 4,
+        "atk": 252,
+        "spe": 252
+      },
+      "heldItem": [
+        "choice_band"
+      ],
+      "shiny": true
+    },
+    {
+      "species": "xerneas",
+      "gender": "GENDERLESS",
+      "level": 100,
+      "nature": "modest",
+      "ability": "fairyaura",
+      "moveset": [
+        "geomancy",
+        "moonblast",
+        "focusblast",
+        "thunder"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "spa": 252,
+        "spd": 4
+      },
+      "heldItem": [
+        "power_herb"
+      ]
+    },
+    {
+      "species": "urshifu",
+      "gender": "MALE",
+      "level": 100,
+      "nature": "adamant",
+      "ability": "unseenfist",
+      "moveset": [
+        "surgingstrikes",
+        "closecombat",
+        "uturn",
+        "aquajet"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "def": 4,
+        "spe": 252
+      },
+      "heldItem": [
+        "life_orb"
+      ],
+      "aspects": [
+        "rapid_strike"
+      ]
+    },
+    {
+      "species": "marshadow",
+      "gender": "GENDERLESS",
+      "level": 100,
+      "nature": "jolly",
+      "ability": "technician",
+      "moveset": [
+        "spectralthief",
+        "closecombat",
+        "shadowsneak",
+        "swordsdance"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "heldItem": [
+        "mega_showdown:marshadium_z"
+      ]
+    }
+  ]
+}
