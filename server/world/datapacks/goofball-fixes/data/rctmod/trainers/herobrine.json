@@ -9,7 +9,16 @@
   "battleRules": {
     "maxItemUses": 4
   },
-  "bag": [],
+  "bag": [
+    {
+      "item": "cobblemon:full_restore",
+      "quantity": 2
+    },
+    {
+      "item": "cobblemon:max_revive",
+      "quantity": 1
+    }
+  ],
   "team": [
     {
       "species": "mewtwo",
