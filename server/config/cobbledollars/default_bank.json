@@ -852,28 +852,56 @@
     "price": "30"
   },
   {
+    "item": "cobblemon:black_apricorn_seed",
+    "price": "10"
+  },
+  {
     "item": "cobblemon:blue_apricorn",
     "price": "30"
+  },
+  {
+    "item": "cobblemon:blue_apricorn_seed",
+    "price": "10"
   },
   {
     "item": "cobblemon:green_apricorn",
     "price": "30"
   },
   {
+    "item": "cobblemon:green_apricorn_seed",
+    "price": "10"
+  },
+  {
     "item": "cobblemon:pink_apricorn",
     "price": "30"
+  },
+  {
+    "item": "cobblemon:pink_apricorn_seed",
+    "price": "10"
   },
   {
     "item": "cobblemon:red_apricorn",
     "price": "30"
   },
   {
+    "item": "cobblemon:red_apricorn_seed",
+    "price": "10"
+  },
+  {
     "item": "cobblemon:white_apricorn",
     "price": "30"
   },
   {
+    "item": "cobblemon:white_apricorn_seed",
+    "price": "10"
+  },
+  {
     "item": "cobblemon:yellow_apricorn",
     "price": "30"
+  },
+  {
+    "item": "cobblemon:yellow_apricorn_seed",
+    "price": "10"
   },
   {
     "item": "cobblemon:aguav_berry",
