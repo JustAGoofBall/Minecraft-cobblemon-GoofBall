@@ -14,7 +14,7 @@ hash = "cd21aada6e998c7da4b5eb57a58c946426aa4ab73c1860cd6ee6f16930a2055d"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "4efa6b538e733e99ab6d98b76bcf049db249e6b09481143b308103a77e735695"
+hash = "6f7722c3c84d9f15792db9c88baa3db6adf5198bc8d82d60ac38c6fca6e2cec0"
 
 [[files]]
 file = "defaultconfigs/xaero/minimap/default_radar_categories_client.json"
@@ -738,6 +738,10 @@ metafile = true
 file = "mods/yungs-extras.pw.toml"
 hash = "745fd5cd0b5ddaca6b0fba915428c63a47d32ee9e281c3661b41aa34dd8b653b"
 metafile = true
+
+[[files]]
+file = "resourcepacks/Herobrine-Trainer-Skin.zip"
+hash = "38ac8b97f594aba17803081391360542222f9831b348aa67a90e3e6c7fd5b162"
 
 [[files]]
 file = "resourcepacks/better-leaves.pw.toml"
