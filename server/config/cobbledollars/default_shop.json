@@ -584,6 +584,10 @@
         "price": "600"
       },
       {
+        "item": "minecraft:breeze_rod",
+        "price": "600"
+      },
+      {
         "item": "minecraft:sand",
         "price": "20"
       },
