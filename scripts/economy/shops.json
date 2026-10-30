@@ -588,6 +588,9 @@
           "item": "minecraft:blaze_rod"
         },
         {
+          "item": "minecraft:breeze_rod"
+        },
+        {
           "item": "minecraft:sand",
           "min_price": 20
         },
