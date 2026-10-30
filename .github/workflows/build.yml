@@ -83,3 +83,40 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh release upload "$GITHUB_REF_NAME" dist/* --clobber --repo "$GITHUB_REPOSITORY"
+
+      # Uploads the .mrpack as a new version of the Modrinth project. Only runs for published
+      # releases and only when the repository secret MODRINTH_TOKEN exists (token scopes: Create
+      # versions). Without the secret this step is skipped, so releases keep working.
+      - name: Publish to Modrinth
+        if: github.event_name == 'release'
+        env:
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+          MODRINTH_PROJECT_ID: aDvJFIvn
+          VERSION: ${{ steps.version.outputs.version }}
+          RELEASE_NAME: ${{ github.event.release.name }}
+          RELEASE_BODY: ${{ github.event.release.body }}
+          PRERELEASE: ${{ github.event.release.prerelease }}
+        run: |
+          if [ -z "${MODRINTH_TOKEN}" ]; then
+            echo "::notice::No MODRINTH_TOKEN secret set, skipping the Modrinth upload."
+            exit 0
+          fi
+          file="dist/GoofBall-Cobblemon-${VERSION}.mrpack"
+          channel=release
+          if [ "${PRERELEASE}" = "true" ]; then channel=beta; fi
+          jq -n \
+            --arg project "${MODRINTH_PROJECT_ID}" \
+            --arg version "${VERSION}" \
+            --arg name "${RELEASE_NAME:-GoofBall Cobblemon ${VERSION}}" \
+            --arg changelog "${RELEASE_BODY}" \
+            --arg channel "${channel}" \
+            '{project_id: $project, version_number: $version, name: $name, changelog: $changelog,
+              dependencies: [], game_versions: ["1.21.1"], loaders: ["fabric"],
+              version_type: $channel, featured: true, status: "listed",
+              file_parts: ["file0"], primary_file: "file0"}' > "${RUNNER_TEMP}/modrinth-version.json"
+          curl --fail-with-body -sS -X POST https://api.modrinth.com/v2/version \
+            -H "Authorization: ${MODRINTH_TOKEN}" \
+            -H "User-Agent: ${GITHUB_REPOSITORY} (github-actions)" \
+            -F "data=<${RUNNER_TEMP}/modrinth-version.json;type=application/json" \
+            -F "file0=@${file};type=application/x-modrinth-modpack+zip"
+          echo "Uploaded ${file} to Modrinth project ${MODRINTH_PROJECT_ID}."
