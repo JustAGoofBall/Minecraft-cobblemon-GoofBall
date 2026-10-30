@@ -370,6 +370,10 @@
         {
           "item": "cobblemon:pp_up",
           "price": 100000
+        },
+        {
+          "item": "minecraft:totem_of_undying",
+          "price": 500000
         }
       ]
     },
@@ -598,6 +602,13 @@
         {
           "item": "minecraft:wind_charge",
           "price": 150
+        },
+        {
+          "item": "minecraft:nether_star"
+        },
+        {
+          "item": "minecraft:dragon_egg",
+          "price": 1000000
         }
       ]
     },

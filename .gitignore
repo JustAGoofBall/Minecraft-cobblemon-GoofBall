@@ -2,6 +2,7 @@
 dist/
 *.mrpack
 *.zip
+!pack/resourcepacks/*.zip
 # Lokale testserver
 server-run/
 
