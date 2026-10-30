@@ -85,7 +85,12 @@
       "value": 0
     },
     {
-      "match": "re:cobblemon:(.*_apricorn_seed|vivichoke_seeds)",
+      "match": "#cobblemon:apricorn_sprouts",
+      "value": 2,
+      "bank": "Apricorns"
+    },
+    {
+      "match": "re:cobblemon:vivichoke_seeds",
       "value": 0
     },
     {
