@@ -16,6 +16,19 @@ You can do this entirely on the GitHub website:
 
 The tag's version number (without `v`) becomes the pack version. Progress is under the **Actions** tab.
 
+### Automatic upload to Modrinth
+The workflow also uploads the `.mrpack` as a new version of the Modrinth project
+(<https://modrinth.com/project/aDvJFIvn>). One-time setup:
+
+1. On modrinth.com: **Settings → Personal access tokens → Create**, scope **Create versions** only.
+2. On GitHub: repository **Settings → Secrets and variables → Actions → New repository secret**,
+   name `MODRINTH_TOKEN`, value = the token.
+
+Without that secret the step is skipped and the release works as before. The release title becomes the
+Modrinth version name, the release description the changelog; a GitHub *pre-release* is uploaded as `beta`.
+A new Modrinth version appears as soon as the release is published; the project itself must be
+submitted for review once on modrinth.com.
+
 ## Installing packwiz (to add/update mods)
 You need [Go](https://go.dev/dl/), then:
 
