@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:master_ball"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "rctmod:trainers/single/herobrine"
+}
