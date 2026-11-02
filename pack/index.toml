@@ -350,6 +350,11 @@ hash = "238b3ceb4214a682480ce00eefae5d34efa299ff6ff667e4b2f2ed503c6e76ee"
 metafile = true
 
 [[files]]
+file = "mods/forgiving-void.pw.toml"
+hash = "ec1049931ec25440017f30582b0e5dce38ac0dfd4721fb5a875d41b0f37acc73"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "5f62f54e16fdc97a0fb21b63a563583f85d141772f6aa99f68d40cd654b7dc35"
 metafile = true
