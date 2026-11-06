@@ -14,7 +14,7 @@ hash = "cd21aada6e998c7da4b5eb57a58c946426aa4ab73c1860cd6ee6f16930a2055d"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "6f7722c3c84d9f15792db9c88baa3db6adf5198bc8d82d60ac38c6fca6e2cec0"
+hash = "0ebac8aac1523611bffcdbe443fe3f30d3bf37c8b8fb0accd44d3741a33d2f56"
 
 [[files]]
 file = "defaultconfigs/xaero/minimap/default_radar_categories_client.json"
@@ -72,6 +72,11 @@ metafile = true
 [[files]]
 file = "mods/better-advancements.pw.toml"
 hash = "a7a6a8396dd3842912b9483e6dfd0f39d165700e7eab470d4eab2244fc5d624e"
+metafile = true
+
+[[files]]
+file = "mods/bobby.pw.toml"
+hash = "45ffd0f1d01dee1c16c71bc4371b8a9bd64c96d30eabda818983afd0f4d62f5e"
 metafile = true
 
 [[files]]
@@ -197,6 +202,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-pokestops.pw.toml"
 hash = "2d9e23cc31729e49b5076fbc785629b40c90836168bd81098558bb683efd7070"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-riders-call.pw.toml"
+hash = "28cc8663b992d316e68b9f7945e1f4a65e0d23bbb770f7a95eed371a79f12987"
 metafile = true
 
 [[files]]

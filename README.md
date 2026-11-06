@@ -48,6 +48,7 @@ Players and the server must always use the **same version**.
 | [Cobblemon Incubator](https://modrinth.com/mod/cobblemon-incubator) | Egg Incubator: hatches eggs 5× faster, shows IVs, can send hatched Pokémon to your PC |
 | [Only Bottle Caps](https://modrinth.com/mod/only-bottle-caps) | Bottle Caps (max a Pokémon's IVs), fished up as treasure |
 | [Berry Pouch](https://modrinth.com/mod/berry-pouch) | Berry Pouch (berries go in by themselves), apricorn basket and Poké Ball launcher |
+| [Cobblemon: Rider's Call](https://modrinth.com/mod/cobblemon-riders-call) | Call and mount your selected ride Pokémon with one key; the camera distance adjusts to its size |
 | [CobblemonEditor](https://modrinth.com/mod/cobblemoneditor) | Pokémon/trainer editor for **ops only** (`/cobblemonedit open <player>`) |
 
 ### World and structures
@@ -91,6 +92,7 @@ Players and the server must always use the **same version**.
 [Sodium Extra](https://modrinth.com/mod/sodium-extra) + [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options),
 [Dynamic FPS](https://modrinth.com/mod/dynamic-fps), [LambDynamicLights](https://modrinth.com/mod/lambdynamiclights),
 [More Culling](https://modrinth.com/mod/moreculling),
+[Bobby](https://modrinth.com/mod/bobby) (keeps chunks you have visited and shows them far beyond the server's view distance),
 [Durability Viewer](https://modrinth.com/mod/durability-viewer-updated) + [MaLiLib](https://modrinth.com/mod/malilib) (armor/tool durability HUD, bottom-left),
 [Modpack Shipped Servers](https://modrinth.com/mod/modpack-shipped-servers) (the GoofBall server is already in your server list).
 
