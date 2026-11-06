@@ -38,6 +38,12 @@ the token expired), upload the `.mrpack` from the release by hand: **Versions** 
 
 > Don't upload the **server zip** to Modrinth. It's only for Crafty and lives on GitHub.
 
+## Files that are not from Modrinth
+The only non-Modrinth content in the `.mrpack` is the pack's own configuration (`overrides/config`,
+`overrides/defaultconfigs`) and `overrides/resourcepacks/Herobrine-Trainer-Skin.zip`. That skin is **original
+work for this pack**: every pixel is drawn by `scripts/make_herobrine_skin.py` (no existing skin was used as a
+base). If Modrinth asks for proof of permission, say that and link that script.
+
 ## Review
 The first time, click **Submit for review**. A Modrinth moderator checks the project, which can take a
 few days. Make sure there's a clear description, an icon and a license, or it gets sent back. After
