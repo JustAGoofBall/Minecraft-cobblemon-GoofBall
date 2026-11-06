@@ -303,6 +303,10 @@
       {
         "item": "minecraft:experience_bottle",
         "price": "300"
+      },
+      {
+        "item": "cobblemon:lucky_egg",
+        "price": "10000"
       }
     ]
   },
@@ -400,6 +404,279 @@
       {
         "item": "minecraft:totem_of_undying",
         "price": "500000"
+      },
+      {
+        "item": "cobblemon:pp_max",
+        "price": "10000"
+      }
+    ]
+  },
+  {
+    "name": "Held Items",
+    "offers": [
+      {
+        "item": "cobblemon:black_belt",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:black_glasses",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:charcoal_stick",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:dragon_fang",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:fairy_feather",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:hard_stone",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:magnet",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:miracle_seed",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:mystic_water",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:never_melt_ice",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:poison_barb",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:sharp_beak",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:silk_scarf",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:silver_powder",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:soft_sand",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:spell_tag",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:twisted_spoon",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:toxic_orb",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:flame_orb",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:iron_ball",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:ring_target",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:absorb_bulb",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:cell_battery",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:throat_spray",
+        "price": "3000"
+      },
+      {
+        "item": "cobblemon:white_herb",
+        "price": "5000"
+      },
+      {
+        "item": "cobblemon:mental_herb",
+        "price": "5000"
+      },
+      {
+        "item": "cobblemon:power_herb",
+        "price": "5000"
+      },
+      {
+        "item": "cobblemon:mirror_herb",
+        "price": "5000"
+      },
+      {
+        "item": "cobblemon:electric_seed",
+        "price": "5000"
+      },
+      {
+        "item": "cobblemon:grassy_seed",
+        "price": "5000"
+      },
+      {
+        "item": "cobblemon:misty_seed",
+        "price": "5000"
+      },
+      {
+        "item": "cobblemon:psychic_seed",
+        "price": "5000"
+      },
+      {
+        "item": "cobblemon:terrain_extender",
+        "price": "5000"
+      },
+      {
+        "item": "cobblemon:room_service",
+        "price": "5000"
+      },
+      {
+        "item": "cobblemon:focus_band",
+        "price": "6500"
+      },
+      {
+        "item": "cobblemon:focus_sash",
+        "price": "6500"
+      },
+      {
+        "item": "cobblemon:air_balloon",
+        "price": "6500"
+      },
+      {
+        "item": "cobblemon:red_card",
+        "price": "6500"
+      },
+      {
+        "item": "cobblemon:eject_button",
+        "price": "6500"
+      },
+      {
+        "item": "cobblemon:eject_pack",
+        "price": "6500"
+      },
+      {
+        "item": "cobblemon:weakness_policy",
+        "price": "6500"
+      },
+      {
+        "item": "cobblemon:blunder_policy",
+        "price": "6500"
+      },
+      {
+        "item": "cobblemon:muscle_band",
+        "price": "6500"
+      },
+      {
+        "item": "cobblemon:wise_glasses",
+        "price": "6500"
+      },
+      {
+        "item": "cobblemon:binding_band",
+        "price": "6500"
+      },
+      {
+        "item": "cobblemon:bright_powder",
+        "price": "6500"
+      },
+      {
+        "item": "cobblemon:utility_umbrella",
+        "price": "6500"
+      },
+      {
+        "item": "cobblemon:protective_pads",
+        "price": "6500"
+      },
+      {
+        "item": "cobblemon:covert_cloak",
+        "price": "6500"
+      },
+      {
+        "item": "cobblemon:ability_shield",
+        "price": "6500"
+      },
+      {
+        "item": "cobblemon:choice_band",
+        "price": "10000"
+      },
+      {
+        "item": "cobblemon:choice_specs",
+        "price": "10000"
+      },
+      {
+        "item": "cobblemon:choice_scarf",
+        "price": "10000"
+      },
+      {
+        "item": "cobblemon:leftovers",
+        "price": "10000"
+      },
+      {
+        "item": "cobblemon:black_sludge",
+        "price": "10000"
+      },
+      {
+        "item": "cobblemon:life_orb",
+        "price": "10000"
+      },
+      {
+        "item": "cobblemon:scope_lens",
+        "price": "10000"
+      },
+      {
+        "item": "cobblemon:wide_lens",
+        "price": "10000"
+      },
+      {
+        "item": "cobblemon:zoom_lens",
+        "price": "10000"
+      },
+      {
+        "item": "cobblemon:eviolite",
+        "price": "10000"
+      },
+      {
+        "item": "cobblemon:rocky_helmet",
+        "price": "10000"
+      },
+      {
+        "item": "cobblemon:assault_vest",
+        "price": "10000"
+      },
+      {
+        "item": "cobblemon:safety_goggles",
+        "price": "10000"
+      },
+      {
+        "item": "cobblemon:heavy_duty_boots",
+        "price": "10000"
+      },
+      {
+        "item": "cobblemon:punching_glove",
+        "price": "10000"
+      },
+      {
+        "item": "cobblemon:loaded_dice",
+        "price": "10000"
       }
     ]
   },
@@ -521,6 +798,46 @@
       {
         "item": "cobblemon:destiny_knot",
         "price": "100000"
+      },
+      {
+        "item": "cobblemon:oval_stone",
+        "price": "5000"
+      },
+      {
+        "item": "cobblemon:tart_apple",
+        "price": "5000"
+      },
+      {
+        "item": "cobblemon:cracked_pot",
+        "price": "5000"
+      },
+      {
+        "item": "cobblemon:chipped_pot",
+        "price": "5000"
+      },
+      {
+        "item": "cobblemon:galarica_cuff",
+        "price": "5000"
+      },
+      {
+        "item": "cobblemon:galarica_wreath",
+        "price": "5000"
+      },
+      {
+        "item": "cobblemon:black_augurite",
+        "price": "5000"
+      },
+      {
+        "item": "cobblemon:peat_block",
+        "price": "5000"
+      },
+      {
+        "item": "cobblemon:auspicious_armor",
+        "price": "5000"
+      },
+      {
+        "item": "cobblemon:malicious_armor",
+        "price": "5000"
       }
     ]
   },
