@@ -1,0 +1,198 @@
+{
+  "name": "_JustAGoofBall_",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "maxSelectMargin": 0.15
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 4
+  },
+  "bag": [
+    {
+      "item": "cobblemon:full_restore",
+      "quantity": 2
+    },
+    {
+      "item": "cobblemon:max_revive",
+      "quantity": 1
+    }
+  ],
+  "team": [
+    {
+      "species": "kingdra",
+      "gender": "MALE",
+      "level": 100,
+      "nature": "modest",
+      "ability": "swiftswim",
+      "moveset": [
+        "hydropump",
+        "dracometeor",
+        "icebeam",
+        "rest"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 4,
+        "spa": 252,
+        "spe": 252
+      },
+      "heldItem": [
+        "leftovers"
+      ]
+    },
+    {
+      "species": "aegislash",
+      "gender": "MALE",
+      "level": 100,
+      "nature": "modest",
+      "ability": "stancechange",
+      "moveset": [
+        "shadowball",
+        "flashcannon",
+        "kingsshield",
+        "shadowsneak"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 4,
+        "spa": 252,
+        "spe": 252
+      },
+      "heldItem": [
+        "life_orb"
+      ]
+    },
+    {
+      "species": "garchomp",
+      "gender": "MALE",
+      "level": 100,
+      "nature": "jolly",
+      "ability": "roughskin",
+      "moveset": [
+        "earthquake",
+        "outrage",
+        "swordsdance",
+        "stoneedge"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 4,
+        "atk": 252,
+        "spe": 252
+      },
+      "heldItem": [
+        "life_orb"
+      ]
+    },
+    {
+      "species": "gholdengo",
+      "gender": "GENDERLESS",
+      "level": 100,
+      "nature": "timid",
+      "ability": "goodasgold",
+      "moveset": [
+        "makeitrain",
+        "shadowball",
+        "nastyplot",
+        "recover"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 4,
+        "spa": 252,
+        "spe": 252
+      },
+      "heldItem": [
+        "leftovers"
+      ]
+    },
+    {
+      "species": "dragonite",
+      "gender": "MALE",
+      "level": 100,
+      "nature": "adamant",
+      "ability": "multiscale",
+      "moveset": [
+        "dragondance",
+        "extremespeed",
+        "earthquake",
+        "roost"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 4,
+        "atk": 252,
+        "spe": 252
+      },
+      "heldItem": [
+        "leftovers"
+      ]
+    },
+    {
+      "species": "tyranitar",
+      "gender": "MALE",
+      "level": 100,
+      "nature": "adamant",
+      "ability": "sandstream",
+      "moveset": [
+        "stealthrock",
+        "stoneedge",
+        "crunch",
+        "icepunch"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "atk": 252,
+        "spd": 4
+      },
+      "heldItem": [
+        "leftovers"
+      ]
+    }
+  ]
+}

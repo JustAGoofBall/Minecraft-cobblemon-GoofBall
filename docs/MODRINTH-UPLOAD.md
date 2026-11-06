@@ -40,9 +40,10 @@ the token expired), upload the `.mrpack` from the release by hand: **Versions** 
 
 ## Files that are not from Modrinth
 The only non-Modrinth content in the `.mrpack` is the pack's own configuration (`overrides/config`,
-`overrides/defaultconfigs`) and `overrides/resourcepacks/Herobrine-Trainer-Skin.zip`. That skin is **original
-work for this pack**: every pixel is drawn by `scripts/make_herobrine_skin.py` (no existing skin was used as a
-base). If Modrinth asks for proof of permission, say that and link that script.
+`overrides/defaultconfigs`) and `overrides/resourcepacks/GoofBall-Trainer-Skins.zip`. That zip holds the skins of
+the two NPC trainers, made by the project owner (JustAGoofBall) for this pack. `ballajustgoof.png` is built on
+the default Minecraft skin (Steve), so say that if Modrinth asks; the other skin, `justagoofball.png`, is a
+separate design. If Modrinth does not accept it, remove the zip from `pack/resourcepacks/` and `packwiz refresh`.
 
 ## Review
 The first time, click **Submit for review**. A Modrinth moderator checks the project, which can take a
