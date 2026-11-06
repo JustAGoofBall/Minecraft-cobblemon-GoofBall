@@ -7,16 +7,12 @@
     }
   },
   "battleRules": {
-    "maxItemUses": 5
+    "maxItemUses": 3
   },
   "bag": [
     {
       "item": "cobblemon:full_restore",
       "quantity": 3
-    },
-    {
-      "item": "cobblemon:max_revive",
-      "quantity": 2
     }
   ],
   "team": [
