@@ -6,7 +6,7 @@
       "offers": [
         {
           "item": "cobblemon:poke_ball",
-          "price": 2000
+          "price": 200
         },
         {
           "item": "cobblemon:citrine_ball",
@@ -34,11 +34,11 @@
         },
         {
           "item": "cobblemon:great_ball",
-          "price": 6000
+          "price": 600
         },
         {
           "item": "cobblemon:ultra_ball",
-          "price": 8000
+          "price": 800
         },
         {
           "item": "cobblemon:safari_ball",
@@ -82,39 +82,39 @@
         },
         {
           "item": "cobblemon:net_ball",
-          "price": 10000
+          "price": 1000
         },
         {
           "item": "cobblemon:dive_ball",
-          "price": 10000
+          "price": 1000
         },
         {
           "item": "cobblemon:nest_ball",
-          "price": 10000
+          "price": 1000
         },
         {
           "item": "cobblemon:repeat_ball",
-          "price": 10000
+          "price": 1000
         },
         {
           "item": "cobblemon:timer_ball",
-          "price": 10000
+          "price": 2000
         },
         {
           "item": "cobblemon:luxury_ball",
-          "price": 30000
+          "price": 2000
         },
         {
           "item": "cobblemon:dusk_ball",
-          "price": 10000
+          "price": 2000
         },
         {
           "item": "cobblemon:heal_ball",
-          "price": 3000
+          "price": 1500
         },
         {
           "item": "cobblemon:quick_ball",
-          "price": 10000
+          "price": 2000
         },
         {
           "item": "cobblemon:dream_ball",
@@ -203,71 +203,71 @@
       "offers": [
         {
           "item": "cobblemon:potion",
-          "price": 2000
+          "price": 200
         },
         {
           "item": "cobblemon:super_potion",
-          "price": 7000
+          "price": 700
         },
         {
           "item": "cobblemon:hyper_potion",
-          "price": 12000
+          "price": 1500
         },
         {
           "item": "cobblemon:max_potion",
-          "price": 25000
+          "price": 2500
         },
         {
           "item": "cobblemon:full_restore",
-          "price": 30000
+          "price": 3000
         },
         {
           "item": "cobblemon:revive",
-          "price": 20000
+          "price": 2000
         },
         {
           "item": "cobblemon:max_revive",
-          "price": 40000
-        },
-        {
-          "item": "cobblemon:antidote",
-          "price": 1000
-        },
-        {
-          "item": "cobblemon:paralyze_heal",
-          "price": 2000
-        },
-        {
-          "item": "cobblemon:awakening",
-          "price": 2000
-        },
-        {
-          "item": "cobblemon:burn_heal",
-          "price": 2000
-        },
-        {
-          "item": "cobblemon:ice_heal",
-          "price": 2000
-        },
-        {
-          "item": "cobblemon:full_heal",
           "price": 4000
         },
         {
+          "item": "cobblemon:antidote",
+          "price": 100
+        },
+        {
+          "item": "cobblemon:paralyze_heal",
+          "price": 200
+        },
+        {
+          "item": "cobblemon:awakening",
+          "price": 200
+        },
+        {
+          "item": "cobblemon:burn_heal",
+          "price": 200
+        },
+        {
+          "item": "cobblemon:ice_heal",
+          "price": 200
+        },
+        {
+          "item": "cobblemon:full_heal",
+          "price": 400
+        },
+        {
           "item": "cobblemon:ether",
-          "price": 12000
+          "price": 1000
         },
         {
           "item": "cobblemon:max_ether",
-          "price": 20000
+          "price": 2000
         },
         {
           "item": "cobblemon:elixir",
-          "price": 30000
+          "price": 3000
         },
         {
           "item": "cobblemon:max_elixir",
-          "price": 45000
+          "price": 4000
         }
       ]
     },
@@ -276,31 +276,31 @@
       "offers": [
         {
           "item": "cobblemon:exp_candy_xs",
-          "price": 500
+          "price": 40
         },
         {
           "item": "cobblemon:exp_candy_s",
-          "price": 4000
+          "price": 320
         },
         {
           "item": "cobblemon:exp_candy_m",
-          "price": 15000
+          "price": 1200
         },
         {
           "item": "cobblemon:exp_candy_l",
-          "price": 50000
+          "price": 4000
         },
         {
           "item": "cobblemon:exp_candy_xl",
-          "price": 150000
+          "price": 12000
         },
         {
           "item": "cobblemon:rare_candy",
-          "price": 100000
+          "price": 10000
         },
         {
           "item": "cobblemon:exp_share",
-          "price": 250000
+          "price": 5000
         },
         {
           "item": "minecraft:experience_bottle",
@@ -313,91 +313,91 @@
       "offers": [
         {
           "item": "cobblemon:x_attack",
-          "price": 10000
+          "price": 1000
         },
         {
           "item": "cobblemon:x_defence",
-          "price": 10000
+          "price": 1000
         },
         {
           "item": "cobblemon:x_special_attack",
-          "price": 10000
+          "price": 2000
         },
         {
           "item": "cobblemon:x_special_defence",
-          "price": 10000
+          "price": 2000
         },
         {
           "item": "cobblemon:x_speed",
-          "price": 10000
+          "price": 1000
         },
         {
           "item": "cobblemon:x_accuracy",
-          "price": 10000
+          "price": 1000
         },
         {
           "item": "cobblemon:dire_hit",
-          "price": 10000
+          "price": 1000
         },
         {
           "item": "cobblemon:guard_spec",
-          "price": 15000
+          "price": 1500
         },
         {
           "item": "cobblemon:hp_up",
-          "price": 100000
+          "price": 5000
         },
         {
           "item": "cobblemon:protein",
-          "price": 100000
+          "price": 5000
         },
         {
           "item": "cobblemon:iron",
-          "price": 100000
+          "price": 5000
         },
         {
           "item": "cobblemon:calcium",
-          "price": 100000
+          "price": 7500
         },
         {
           "item": "cobblemon:zinc",
-          "price": 100000
+          "price": 7500
         },
         {
           "item": "cobblemon:carbos",
-          "price": 100000
+          "price": 5000
         },
         {
           "item": "cobblemon:pp_up",
-          "price": 100000
+          "price": 7500
         },
         {
           "item": "cobblemon:health_mochi",
-          "price": 100000
+          "price": 5000
         },
         {
           "item": "cobblemon:muscle_mochi",
-          "price": 100000
+          "price": 5000
         },
         {
           "item": "cobblemon:resist_mochi",
-          "price": 100000
+          "price": 5000
         },
         {
           "item": "cobblemon:genius_mochi",
-          "price": 100000
+          "price": 5000
         },
         {
           "item": "cobblemon:clever_mochi",
-          "price": 100000
+          "price": 5000
         },
         {
           "item": "cobblemon:swift_mochi",
-          "price": 100000
+          "price": 5000
         },
         {
           "item": "cobblemon:fresh_start_mochi",
-          "price": 100000
+          "price": 5000
         },
         {
           "item": "minecraft:totem_of_undying",
@@ -410,43 +410,43 @@
       "offers": [
         {
           "item": "cobblemon:fire_stone",
-          "price": 30000
+          "price": 3000
         },
         {
           "item": "cobblemon:water_stone",
-          "price": 30000
+          "price": 3000
         },
         {
           "item": "cobblemon:thunder_stone",
-          "price": 30000
+          "price": 3000
         },
         {
           "item": "cobblemon:leaf_stone",
-          "price": 30000
+          "price": 3000
         },
         {
           "item": "cobblemon:ice_stone",
-          "price": 30000
+          "price": 3000
         },
         {
           "item": "cobblemon:moon_stone",
-          "price": 30000
+          "price": 3000
         },
         {
           "item": "cobblemon:sun_stone",
-          "price": 30000
+          "price": 3000
         },
         {
           "item": "cobblemon:shiny_stone",
-          "price": 30000
+          "price": 3000
         },
         {
           "item": "cobblemon:dusk_stone",
-          "price": 30000
+          "price": 3000
         },
         {
           "item": "cobblemon:dawn_stone",
-          "price": 30000
+          "price": 3000
         },
         {
           "item": "cobblemon:everstone",
@@ -454,43 +454,43 @@
         },
         {
           "item": "cobblemon:link_cable",
-          "price": 50000
+          "price": 5000
         },
         {
           "item": "cobblemon:kings_rock",
-          "price": 50000
+          "price": 5000
         },
         {
           "item": "cobblemon:metal_coat",
-          "price": 50000
+          "price": 3000
         },
         {
           "item": "cobblemon:dragon_scale",
-          "price": 50000
+          "price": 5000
         },
         {
           "item": "cobblemon:upgrade",
-          "price": 50000
+          "price": 5000
         },
         {
           "item": "cobblemon:prism_scale",
-          "price": 50000
+          "price": 5000
         },
         {
           "item": "cobblemon:razor_claw",
-          "price": 50000
+          "price": 5000
         },
         {
           "item": "cobblemon:razor_fang",
-          "price": 50000
+          "price": 5000
         },
         {
           "item": "cobblemon:deep_sea_scale",
-          "price": 50000
+          "price": 5000
         },
         {
           "item": "cobblemon:deep_sea_tooth",
-          "price": 50000
+          "price": 5000
         },
         {
           "item": "cobblemon:sachet",
@@ -498,27 +498,27 @@
         },
         {
           "item": "cobblemon:whipped_dream",
-          "price": 50000
+          "price": 5000
         },
         {
           "item": "cobblemon:dubious_disc",
-          "price": 75000
+          "price": 5000
         },
         {
           "item": "cobblemon:electirizer",
-          "price": 75000
+          "price": 5000
         },
         {
           "item": "cobblemon:magmarizer",
-          "price": 75000
+          "price": 5000
         },
         {
           "item": "cobblemon:protector",
-          "price": 75000
+          "price": 5000
         },
         {
           "item": "cobblemon:reaper_cloth",
-          "price": 75000
+          "price": 5000
         },
         {
           "item": "cobblemon:destiny_knot",
