@@ -72,6 +72,7 @@ Players and the server must always use the **same version**.
 | [Space Cube](https://modrinth.com/mod/spacecube) | Compact Machines for Fabric: a small cube with a whole room inside |
 | [Botany Pots](https://modrinth.com/mod/botany-pots) + [Tiers](https://modrinth.com/mod/botany-pots-tiers) + [Cobblemon pots](https://modrinth.com/mod/cobblemon-botany-pots) | Grow trees, crops, berries and apricorns in a pot; hopper pots collect by themselves |
 | [VeinMiner](https://modrinth.com/mod/veinminer) (server only) | Mine one ore and the whole vein (up to 100 blocks) comes along |
+| [Panda's Falling Trees](https://modrinth.com/mod/pandas-falling-trees) + PandaLib | Break the bottom log and the whole tree falls over and drops everything (sneak = break one block, like normal) |
 | [Farmer's Delight Refabricated](https://modrinth.com/mod/farmers-delight-refabricated) | Farming and cooking |
 | [OpenBlocks Elevator](https://modrinth.com/mod/openblocks-elevator-fabric) | Elevator blocks: jump to go up, sneak to go down |
 | [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat) | Proximity voice chat |
@@ -96,6 +97,9 @@ Players and the server must always use the **same version**.
 [Chat Heads](https://modrinth.com/mod/chat-heads) (player heads next to chat messages),
 [Falling Leaves](https://modrinth.com/mod/fallingleaves), [Wakes](https://modrinth.com/mod/wakes) (waves behind boats and swimmers),
 [AmbientSounds](https://modrinth.com/mod/ambientsounds) (background sound per biome),
+[Advancement Plaques](https://modrinth.com/mod/advancement-plaques) (Zelda-style plaque when you get an advancement),
+[Inventory Profiles Next](https://modrinth.com/mod/inventory-profiles-next) + libIPN (sort inventories and chests, auto-refill, lock slots),
+[Zoomify](https://modrinth.com/mod/zoomify) (zoom),
 [Bobby](https://modrinth.com/mod/bobby) (keeps chunks you have visited and shows them far beyond the server's view distance),
 [Durability Viewer](https://modrinth.com/mod/durability-viewer-updated) + [MaLiLib](https://modrinth.com/mod/malilib) (armor/tool durability HUD, bottom-left),
 [Modpack Shipped Servers](https://modrinth.com/mod/modpack-shipped-servers) (the GoofBall server is already in your server list).
@@ -119,7 +123,7 @@ jor's Cobblemon Music Pack, Better Leaves, Fast Better Grass.
   [Chunky](https://modrinth.com/mod/chunky) (pre-generation), [spark](https://modrinth.com/mod/spark) (profiling)
 - Aikar's JVM flags in the start scripts and the Crafty guide.
 
-Plus the libraries these need (YACL, CreativeCore, Fabric API, Architectury, owo-lib, Accessories, GeckoLib, Cardinal
+Plus the libraries these need (YACL, CreativeCore, Iceberg, libIPN, Fabric API, Architectury, owo-lib, Accessories, GeckoLib, Cardinal
 Components, Cloth Config, Forge Config API Port, YUNG's API, Lithostitched, Chipped, CobbleFurnies,
 Athena, Resourceful Lib/Config, Cristel Lib, Text Placeholder API, Balm, Patchouli, Tim Core, Almanac,
 Bookshelf, Prickle, Cyclops Core, MCPitanLib, SuperMartijn642's Config Lib, Fabric Language Kotlin).

@@ -1,0 +1,13 @@
+name = "PandaLib"
+filename = "pandalib-fabric-1.21.1-0.6.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mEEGbEIu/versions/DvaAwfil/pandalib-fabric-1.21.1-0.6.2.jar"
+hash-format = "sha512"
+hash = "c4fb6e52579df96ed2d7e24090ac2f96cb9728b235dc26821897439696b4c7d6adfb49ffd1a225e398d04e2e65980a10a0e4b51578017b3d9383f3810bc6df26"
+
+[update]
+[update.modrinth]
+mod-id = "mEEGbEIu"
+version = "DvaAwfil"
