@@ -92,6 +92,10 @@ Players and the server must always use the **same version**.
 [Sodium Extra](https://modrinth.com/mod/sodium-extra) + [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options),
 [Dynamic FPS](https://modrinth.com/mod/dynamic-fps), [LambDynamicLights](https://modrinth.com/mod/lambdynamiclights),
 [More Culling](https://modrinth.com/mod/moreculling),
+[BadOptimizations](https://modrinth.com/mod/badoptimizations) + [Cull Less Leaves](https://modrinth.com/mod/cull-less-leaves) (extra FPS, especially in forests),
+[Chat Heads](https://modrinth.com/mod/chat-heads) (player heads next to chat messages),
+[Falling Leaves](https://modrinth.com/mod/fallingleaves), [Wakes](https://modrinth.com/mod/wakes) (waves behind boats and swimmers),
+[AmbientSounds](https://modrinth.com/mod/ambientsounds) (background sound per biome),
 [Bobby](https://modrinth.com/mod/bobby) (keeps chunks you have visited and shows them far beyond the server's view distance),
 [Durability Viewer](https://modrinth.com/mod/durability-viewer-updated) + [MaLiLib](https://modrinth.com/mod/malilib) (armor/tool durability HUD, bottom-left),
 [Modpack Shipped Servers](https://modrinth.com/mod/modpack-shipped-servers) (the GoofBall server is already in your server list).
@@ -115,7 +119,7 @@ jor's Cobblemon Music Pack, Better Leaves, Fast Better Grass.
   [Chunky](https://modrinth.com/mod/chunky) (pre-generation), [spark](https://modrinth.com/mod/spark) (profiling)
 - Aikar's JVM flags in the start scripts and the Crafty guide.
 
-Plus the libraries these need (Fabric API, Architectury, owo-lib, Accessories, GeckoLib, Cardinal
+Plus the libraries these need (YACL, CreativeCore, Fabric API, Architectury, owo-lib, Accessories, GeckoLib, Cardinal
 Components, Cloth Config, Forge Config API Port, YUNG's API, Lithostitched, Chipped, CobbleFurnies,
 Athena, Resourceful Lib/Config, Cristel Lib, Text Placeholder API, Balm, Patchouli, Tim Core, Almanac,
 Bookshelf, Prickle, Cyclops Core, MCPitanLib, SuperMartijn642's Config Lib, Fabric Language Kotlin).

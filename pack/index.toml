@@ -40,6 +40,11 @@ hash = "015053563a1d8ef3334560cd27f8e832935a26a96f151f059f814092b8db50a2"
 metafile = true
 
 [[files]]
+file = "mods/ambientsounds.pw.toml"
+hash = "9a7596969b984ae9c6932066c00d11759fdb2a337c44b445ec1ec9f27ae0324c"
+metafile = true
+
+[[files]]
 file = "mods/another-furniture.pw.toml"
 hash = "bc5bb9c17c071be6f2abb8f678a1f4f82252971070c8f9b2249169558999dc64"
 metafile = true
@@ -57,6 +62,11 @@ metafile = true
 [[files]]
 file = "mods/athena-ctm.pw.toml"
 hash = "16f4aa64663e05ba013f9a38c69695e4086a6403575adb29b1379b417d28e519"
+metafile = true
+
+[[files]]
+file = "mods/badoptimizations.pw.toml"
+hash = "dd56ff2bcc4253d1d70c08333632743fb56cdc4cf5518dc6afc024164633145d"
 metafile = true
 
 [[files]]
@@ -117,6 +127,11 @@ metafile = true
 [[files]]
 file = "mods/catch-rate-display.pw.toml"
 hash = "aab58784abf7244373810eff5b06a8f870cbdc9c951fa6afaed0e2015291263f"
+metafile = true
+
+[[files]]
+file = "mods/chat-heads.pw.toml"
+hash = "5d0697933c7714e41fc1fafaaff08ddf0ad58c9c5426fb5fdb5688779582d84f"
 metafile = true
 
 [[files]]
@@ -290,8 +305,18 @@ hash = "eecdc8127f69c74ff55fd183d1f1d7d5ef3e714d73845a239fe9e086147a67b1"
 metafile = true
 
 [[files]]
+file = "mods/creativecore.pw.toml"
+hash = "ced74969a63358f58ce16cf5712185959abf29c934d7f0ab33619b66989af072"
+metafile = true
+
+[[files]]
 file = "mods/cristel-lib.pw.toml"
 hash = "aa2c192c435e084d54b48ed426e7ebae469d162b636f7dccbd0e68ba8f79764e"
+metafile = true
+
+[[files]]
+file = "mods/cull-less-leaves.pw.toml"
+hash = "e4a437ed5c3f631fd4787e6ad4d61295654aba9d07528a5b692b8e917221ea0d"
 metafile = true
 
 [[files]]
@@ -342,6 +367,11 @@ metafile = true
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "1811d49906aa7a1e7f1230535c6fec91be45129d028f7900cf35571a497e42b3"
+metafile = true
+
+[[files]]
+file = "mods/fallingleaves.pw.toml"
+hash = "ad4e8689c50fedd770fb5cf28561edbd41f6b483bcfd6e3dd3d0c337789c0110"
 metafile = true
 
 [[files]]
@@ -675,6 +705,11 @@ hash = "eb0b36c6426d76416bf8af86081823972616ac00061bab6cbecc6109c5b9c0ae"
 metafile = true
 
 [[files]]
+file = "mods/wakes.pw.toml"
+hash = "f47b75ab81d6334bf93962de5537a7889a80ac587a833cf582262b8694b135b0"
+metafile = true
+
+[[files]]
 file = "mods/waystones.pw.toml"
 hash = "442c13fe3b1f0462adf895bbab49388967cafc294f56c57d2d4b1db6b0b24d53"
 metafile = true
@@ -687,6 +722,11 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "aef0da568a2f3f8e496842f924b928bb1271ca0f20c75f3c31297798c92f92ea"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "2ab187a31adbb396080cfd4b567cf22be203255228999c36eb6060e693b9b5fd"
 metafile = true
 
 [[files]]
