@@ -36,6 +36,7 @@ key_key.berrypouch.toggle_auto_berry:key.keyboard.backslash
 key_key.durabilityviewer.showhide:key.keyboard.keypad.3
 key_key.cobblemon_riders_call.call_selected_ride:key.keyboard.page.up
 key_key.cobblemon_riders_call.open_camera_settings:key.keyboard.unknown
+key_zoomify.key.zoom:key.keyboard.page.down
 key_key.catchrate.toggle_hud:key.keyboard.keypad.4
 key_key.catchrate.show_comparison:key.keyboard.keypad.5
 key_key.jade.narrate:key.keyboard.unknown

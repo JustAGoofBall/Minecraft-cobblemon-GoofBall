@@ -14,7 +14,7 @@ hash = "cd21aada6e998c7da4b5eb57a58c946426aa4ab73c1860cd6ee6f16930a2055d"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "0ebac8aac1523611bffcdbe443fe3f30d3bf37c8b8fb0accd44d3741a33d2f56"
+hash = "680139a95a8a435d5fc2fbd9bbdc0b81447f862727f1751cc446190957d35f54"
 
 [[files]]
 file = "defaultconfigs/xaero/minimap/default_radar_categories_client.json"
@@ -415,6 +415,11 @@ hash = "10930324bc5d409d8d557b003a1b7eaf1af00dc336db8f7aea877335f0748aa1"
 metafile = true
 
 [[files]]
+file = "mods/inventory-profiles-next.pw.toml"
+hash = "e7820822a31d29cf5227b19046d7e84e73b7ae3e689c96e5fbdf1f8073b6f9ad"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "6ee94689dd67f0210e07feafac8140e8968bcbcd67defcfbdcd677cf78943900"
 metafile = true
@@ -437,6 +442,11 @@ metafile = true
 [[files]]
 file = "mods/legendary-monuments.pw.toml"
 hash = "472b9738be68a463a80e7fda2e8986742b6cb67f75102c97740e5160fdc3e275"
+metafile = true
+
+[[files]]
+file = "mods/libipn.pw.toml"
+hash = "78eafe609d6474acab89104fe0f47d15c00348974c1d4d9b95599ee20a213dbe"
 metafile = true
 
 [[files]]
@@ -812,6 +822,11 @@ metafile = true
 [[files]]
 file = "mods/yungs-extras.pw.toml"
 hash = "745fd5cd0b5ddaca6b0fba915428c63a47d32ee9e281c3661b41aa34dd8b653b"
+metafile = true
+
+[[files]]
+file = "mods/zoomify.pw.toml"
+hash = "96f866de9f3ebaa42dfcb92392684c241ff189f82ce24c3e7a32c1d0b8f37db8"
 metafile = true
 
 [[files]]
