@@ -249,7 +249,8 @@
     {
       "match": "minecraft:netherite_upgrade_smithing_template",
       "value": 300,
-      "_note": "bastion loot, like a netherite scrap; needed to price netherite tools and armor"
+      "_note": "bastion loot, like a netherite scrap; sellable (and needed to price netherite tools and armor)",
+      "bank": "Ores & Metals"
     },
     {
       "match": "re:minecraft:(iron_nugget|gold_nugget|netherite_ingot|coal_block|copper_block|raw_copper_block|iron_block|raw_iron_block|gold_block|raw_gold_block|netherite_block)",

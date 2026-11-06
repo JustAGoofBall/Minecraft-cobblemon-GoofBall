@@ -372,6 +372,34 @@
           "price": 100000
         },
         {
+          "item": "cobblemon:health_mochi",
+          "price": 100000
+        },
+        {
+          "item": "cobblemon:muscle_mochi",
+          "price": 100000
+        },
+        {
+          "item": "cobblemon:resist_mochi",
+          "price": 100000
+        },
+        {
+          "item": "cobblemon:genius_mochi",
+          "price": 100000
+        },
+        {
+          "item": "cobblemon:clever_mochi",
+          "price": 100000
+        },
+        {
+          "item": "cobblemon:swift_mochi",
+          "price": 100000
+        },
+        {
+          "item": "cobblemon:fresh_start_mochi",
+          "price": 100000
+        },
+        {
           "item": "minecraft:totem_of_undying",
           "price": 500000
         }

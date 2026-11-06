@@ -60,6 +60,10 @@
     "price": "2250"
   },
   {
+    "item": "minecraft:netherite_upgrade_smithing_template",
+    "price": "1500"
+  },
+  {
     "item": "minecraft:raw_copper",
     "price": "37"
   },
