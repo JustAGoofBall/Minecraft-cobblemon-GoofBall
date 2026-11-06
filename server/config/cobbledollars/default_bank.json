@@ -189,11 +189,11 @@
   },
   {
     "item": "minecraft:diamond",
-    "price": "3000"
+    "price": "1500"
   },
   {
     "item": "minecraft:diamond_block",
-    "price": "27000"
+    "price": "13500"
   },
   {
     "item": "minecraft:echo_shard",
@@ -1725,7 +1725,7 @@
   },
   {
     "item": "cobblemon:clear_amulet",
-    "price": "6441"
+    "price": "3441"
   },
   {
     "item": "cobblemon:covert_cloak",
@@ -2401,7 +2401,7 @@
   },
   {
     "item": "cobblemon:dream_ball",
-    "price": "780"
+    "price": "405"
   },
   {
     "item": "cobblemon:dusk_ball",
@@ -2745,7 +2745,7 @@
   },
   {
     "item": "minecraft:diamond_horse_armor",
-    "price": "3000"
+    "price": "1500"
   },
   {
     "item": "minecraft:diamond_leggings",

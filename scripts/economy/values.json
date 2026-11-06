@@ -162,7 +162,7 @@
     },
     {
       "match": "re:minecraft:(deepslate_)?diamond_ore",
-      "value": 600
+      "value": 300
     },
     {
       "match": "re:minecraft:(deepslate_)?emerald_ore",
@@ -272,8 +272,9 @@
     },
     {
       "match": "minecraft:diamond",
-      "value": 600,
-      "bank": "Gems & Minerals"
+      "value": 300,
+      "bank": "Gems & Minerals",
+      "_note": "halved (was 600 = 3000 CD): one vein-mined diamond vein paid more than a Rare Candy (10000 in the shop)"
     },
     {
       "match": "minecraft:lapis_lazuli",
@@ -757,7 +758,7 @@
     },
     {
       "match": "minecraft:diamond_horse_armor",
-      "value": 600,
+      "value": 300,
       "bank": "Armor",
       "_note": "loot only: about 1 diamond"
     },
