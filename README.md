@@ -93,7 +93,7 @@ Players and the server must always use the **same version**.
 [Sodium Extra](https://modrinth.com/mod/sodium-extra) + [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options),
 [Dynamic FPS](https://modrinth.com/mod/dynamic-fps), [LambDynamicLights](https://modrinth.com/mod/lambdynamiclights),
 [More Culling](https://modrinth.com/mod/moreculling),
-[BadOptimizations](https://modrinth.com/mod/badoptimizations) + [Cull Less Leaves](https://modrinth.com/mod/cull-less-leaves) (extra FPS, especially in forests),
+[BadOptimizations](https://modrinth.com/mod/badoptimizations) (extra FPS),
 [Chat Heads](https://modrinth.com/mod/chat-heads) (player heads next to chat messages),
 [Falling Leaves](https://modrinth.com/mod/fallingleaves), [Wakes](https://modrinth.com/mod/wakes) (waves behind boats and swimmers),
 [AmbientSounds](https://modrinth.com/mod/ambientsounds) (background sound per biome),
