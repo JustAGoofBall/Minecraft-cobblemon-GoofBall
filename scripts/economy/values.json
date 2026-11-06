@@ -3,7 +3,9 @@
   "scale": 5,
   "unscaled": [
     "minecraft:emerald",
-    "re:minecraft:(deepslate_)?emerald_ore"
+    "re:minecraft:(deepslate_)?emerald_ore",
+    "re:minecraft:(cobblestone|cobbled_deepslate|stone|deepslate|andesite|diorite|granite|tuff|calcite|blackstone|basalt|end_stone)",
+    "re:minecraft:(dirt|coarse_dirt|gravel|sand|red_sand|netherrack|soul_sand|soul_soil|mud|dripstone_block|flint)"
   ],
   "common": {
     "earnCobbleDollarsFromNPC": true,
@@ -14,6 +16,7 @@
   },
   "bank_categories": [
     "Ores & Metals",
+    "Stone & Dirt",
     "Gems & Minerals",
     "Wood",
     "Farming",
@@ -57,6 +60,17 @@
     "cobblemon:beast_ball"
   ],
   "rules": [
+    {
+      "match": "re:minecraft:(cobblestone|cobbled_deepslate|stone|deepslate|andesite|diorite|granite|tuff|calcite|blackstone|basalt|end_stone)",
+      "value": 2,
+      "bank": "Stone & Dirt",
+      "_note": "overflow from mining, unscaled (no x5) so a generator can't make real money. Stone-like blocks are worth 2: with 1 the slab recipes round down to 0 (Terralith: 2 slabs -> 1 cobblestone) and cobblestone would be worthless. Crafted items (stone tools, bricks...) follow from the recipes."
+    },
+    {
+      "match": "re:minecraft:(dirt|coarse_dirt|gravel|sand|red_sand|netherrack|soul_sand|soul_soil|mud|dripstone_block|flint)",
+      "value": 1,
+      "bank": "Stone & Dirt"
+    },
     {
       "match": "re:minecraft:(cobblestone|cobbled_deepslate|stone|deepslate|dirt|coarse_dirt|grass_block|sand|red_sand|gravel|netherrack|tuff|andesite|diorite|granite|calcite|blackstone|basalt|smooth_basalt|end_stone|soul_sand|soul_soil|mud|clay|terracotta|snow_block|snowball|ice|moss_block|rooted_dirt|podzol|mycelium|dripstone_block|pointed_dripstone|cobweb)",
       "value": 0

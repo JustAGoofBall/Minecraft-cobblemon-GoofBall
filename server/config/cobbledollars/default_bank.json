@@ -88,6 +88,94 @@
     "price": "2025"
   },
   {
+    "item": "minecraft:andesite",
+    "price": "2"
+  },
+  {
+    "item": "minecraft:basalt",
+    "price": "2"
+  },
+  {
+    "item": "minecraft:blackstone",
+    "price": "2"
+  },
+  {
+    "item": "minecraft:calcite",
+    "price": "2"
+  },
+  {
+    "item": "minecraft:coarse_dirt",
+    "price": "1"
+  },
+  {
+    "item": "minecraft:cobbled_deepslate",
+    "price": "2"
+  },
+  {
+    "item": "minecraft:cobblestone",
+    "price": "2"
+  },
+  {
+    "item": "minecraft:deepslate",
+    "price": "2"
+  },
+  {
+    "item": "minecraft:diorite",
+    "price": "2"
+  },
+  {
+    "item": "minecraft:dirt",
+    "price": "1"
+  },
+  {
+    "item": "minecraft:end_stone",
+    "price": "2"
+  },
+  {
+    "item": "minecraft:flint",
+    "price": "1"
+  },
+  {
+    "item": "minecraft:granite",
+    "price": "2"
+  },
+  {
+    "item": "minecraft:gravel",
+    "price": "1"
+  },
+  {
+    "item": "minecraft:mud",
+    "price": "1"
+  },
+  {
+    "item": "minecraft:netherrack",
+    "price": "1"
+  },
+  {
+    "item": "minecraft:red_sand",
+    "price": "1"
+  },
+  {
+    "item": "minecraft:sand",
+    "price": "1"
+  },
+  {
+    "item": "minecraft:soul_sand",
+    "price": "1"
+  },
+  {
+    "item": "minecraft:soul_soil",
+    "price": "1"
+  },
+  {
+    "item": "minecraft:stone",
+    "price": "2"
+  },
+  {
+    "item": "minecraft:tuff",
+    "price": "2"
+  },
+  {
     "item": "minecraft:amethyst_block",
     "price": "100"
   },
@@ -118,10 +206,6 @@
   {
     "item": "minecraft:emerald_block",
     "price": "1800"
-  },
-  {
-    "item": "minecraft:flint",
-    "price": "5"
   },
   {
     "item": "minecraft:glowstone",
@@ -613,7 +697,7 @@
   },
   {
     "item": "minecraft:arrow",
-    "price": "3"
+    "price": "2"
   },
   {
     "item": "minecraft:beef",
@@ -1377,7 +1461,7 @@
   },
   {
     "item": "cobblemon:dubious_disc",
-    "price": "435"
+    "price": "436"
   },
   {
     "item": "cobblemon:dusk_stone",
@@ -1421,7 +1505,7 @@
   },
   {
     "item": "cobblemon:kings_rock",
-    "price": "900"
+    "price": "916"
   },
   {
     "item": "cobblemon:leaf_stone",
@@ -1470,6 +1554,10 @@
   {
     "item": "cobblemon:oval_stone",
     "price": "500"
+  },
+  {
+    "item": "cobblemon:peat_block",
+    "price": "2"
   },
   {
     "item": "cobblemon:prism_scale",
@@ -1561,7 +1649,7 @@
   },
   {
     "item": "cobblemon:upgrade",
-    "price": "439"
+    "price": "442"
   },
   {
     "item": "cobblemon:water_stone",
@@ -1645,7 +1733,7 @@
   },
   {
     "item": "cobblemon:damp_rock",
-    "price": "200"
+    "price": "216"
   },
   {
     "item": "cobblemon:dark_gem",
@@ -1665,7 +1753,7 @@
   },
   {
     "item": "cobblemon:eject_button",
-    "price": "1295"
+    "price": "1305"
   },
   {
     "item": "cobblemon:eject_pack",
@@ -1745,11 +1833,11 @@
   },
   {
     "item": "cobblemon:hard_stone",
-    "price": "100"
+    "price": "116"
   },
   {
     "item": "cobblemon:heat_rock",
-    "price": "200"
+    "price": "216"
   },
   {
     "item": "cobblemon:heavy_duty_boots",
@@ -1761,7 +1849,7 @@
   },
   {
     "item": "cobblemon:icy_rock",
-    "price": "200"
+    "price": "216"
   },
   {
     "item": "cobblemon:iron_ball",
@@ -1909,7 +1997,7 @@
   },
   {
     "item": "cobblemon:rocky_helmet",
-    "price": "1986"
+    "price": "2034"
   },
   {
     "item": "cobblemon:room_service",
@@ -1949,11 +2037,11 @@
   },
   {
     "item": "cobblemon:smooth_rock",
-    "price": "200"
+    "price": "216"
   },
   {
     "item": "cobblemon:soft_sand",
-    "price": "130"
+    "price": "133"
   },
   {
     "item": "cobblemon:soothe_bell",
@@ -1977,7 +2065,7 @@
   },
   {
     "item": "cobblemon:throat_spray",
-    "price": "41"
+    "price": "42"
   },
   {
     "item": "cobblemon:toxic_orb",
@@ -1989,7 +2077,7 @@
   },
   {
     "item": "cobblemon:utility_umbrella",
-    "price": "275"
+    "price": "271"
   },
   {
     "item": "cobblemon:water_gem",
@@ -2017,23 +2105,23 @@
   },
   {
     "item": "cobblemon:antidote",
-    "price": "8"
+    "price": "9"
   },
   {
     "item": "cobblemon:awakening",
-    "price": "8"
+    "price": "9"
   },
   {
     "item": "cobblemon:burn_heal",
-    "price": "8"
+    "price": "9"
   },
   {
     "item": "cobblemon:calcium",
-    "price": "41"
+    "price": "42"
   },
   {
     "item": "cobblemon:carbos",
-    "price": "41"
+    "price": "42"
   },
   {
     "item": "cobblemon:clever_feather",
@@ -2049,11 +2137,11 @@
   },
   {
     "item": "cobblemon:elixir",
-    "price": "33"
+    "price": "34"
   },
   {
     "item": "cobblemon:ether",
-    "price": "33"
+    "price": "34"
   },
   {
     "item": "cobblemon:exp_candy_l",
@@ -2085,11 +2173,11 @@
   },
   {
     "item": "cobblemon:full_heal",
-    "price": "8"
+    "price": "9"
   },
   {
     "item": "cobblemon:full_restore",
-    "price": "49"
+    "price": "50"
   },
   {
     "item": "cobblemon:genius_feather",
@@ -2117,31 +2205,31 @@
   },
   {
     "item": "cobblemon:hp_up",
-    "price": "41"
+    "price": "42"
   },
   {
     "item": "cobblemon:hyper_potion",
-    "price": "33"
+    "price": "34"
   },
   {
     "item": "cobblemon:ice_heal",
-    "price": "8"
+    "price": "9"
   },
   {
     "item": "cobblemon:iron",
-    "price": "41"
+    "price": "42"
   },
   {
     "item": "cobblemon:max_elixir",
-    "price": "41"
+    "price": "42"
   },
   {
     "item": "cobblemon:max_ether",
-    "price": "41"
+    "price": "42"
   },
   {
     "item": "cobblemon:max_potion",
-    "price": "41"
+    "price": "42"
   },
   {
     "item": "cobblemon:max_revive",
@@ -2157,23 +2245,23 @@
   },
   {
     "item": "cobblemon:paralyze_heal",
-    "price": "8"
+    "price": "9"
   },
   {
     "item": "cobblemon:potion",
-    "price": "33"
+    "price": "34"
   },
   {
     "item": "cobblemon:pp_max",
-    "price": "41"
+    "price": "42"
   },
   {
     "item": "cobblemon:pp_up",
-    "price": "33"
+    "price": "34"
   },
   {
     "item": "cobblemon:protein",
-    "price": "41"
+    "price": "42"
   },
   {
     "item": "cobblemon:rare_candy",
@@ -2197,7 +2285,7 @@
   },
   {
     "item": "cobblemon:super_potion",
-    "price": "33"
+    "price": "34"
   },
   {
     "item": "cobblemon:superb_remedy",
@@ -2237,7 +2325,7 @@
   },
   {
     "item": "cobblemon:zinc",
-    "price": "41"
+    "price": "42"
   },
   {
     "item": "cobblemon:ancient_azure_ball",
@@ -2517,7 +2605,7 @@
   },
   {
     "item": "minecraft:flint_and_steel",
-    "price": "230"
+    "price": "226"
   },
   {
     "item": "minecraft:golden_axe",
@@ -2582,6 +2670,26 @@
   {
     "item": "minecraft:shears",
     "price": "200"
+  },
+  {
+    "item": "minecraft:stone_axe",
+    "price": "6"
+  },
+  {
+    "item": "minecraft:stone_hoe",
+    "price": "4"
+  },
+  {
+    "item": "minecraft:stone_pickaxe",
+    "price": "6"
+  },
+  {
+    "item": "minecraft:stone_shovel",
+    "price": "2"
+  },
+  {
+    "item": "minecraft:stone_sword",
+    "price": "4"
   },
   {
     "item": "minecraft:warped_fungus_on_a_stick",
