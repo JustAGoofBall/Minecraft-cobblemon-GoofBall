@@ -878,7 +878,7 @@
       },
       {
         "item": "minecraft:diamond",
-        "price": "6000"
+        "price": "3000"
       },
       {
         "item": "minecraft:obsidian",
@@ -1300,7 +1300,7 @@
       },
       {
         "item": "colossalchests:interface_wood",
-        "price": "230"
+        "price": "260"
       },
       {
         "item": "colossalchests:upgrade_tool",
