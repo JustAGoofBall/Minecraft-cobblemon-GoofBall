@@ -30,6 +30,11 @@ hash = "5285ba249b00d0d12a3cd1f64a5536e7618770dee31d3d240f9d4345ef69f888"
 metafile = true
 
 [[files]]
+file = "mods/advancement-plaques.pw.toml"
+hash = "26085aa8480f728633c0b84a5eb1879f2911993905c425f3596fb2bef0ed94cc"
+metafile = true
+
+[[files]]
 file = "mods/almanac.pw.toml"
 hash = "01174ec973f9c2267f4d6ae6040941a3e764af58f9fa0b0a9f2914ce5630d728"
 metafile = true
@@ -400,6 +405,11 @@ hash = "5f62f54e16fdc97a0fb21b63a563583f85d141772f6aa99f68d40cd654b7dc35"
 metafile = true
 
 [[files]]
+file = "mods/iceberg.pw.toml"
+hash = "8cb1da4da5375889e24a5e99882fd6f48121e0eb9f028227c84e4375aaf76381"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "10930324bc5d409d8d557b003a1b7eaf1af00dc336db8f7aea877335f0748aa1"
 metafile = true
@@ -522,6 +532,16 @@ metafile = true
 [[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "31e7b4d016cbdf3f0abbb1ab202cf60e84ff8330ebbf6f043739128fb9133fad"
+metafile = true
+
+[[files]]
+file = "mods/pandalib.pw.toml"
+hash = "aea5767b7d0dca6daf206d141556602894ddde27c86e8a252584532e43d4f9d2"
+metafile = true
+
+[[files]]
+file = "mods/pandas-falling-trees.pw.toml"
+hash = "8523bd5a99bcb4676241606c7a776b5d1b10f84a676333d539a8b59a00d2dcfc"
 metafile = true
 
 [[files]]
