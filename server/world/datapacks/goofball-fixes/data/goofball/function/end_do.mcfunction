@@ -23,9 +23,6 @@ execute in minecraft:the_end run place feature minecraft:end_gateway_delayed 29 
 execute in minecraft:the_end run place feature minecraft:end_gateway_delayed 56 75 -78
 execute in minecraft:the_end run place feature minecraft:end_gateway_delayed 77 75 -57
 execute in minecraft:the_end run place feature minecraft:end_gateway_delayed 91 75 -30
-# Herobrine, an optional boss south of the central tower. Gives a Master Ball when beaten.
-# (the form without coordinates needs a player as caller, so the position is given explicitly; he lands a few blocks away)
-execute in minecraft:the_end run rctmod trainer summon_persistent herobrine 0 64 24
 scoreboard players set #end goofball 1
 execute in minecraft:the_end run forceload remove -24 -24 24 40
 execute in minecraft:the_end run forceload remove 96 0
@@ -48,4 +45,4 @@ execute in minecraft:the_end run forceload remove 29 -92
 execute in minecraft:the_end run forceload remove 56 -78
 execute in minecraft:the_end run forceload remove 77 -57
 execute in minecraft:the_end run forceload remove 91 -30
-tellraw @a {"text":"[GoofBall] Het End is open: het uitgangsportaal werkt en de gateways staan. Herobrine wacht bij het centrale eiland.","color":"gold"}
+tellraw @a {"text":"[GoofBall] Het End is open: het uitgangsportaal werkt en de gateways staan.","color":"gold"}

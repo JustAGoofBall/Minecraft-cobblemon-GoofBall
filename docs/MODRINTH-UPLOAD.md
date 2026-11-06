@@ -38,6 +38,13 @@ the token expired), upload the `.mrpack` from the release by hand: **Versions** 
 
 > Don't upload the **server zip** to Modrinth. It's only for Crafty and lives on GitHub.
 
+## Files that are not from Modrinth
+The only non-Modrinth content in the `.mrpack` is the pack's own configuration (`overrides/config`,
+`overrides/defaultconfigs`) and `overrides/resourcepacks/GoofBall-Trainer-Skins.zip`. That zip holds the skins of
+the two NPC trainers, made by the project owner (JustAGoofBall) for this pack. `ballajustgoof.png` is built on
+the default Minecraft skin (Steve), so say that if Modrinth asks; the other skin, `justagoofball.png`, is a
+separate design. If Modrinth does not accept it, remove the zip from `pack/resourcepacks/` and `packwiz refresh`.
+
 ## Review
 The first time, click **Submit for review**. A Modrinth moderator checks the project, which can take a
 few days. Make sure there's a clear description, an icon and a license, or it gets sent back. After

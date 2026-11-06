@@ -14,7 +14,7 @@ hash = "cd21aada6e998c7da4b5eb57a58c946426aa4ab73c1860cd6ee6f16930a2055d"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "680139a95a8a435d5fc2fbd9bbdc0b81447f862727f1751cc446190957d35f54"
+hash = "0432a5d8139cf71485c84c37c40923cbab1e49099a20cd0d84f7067d8d802c71"
 
 [[files]]
 file = "defaultconfigs/xaero/minimap/default_radar_categories_client.json"
@@ -825,8 +825,8 @@ hash = "96f866de9f3ebaa42dfcb92392684c241ff189f82ce24c3e7a32c1d0b8f37db8"
 metafile = true
 
 [[files]]
-file = "resourcepacks/Herobrine-Trainer-Skin.zip"
-hash = "5f315b14fe7fc34fdef446f5cd6c1be78546c6f596493c0278feacf681aa418c"
+file = "resourcepacks/GoofBall-Trainer-Skins.zip"
+hash = "0f431ad08210b5585a49ffa02e93402b30e5d722285874481b1412206c171572"
 
 [[files]]
 file = "resourcepacks/better-leaves.pw.toml"

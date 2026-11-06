@@ -1,5 +1,5 @@
 {
-  "name": "Herobrine",
+  "name": "_BallAJustGoof_",
   "ai": {
     "type": "rct",
     "data": {
@@ -21,45 +21,16 @@
   ],
   "team": [
     {
-      "species": "mewtwo",
+      "species": "diancie",
       "gender": "GENDERLESS",
       "level": 100,
       "nature": "timid",
-      "ability": "insomnia",
+      "ability": "clearbody",
       "moveset": [
-        "psystrike",
-        "fireblast",
-        "icebeam",
-        "recover"
-      ],
-      "ivs": {
-        "hp": 31,
-        "atk": 31,
-        "def": 31,
-        "spa": 31,
-        "spd": 31,
-        "spe": 31
-      },
-      "evs": {
-        "spa": 252,
-        "spd": 4,
-        "spe": 252
-      },
-      "heldItem": [
-        "mega_showdown:mewtwonite_y"
-      ]
-    },
-    {
-      "species": "shaymin",
-      "gender": "GENDERLESS",
-      "level": 100,
-      "nature": "timid",
-      "ability": "serenegrace",
-      "moveset": [
-        "airslash",
-        "seedflare",
+        "diamondstorm",
+        "moonblast",
         "earthpower",
-        "substitute"
+        "protect"
       ],
       "ivs": {
         "hp": 31,
@@ -70,28 +41,25 @@
         "spe": 31
       },
       "evs": {
+        "hp": 4,
         "spa": 252,
-        "spd": 4,
         "spe": 252
       },
       "heldItem": [
-        "kings_rock"
-      ],
-      "aspects": [
-        "sky"
+        "mega_showdown:diancite"
       ]
     },
     {
-      "species": "victini",
+      "species": "metagross",
       "gender": "GENDERLESS",
       "level": 100,
-      "nature": "jolly",
-      "ability": "victorystar",
+      "nature": "adamant",
+      "ability": "clearbody",
       "moveset": [
-        "vcreate",
-        "boltstrike",
+        "meteormash",
         "zenheadbutt",
-        "uturn"
+        "earthquake",
+        "icepunch"
       ],
       "ivs": {
         "hp": 31,
@@ -107,81 +75,19 @@
         "spe": 252
       },
       "heldItem": [
-        "choice_band"
-      ],
-      "shiny": true
-    },
-    {
-      "species": "xerneas",
-      "gender": "GENDERLESS",
-      "level": 100,
-      "nature": "modest",
-      "ability": "fairyaura",
-      "moveset": [
-        "geomancy",
-        "moonblast",
-        "focusblast",
-        "thunder"
-      ],
-      "ivs": {
-        "hp": 31,
-        "atk": 0,
-        "def": 31,
-        "spa": 31,
-        "spd": 31,
-        "spe": 31
-      },
-      "evs": {
-        "hp": 252,
-        "spa": 252,
-        "spd": 4
-      },
-      "heldItem": [
-        "power_herb"
+        "life_orb"
       ]
     },
     {
-      "species": "urshifu",
+      "species": "lucario",
       "gender": "MALE",
       "level": 100,
-      "nature": "adamant",
-      "ability": "unseenfist",
-      "moveset": [
-        "surgingstrikes",
-        "closecombat",
-        "uturn",
-        "aquajet"
-      ],
-      "ivs": {
-        "hp": 31,
-        "atk": 31,
-        "def": 31,
-        "spa": 31,
-        "spd": 31,
-        "spe": 31
-      },
-      "evs": {
-        "atk": 252,
-        "def": 4,
-        "spe": 252
-      },
-      "heldItem": [
-        "life_orb"
-      ],
-      "aspects": [
-        "rapid_strike"
-      ]
-    },
-    {
-      "species": "marshadow",
-      "gender": "GENDERLESS",
-      "level": 100,
       "nature": "jolly",
-      "ability": "technician",
+      "ability": "justified",
       "moveset": [
-        "spectralthief",
         "closecombat",
-        "shadowsneak",
+        "meteormash",
+        "extremespeed",
         "swordsdance"
       ],
       "ivs": {
@@ -193,12 +99,99 @@
         "spe": 31
       },
       "evs": {
+        "hp": 4,
         "atk": 252,
-        "spd": 4,
         "spe": 252
       },
       "heldItem": [
-        "mega_showdown:marshadium_z"
+        "focus_sash"
+      ]
+    },
+    {
+      "species": "excadrill",
+      "gender": "MALE",
+      "level": 100,
+      "nature": "jolly",
+      "ability": "sandrush",
+      "moveset": [
+        "earthquake",
+        "ironhead",
+        "rapidspin",
+        "swordsdance"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 4,
+        "atk": 252,
+        "spe": 252
+      },
+      "heldItem": [
+        "leftovers"
+      ]
+    },
+    {
+      "species": "glaceon",
+      "gender": "MALE",
+      "level": 100,
+      "nature": "modest",
+      "ability": "snowcloak",
+      "moveset": [
+        "icebeam",
+        "freezedry",
+        "shadowball",
+        "wish"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "spa": 252,
+        "spd": 4
+      },
+      "heldItem": [
+        "leftovers"
+      ]
+    },
+    {
+      "species": "gardevoir",
+      "gender": "FEMALE",
+      "level": 100,
+      "nature": "timid",
+      "ability": "trace",
+      "moveset": [
+        "moonblast",
+        "psychic",
+        "shadowball",
+        "calmmind"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 4,
+        "spa": 252,
+        "spe": 252
+      },
+      "heldItem": [
+        "life_orb"
       ]
     }
   ]
