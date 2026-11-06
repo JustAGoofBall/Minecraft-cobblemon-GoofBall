@@ -60,6 +60,10 @@
     "price": "2250"
   },
   {
+    "item": "minecraft:netherite_upgrade_smithing_template",
+    "price": "1500"
+  },
+  {
     "item": "minecraft:raw_copper",
     "price": "37"
   },
@@ -585,7 +589,7 @@
   },
   {
     "item": "minecraft:golden_apple",
-    "price": "1599"
+    "price": "225"
   },
   {
     "item": "minecraft:golden_carrot",
@@ -1353,11 +1357,11 @@
   },
   {
     "item": "cobblemon:dawn_stone",
-    "price": "1500"
+    "price": "750"
   },
   {
     "item": "cobblemon:dawn_stone_block",
-    "price": "13500"
+    "price": "6750"
   },
   {
     "item": "cobblemon:deep_sea_scale",
@@ -1377,23 +1381,23 @@
   },
   {
     "item": "cobblemon:dusk_stone",
-    "price": "1500"
+    "price": "750"
   },
   {
     "item": "cobblemon:dusk_stone_block",
-    "price": "13500"
+    "price": "6750"
   },
   {
     "item": "cobblemon:electirizer",
-    "price": "2232"
+    "price": "1250"
   },
   {
     "item": "cobblemon:fire_stone",
-    "price": "1500"
+    "price": "750"
   },
   {
     "item": "cobblemon:fire_stone_block",
-    "price": "13500"
+    "price": "6750"
   },
   {
     "item": "cobblemon:flower_sweet",
@@ -1409,11 +1413,11 @@
   },
   {
     "item": "cobblemon:ice_stone",
-    "price": "1500"
+    "price": "750"
   },
   {
     "item": "cobblemon:ice_stone_block",
-    "price": "13500"
+    "price": "6750"
   },
   {
     "item": "cobblemon:kings_rock",
@@ -1421,11 +1425,11 @@
   },
   {
     "item": "cobblemon:leaf_stone",
-    "price": "1500"
+    "price": "750"
   },
   {
     "item": "cobblemon:leaf_stone_block",
-    "price": "13500"
+    "price": "6750"
   },
   {
     "item": "cobblemon:link_cable",
@@ -1437,7 +1441,7 @@
   },
   {
     "item": "cobblemon:magmarizer",
-    "price": "1508"
+    "price": "1250"
   },
   {
     "item": "cobblemon:malicious_armor",
@@ -1449,19 +1453,19 @@
   },
   {
     "item": "cobblemon:metal_alloy",
-    "price": "2400"
+    "price": "1650"
   },
   {
     "item": "cobblemon:metal_coat",
-    "price": "1475"
+    "price": "750"
   },
   {
     "item": "cobblemon:moon_stone",
-    "price": "1500"
+    "price": "750"
   },
   {
     "item": "cobblemon:moon_stone_block",
-    "price": "13500"
+    "price": "6750"
   },
   {
     "item": "cobblemon:oval_stone",
@@ -1509,11 +1513,11 @@
   },
   {
     "item": "cobblemon:shiny_stone",
-    "price": "1500"
+    "price": "750"
   },
   {
     "item": "cobblemon:shiny_stone_block",
-    "price": "13500"
+    "price": "6750"
   },
   {
     "item": "cobblemon:star_sweet",
@@ -1525,11 +1529,11 @@
   },
   {
     "item": "cobblemon:sun_stone",
-    "price": "1500"
+    "price": "750"
   },
   {
     "item": "cobblemon:sun_stone_block",
-    "price": "13500"
+    "price": "6750"
   },
   {
     "item": "cobblemon:sweet_apple",
@@ -1545,11 +1549,11 @@
   },
   {
     "item": "cobblemon:thunder_stone",
-    "price": "1500"
+    "price": "750"
   },
   {
     "item": "cobblemon:thunder_stone_block",
-    "price": "13500"
+    "price": "6750"
   },
   {
     "item": "cobblemon:unremarkable_teacup",
@@ -1561,15 +1565,15 @@
   },
   {
     "item": "cobblemon:water_stone",
-    "price": "1500"
+    "price": "750"
   },
   {
     "item": "cobblemon:water_stone_block",
-    "price": "13500"
+    "price": "6750"
   },
   {
     "item": "cobblemon:ability_shield",
-    "price": "9675"
+    "price": "1625"
   },
   {
     "item": "cobblemon:absorb_bulb",
@@ -1621,7 +1625,7 @@
   },
   {
     "item": "cobblemon:choice_scarf",
-    "price": "9220"
+    "price": "2500"
   },
   {
     "item": "cobblemon:choice_specs",
@@ -1761,7 +1765,7 @@
   },
   {
     "item": "cobblemon:iron_ball",
-    "price": "2025"
+    "price": "750"
   },
   {
     "item": "cobblemon:lagging_tail",
@@ -1773,7 +1777,7 @@
   },
   {
     "item": "cobblemon:life_orb",
-    "price": "3898"
+    "price": "1150"
   },
   {
     "item": "cobblemon:light_ball",
@@ -1785,7 +1789,7 @@
   },
   {
     "item": "cobblemon:loaded_dice",
-    "price": "4390"
+    "price": "1840"
   },
   {
     "item": "cobblemon:lucky_egg",
@@ -1797,7 +1801,7 @@
   },
   {
     "item": "cobblemon:magnet",
-    "price": "1135"
+    "price": "750"
   },
   {
     "item": "cobblemon:mental_herb",
@@ -1909,7 +1913,7 @@
   },
   {
     "item": "cobblemon:room_service",
-    "price": "1425"
+    "price": "1250"
   },
   {
     "item": "cobblemon:safety_goggles",
@@ -1969,7 +1973,7 @@
   },
   {
     "item": "cobblemon:terrain_extender",
-    "price": "1598"
+    "price": "1250"
   },
   {
     "item": "cobblemon:throat_spray",
@@ -2053,23 +2057,23 @@
   },
   {
     "item": "cobblemon:exp_candy_l",
-    "price": "1620"
-  },
-  {
-    "item": "cobblemon:exp_candy_m",
     "price": "540"
   },
   {
-    "item": "cobblemon:exp_candy_s",
+    "item": "cobblemon:exp_candy_m",
     "price": "180"
   },
   {
+    "item": "cobblemon:exp_candy_s",
+    "price": "60"
+  },
+  {
     "item": "cobblemon:exp_candy_xl",
-    "price": "4860"
+    "price": "1620"
   },
   {
     "item": "cobblemon:exp_candy_xs",
-    "price": "30"
+    "price": "10"
   },
   {
     "item": "cobblemon:fine_remedy",

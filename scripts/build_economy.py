@@ -308,6 +308,9 @@ def main():
     for shop, offers in ext_cfg["casino_rocket"].items():
         for item, price in offers.items():
             add_cap(item, price * SELL_RATIO, f"Casino Rocket {shop} sells it for {price}")
+    for shop, offers in ext_cfg.get("bca_mall", {}).items():
+        for item, price in offers.items():
+            add_cap(item, price * SELL_RATIO, f"Cobblemon Additions {shop} sells it for {price}")
     emerald = value["minecraft:emerald"]
     for item, per_emerald in ext_cfg["villager_sells_per_emerald"].items():
         add_cap(item, emerald / per_emerald, f"villagers sell {per_emerald} for 1 emerald ({emerald})")
