@@ -320,11 +320,6 @@ hash = "aa2c192c435e084d54b48ed426e7ebae469d162b636f7dccbd0e68ba8f79764e"
 metafile = true
 
 [[files]]
-file = "mods/cull-less-leaves.pw.toml"
-hash = "e4a437ed5c3f631fd4787e6ad4d61295654aba9d07528a5b692b8e917221ea0d"
-metafile = true
-
-[[files]]
 file = "mods/cyclops-core.pw.toml"
 hash = "5ad537267852111e90e3e935ab260d866df05d3f98eaaf5a92365c78e5c6dc54"
 metafile = true

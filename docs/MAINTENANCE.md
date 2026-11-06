@@ -62,6 +62,10 @@ If you edited `side` by hand, run `packwiz refresh`.
 **Compatibility tips for this pack**
 - Cobblemon add-ons must support **Cobblemon 1.8.x**. Many older add-ons only allow 1.7 and stop the
   server with *"requires … Cobblemon … but only the wrong version is present"*.
+- **Client-only mods are not checked by the server boot test.** For every new mod (also client-only ones) read
+  `fabric.mod.json` → `depends`/`breaks` and compare it with the versions in the pack. Example: Cull Less Leaves 1.4.2
+  needs Sodium `<0.6` while the pack has Sodium 0.8, so the client refuses to start. Best test: import the
+  `.mrpack` in a launcher and start it once.
 - The server runs **Java 21**. Check a mod's `fabric.mod.json` (`"java"` in `depends`) if a build looks
   new; some builds need Java 22+.
 - **Cobblemon Raid Dens is pinned to 0.12.1** (`pin = true`, so `packwiz update --all` skips it).
