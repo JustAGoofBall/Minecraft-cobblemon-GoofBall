@@ -82,6 +82,7 @@ resource pack: the Reactive Music mod loads it by itself. Turn packs off or chan
 | Magnet on/off (Sticky Fingers) | **N** |
 | Select Pokémon in your party / hide the party bar | **↑** **↓** / **O** |
 | Look around while riding a Pokémon | **Left Alt** |
+| Call your selected ride Pokémon and mount it (Rider's Call) | **Page Up** |
 | World map, minimap settings, minimap bigger | **M**, **;**, **Z** |
 | New waypoint, waypoint list, quick temporary waypoint | **,**, **U**, **Numpad +** |
 | Voice chat menu, groups, mute microphone, push-to-talk | **V**, **G**, **I**, **Caps Lock** |
@@ -101,6 +102,10 @@ are left unbound (*Reload Shaders*, *Disable Voice Chat*, *Hide Icons*, and the 
 *Save Toolbar Activator*, because **C** is the Pokémon summary). Your own changes are never
 overwritten. Change keys under **Options → Controls → Key Binds**: it has a search bar and a
 *Show conflicts* button (Controlling).
+
+## Seeing far (Bobby)
+Bobby saves the chunks you have visited and keeps drawing them beyond the server's render distance. It only
+shows places you have been to before; unexplored land still stops at the server's view distance.
 
 ## Minimap
 Xaero's minimap shows every entity as an icon (Pokémon get their own icon from the E19 pack), with the

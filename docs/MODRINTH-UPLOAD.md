@@ -25,16 +25,16 @@ Modrinth's modpack rules.
    - **License:** pick one for your pack (e.g. *MIT*). This covers your pack setup, not the mods.
    - **Environment:** *Client and server*.
 
-## Uploading a version
-1. Download the latest `GoofBall-Cobblemon-<version>.mrpack` from the
-   [Releases](https://github.com/JustAGoofBall/Minecraft-cobblemon-GoofBall/releases).
-2. On your Modrinth project page: **Versions** → **Create a version** (or *Upload a version*).
-3. Drop in the `.mrpack` file. Modrinth fills in *Minecraft 1.21.1* and *Fabric* by itself.
-   - **Version number:** same as the release, e.g. `2.0.0`
-   - **Version title:** e.g. `GoofBall Cobblemon 2.0.0`
-   - **Release channel:** *Release*
-   - **Changelog:** what changed.
-4. Click **Create** / **Publish**.
+## Uploading a version (automatic)
+Publishing a GitHub Release uploads the `.mrpack` to Modrinth by itself (CI step *Publish to Modrinth* in
+`.github/workflows/build.yml`, project id `aDvJFIvn`, secret `MODRINTH_TOKEN` with the scope *Create versions*).
+- **Version number:** the tag without `v` (e.g. `2.8.0`)
+- **Version title:** the release title
+- **Changelog:** the release description
+- **Channel:** *Release*, or *Beta* if the GitHub release is marked as pre-release
+
+Check on the project's **Versions** page that the new version shows up. If the step fails (for example
+the token expired), upload the `.mrpack` from the release by hand: **Versions** → **Create a version**.
 
 > Don't upload the **server zip** to Modrinth. It's only for Crafty and lives on GitHub.
 
@@ -44,6 +44,5 @@ few days. Make sure there's a clear description, an icon and a license, or it ge
 approval the pack can be found (unless it's *Private*).
 
 ## For every new version
-1. Make a new GitHub Release (see [MAINTENANCE.md](MAINTENANCE.md)).
-2. Upload the new `.mrpack` to Modrinth as a new version (steps above).
-3. Update the server in Crafty (see [CRAFTY.md](CRAFTY.md)).
+1. Make a new GitHub Release (see [MAINTENANCE.md](MAINTENANCE.md)). Modrinth follows automatically.
+2. Update the server in Crafty (see [CRAFTY.md](CRAFTY.md)).
