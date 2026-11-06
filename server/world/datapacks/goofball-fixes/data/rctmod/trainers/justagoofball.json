@@ -7,121 +7,34 @@
     }
   },
   "battleRules": {
-    "maxItemUses": 4
+    "maxItemUses": 5
   },
   "bag": [
     {
       "item": "cobblemon:full_restore",
-      "quantity": 2
+      "quantity": 3
     },
     {
       "item": "cobblemon:max_revive",
-      "quantity": 1
+      "quantity": 2
     }
   ],
   "team": [
     {
-      "species": "kingdra",
-      "gender": "MALE",
-      "level": 100,
-      "nature": "modest",
-      "ability": "swiftswim",
-      "moveset": [
-        "hydropump",
-        "dracometeor",
-        "icebeam",
-        "rest"
-      ],
-      "ivs": {
-        "hp": 31,
-        "atk": 31,
-        "def": 31,
-        "spa": 31,
-        "spd": 31,
-        "spe": 31
-      },
-      "evs": {
-        "hp": 4,
-        "spa": 252,
-        "spe": 252
-      },
-      "heldItem": [
-        "leftovers"
-      ]
-    },
-    {
-      "species": "aegislash",
-      "gender": "MALE",
-      "level": 100,
-      "nature": "modest",
-      "ability": "stancechange",
-      "moveset": [
-        "shadowball",
-        "flashcannon",
-        "kingsshield",
-        "shadowsneak"
-      ],
-      "ivs": {
-        "hp": 31,
-        "atk": 31,
-        "def": 31,
-        "spa": 31,
-        "spd": 31,
-        "spe": 31
-      },
-      "evs": {
-        "hp": 4,
-        "spa": 252,
-        "spe": 252
-      },
-      "heldItem": [
-        "life_orb"
-      ]
-    },
-    {
-      "species": "garchomp",
-      "gender": "MALE",
-      "level": 100,
-      "nature": "jolly",
-      "ability": "roughskin",
-      "moveset": [
-        "earthquake",
-        "outrage",
-        "swordsdance",
-        "stoneedge"
-      ],
-      "ivs": {
-        "hp": 31,
-        "atk": 31,
-        "def": 31,
-        "spa": 31,
-        "spd": 31,
-        "spe": 31
-      },
-      "evs": {
-        "hp": 4,
-        "atk": 252,
-        "spe": 252
-      },
-      "heldItem": [
-        "life_orb"
-      ]
-    },
-    {
-      "species": "gholdengo",
+      "species": "kyogre",
       "gender": "GENDERLESS",
       "level": 100,
-      "nature": "timid",
-      "ability": "goodasgold",
+      "nature": "modest",
+      "ability": "drizzle",
       "moveset": [
-        "makeitrain",
-        "shadowball",
-        "nastyplot",
-        "recover"
+        "waterspout",
+        "originpulse",
+        "thunder",
+        "icebeam"
       ],
       "ivs": {
         "hp": 31,
-        "atk": 31,
+        "atk": 0,
         "def": 31,
         "spa": 31,
         "spd": 31,
@@ -133,48 +46,19 @@
         "spe": 252
       },
       "heldItem": [
-        "leftovers"
+        "choice_specs"
       ]
     },
     {
-      "species": "dragonite",
+      "species": "swampert",
       "gender": "MALE",
       "level": 100,
       "nature": "adamant",
-      "ability": "multiscale",
+      "ability": "torrent",
       "moveset": [
-        "dragondance",
-        "extremespeed",
+        "swordsdance",
+        "liquidation",
         "earthquake",
-        "roost"
-      ],
-      "ivs": {
-        "hp": 31,
-        "atk": 31,
-        "def": 31,
-        "spa": 31,
-        "spd": 31,
-        "spe": 31
-      },
-      "evs": {
-        "hp": 4,
-        "atk": 252,
-        "spe": 252
-      },
-      "heldItem": [
-        "leftovers"
-      ]
-    },
-    {
-      "species": "tyranitar",
-      "gender": "MALE",
-      "level": 100,
-      "nature": "adamant",
-      "ability": "sandstream",
-      "moveset": [
-        "stealthrock",
-        "stoneedge",
-        "crunch",
         "icepunch"
       ],
       "ivs": {
@@ -186,12 +70,128 @@
         "spe": 31
       },
       "evs": {
-        "hp": 252,
         "atk": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "heldItem": [
+        "mega_showdown:swampertite"
+      ]
+    },
+    {
+      "species": "toxapex",
+      "gender": "MALE",
+      "level": 100,
+      "nature": "bold",
+      "ability": "regenerator",
+      "moveset": [
+        "toxicspikes",
+        "scald",
+        "recover",
+        "haze"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "def": 252,
         "spd": 4
       },
       "heldItem": [
+        "black_sludge"
+      ]
+    },
+    {
+      "species": "tinglu",
+      "gender": "GENDERLESS",
+      "level": 100,
+      "nature": "careful",
+      "ability": "vesselofruin",
+      "moveset": [
+        "stealthrock",
+        "spikes",
+        "earthquake",
+        "whirlwind"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "atk": 4,
+        "spd": 252
+      },
+      "heldItem": [
         "leftovers"
+      ]
+    },
+    {
+      "species": "zapdos",
+      "gender": "GENDERLESS",
+      "level": 100,
+      "nature": "timid",
+      "ability": "static",
+      "moveset": [
+        "thunder",
+        "hurricane",
+        "heatwave",
+        "roost"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 4,
+        "spa": 252,
+        "spe": 252
+      },
+      "heldItem": [
+        "heavy_duty_boots"
+      ]
+    },
+    {
+      "species": "dracovish",
+      "gender": "GENDERLESS",
+      "level": 100,
+      "nature": "jolly",
+      "ability": "strongjaw",
+      "moveset": [
+        "fishiousrend",
+        "crunch",
+        "psychicfangs",
+        "lowkick"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "heldItem": [
+        "choice_scarf"
       ]
     }
   ]
